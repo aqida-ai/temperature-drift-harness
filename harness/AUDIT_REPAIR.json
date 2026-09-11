@@ -1,0 +1,140 @@
+{
+  "status": "DISCLOSED_POSTRUN_REPAIR_WITH_PROSPECTIVE_COMPATIBLE_EXPORT",
+  "original_analysis_status": "FAIL_INSTRUMENT",
+  "repaired_analysis_status": "PASS_MEASURED_POSTRUN_AUDIT_REPAIR",
+  "actual_audit_revision": {
+    "plan_sha256": "d1b461c3572234c172a8c987bde4b38cdea73644ee743dd585a75281fee1bc85",
+    "source_commit": "622933d07dcbb4b85a2d6a563215a9969f4924f3",
+    "postrun_code_repair": true,
+    "frozen_analyzer_original_status": "FAIL_INSTRUMENT",
+    "original_failure_sha256": "1715b1a69157657995158a64c0994726c009311ff371617d46a1a9d45364f29b",
+    "frozen_analyzer_sha256": "012f2c0fef56b37cf4f4986530a3133866ee39d47e504e305ee01f08044f06eb",
+    "repair_analyzer_sha256": "ad465c7ab4d11aede97bafaf745eb2e7c5ca107c084257cf579ac1512495b128",
+    "frozen_statistics_sha256": "1db36cc4637a2eab9aef18175a205c4febfb8b41986ec0e11de4a993d3b11a99",
+    "old_predicate": "contexts.dtype == quality_examples.dtype == np.int64",
+    "new_predicate": "(contexts.dtype == quality_examples.dtype and contexts.dtype in (np.dtype(\"int32\"), np.dtype(\"int64\")))",
+    "statistical_rules_changed": false,
+    "raw_data_changed": false,
+    "predictions_changed": false,
+    "scope": "Exactly one signed-integer storage-width predicate. Original shape, range, provenance, probability, seed, interval and verdict checks remain in force."
+  },
+  "exported_analyzer_sha256": "af293a8127b2ba3f8cb6651d9e618d0fdb7c9f86ea0ba3207a4679611338fcbd",
+  "original_frozen_analyzer_sha256": "012f2c0fef56b37cf4f4986530a3133866ee39d47e504e305ee01f08044f06eb",
+  "old_predicate": "contexts.dtype == quality_examples.dtype == np.int64",
+  "new_predicate": "(contexts.dtype == quality_examples.dtype and contexts.dtype in (np.dtype(\"int32\"), np.dtype(\"int64\")))",
+  "actual_focused_regression": {
+    "status": "PASS_FOCUSED_DTYPE_REGRESSION",
+    "passed": 20,
+    "total": 20,
+    "checks": [
+      {
+        "name": "actual frozen inputs are matching int32",
+        "passed": true
+      },
+      {
+        "name": "original predicate rejects actual unchanged storage",
+        "passed": true
+      },
+      {
+        "name": "repaired predicate accepts actual unchanged storage",
+        "passed": true
+      },
+      {
+        "name": "int64 compatibility retained",
+        "passed": true
+      },
+      {
+        "name": "integer widening preserves every token value",
+        "passed": true
+      },
+      {
+        "name": "reject unsupported storage float64",
+        "passed": true
+      },
+      {
+        "name": "reject unsupported storage float32",
+        "passed": true
+      },
+      {
+        "name": "reject unsupported storage bool",
+        "passed": true
+      },
+      {
+        "name": "reject unsupported storage uint32",
+        "passed": true
+      },
+      {
+        "name": "reject unsupported storage int16",
+        "passed": true
+      },
+      {
+        "name": "reject mismatched integer widths",
+        "passed": true
+      },
+      {
+        "name": "reject changed context shape",
+        "passed": true
+      },
+      {
+        "name": "reject changed held-out shape",
+        "passed": true
+      },
+      {
+        "name": "retain negative-token rejection",
+        "passed": true
+      },
+      {
+        "name": "retain vocabulary-bound rejection",
+        "passed": true
+      },
+      {
+        "name": "only one audit expression changed",
+        "passed": true
+      },
+      {
+        "name": "frozen function and statistics are not mutated",
+        "passed": true
+      },
+      {
+        "name": "retained producer/runner witness public_harness/prepare_wikitext.py",
+        "passed": true
+      },
+      {
+        "name": "retained producer/runner witness public_harness/run.py",
+        "passed": true
+      },
+      {
+        "name": "all original evidence bytes remain unchanged",
+        "passed": true
+      }
+    ],
+    "actual_precommitted_input_sha256": "454e285ee99b43d1376f38df4bc28221b1abc579f5e5d905e45a291cc5f561ab",
+    "arrays": {
+      "train_contexts": {
+        "dtype": "int32",
+        "shape": [
+          128,
+          64
+        ],
+        "minimum": 781,
+        "maximum": 31096
+      },
+      "quality_sequences": {
+        "dtype": "int32",
+        "shape": [
+          128,
+          192
+        ],
+        "minimum": 781,
+        "maximum": 30754
+      }
+    },
+    "CUDA_initialized": false,
+    "aggregate_outcomes_read": false,
+    "scientific_verdict_authorized": false
+  },
+  "preparation_producer_binding": "Exact SHA in the prearm input manifest; not an original top-level source_files entry.",
+  "use": "The default exported analyzer is a one-predicate derivative for NEW prospective freezes. It must be committed in the new study before its arms. It cannot replace the original analyzer inside the retained S55 commitment. The original full raw archive and separately committed audit wrapper remain necessary to reproduce the historical repaired S55 audit.",
+  "scientific_verdict_changed": false,
+  "public_claim_authorized": false
+}

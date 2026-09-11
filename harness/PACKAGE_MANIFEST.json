@@ -1,0 +1,102 @@
+{
+  "package": "temperature-drift-precommitment-harness",
+  "version": "0.4.1-local-dtype-repair",
+  "status": "LOCAL_REVIEW_PACKAGE_NOT_PUBLISHED",
+  "original_frozen_instrument_passed": false,
+  "postrun_storage_repair_disclosed": true,
+  "license": null,
+  "license_selection_pending": true,
+  "license_sha256": null,
+  "files": {
+    ".gitattributes": {
+      "bytes": 49,
+      "sha256": "5c8d4912619276fe31ca2e5ccb313966abcf483f7d64a55620f3b25ab36ec530"
+    },
+    "AUDIT_REPAIR.json": {
+      "bytes": 5017,
+      "sha256": "ffb1bb0b802900e4c6f19d0e13f1fd86cd8b4b76752613dd8069feca063db18d"
+    },
+    "CPU_SELF_TEST.json": {
+      "bytes": 4039,
+      "sha256": "25bf9741a444cd19cbb61aa415712a5b03bc3c3e74de8dd29d522111f6bd6ec7"
+    },
+    "CPU_STORAGE_DTYPE_CHECK.json": {
+      "bytes": 1116,
+      "sha256": "108282cda92b67542dad8ca86cfbd81f7637c155a044cfbd74d9187e137cf31e"
+    },
+    "README.md": {
+      "bytes": 16510,
+      "sha256": "ab5c8042903f2a64617e1e37e34fadca923d03e482362731bee703c8890c09bd"
+    },
+    "S55_PROTOCOL.json": {
+      "bytes": 21736,
+      "sha256": "19f12063fced5a61c95df823738e1878ba33e0a58640400788a5dd75b5c6b09a"
+    },
+    "TESTED_ENVIRONMENT.json": {
+      "bytes": 619,
+      "sha256": "fd332c14ab724d49934c13e5e266d01c09a3030bee4a271bf5a5a22d4f6801b0"
+    },
+    "VALIDATION_RECORD.json": {
+      "bytes": 63820,
+      "sha256": "65a468d28dbf4df478fb00303fb575eecdafff3f726f91a1041850fadce610b4"
+    },
+    "audit_history/audit_predicate.diff": {
+      "bytes": 752,
+      "sha256": "47f2d7fc9952deadb7caebc1b17a831506f6fe48100c48cce1851831f919ff2b"
+    },
+    "audit_history/original_FAILURE.json": {
+      "bytes": 122,
+      "sha256": "1715b1a69157657995158a64c0994726c009311ff371617d46a1a9d45364f29b"
+    },
+    "audit_history/original_frozen_analyze.py": {
+      "bytes": 33848,
+      "sha256": "012f2c0fef56b37cf4f4986530a3133866ee39d47e504e305ee01f08044f06eb"
+    },
+    "public_harness/analyze.py": {
+      "bytes": 33899,
+      "sha256": "af293a8127b2ba3f8cb6651d9e618d0fdb7c9f86ea0ba3207a4679611338fcbd"
+    },
+    "public_harness/engine.py": {
+      "bytes": 11320,
+      "sha256": "7544acb23aff6b8ecf0327322d2f9293bee4caa2681a50cd8eeed0ea7fbdac7c"
+    },
+    "public_harness/launch.py": {
+      "bytes": 7248,
+      "sha256": "225314ff097820e031eb078da608ae6c145af904ab7553c16fd071df68c1b78c"
+    },
+    "public_harness/metrics.py": {
+      "bytes": 6425,
+      "sha256": "2896de0b73e075a529e497416eb4aede1d503a0426817da03fc16442bf76c412"
+    },
+    "public_harness/precommitment.py": {
+      "bytes": 11103,
+      "sha256": "b4b3da1cf57229bd1902891237b99af31ea5dd499c470753fd6f84f8dfcb5fb9"
+    },
+    "public_harness/prepare_wikitext.py": {
+      "bytes": 11174,
+      "sha256": "297cad2b4f75c7a0c8576ebe8fabd2280bc3e186008ef56586deec3dd7fa67e1"
+    },
+    "public_harness/run.py": {
+      "bytes": 19805,
+      "sha256": "249cdf30ef1c711664d5b04c0dbf0a876ed086ef02d09b5aca241ff76dbcc1df"
+    },
+    "public_harness/self_test.py": {
+      "bytes": 13251,
+      "sha256": "02545f40c433de604d6d2660c5dfe7e26e21a8b7018baa482a7f122519d3c7de"
+    },
+    "public_harness/storage_dtype_self_test.py": {
+      "bytes": 3107,
+      "sha256": "98bb5577a10b1946dcc296ed24e17db8d42fc8b44c2e283e5499462930c680bf"
+    },
+    "public_harness/transfer_forecast.py": {
+      "bytes": 3912,
+      "sha256": "525fe03426712dbb30cb2bb72a59afe48c650b785657a60e143614d7bb7ab8b7"
+    }
+  },
+  "full_raw_experiment_included": false,
+  "model_weights_included": false,
+  "corpus_text_included": false,
+  "private_theory_documents_included": false,
+  "publication_at_build": false,
+  "public_claim_authorized": false
+}

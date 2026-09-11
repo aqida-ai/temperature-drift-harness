@@ -1,0 +1,1832 @@
+{
+  "format": "s55-release-validation-record-v1",
+  "completed_experiment": "Sprint 55",
+  "instrument_status": "PASS_MEASURED_POSTRUN_AUDIT_REPAIR",
+  "original_instrument_status": "FAIL_INSTRUMENT",
+  "audit_revision": {
+    "plan_sha256": "d1b461c3572234c172a8c987bde4b38cdea73644ee743dd585a75281fee1bc85",
+    "source_commit": "622933d07dcbb4b85a2d6a563215a9969f4924f3",
+    "postrun_code_repair": true,
+    "frozen_analyzer_original_status": "FAIL_INSTRUMENT",
+    "original_failure_sha256": "1715b1a69157657995158a64c0994726c009311ff371617d46a1a9d45364f29b",
+    "frozen_analyzer_sha256": "012f2c0fef56b37cf4f4986530a3133866ee39d47e504e305ee01f08044f06eb",
+    "repair_analyzer_sha256": "ad465c7ab4d11aede97bafaf745eb2e7c5ca107c084257cf579ac1512495b128",
+    "frozen_statistics_sha256": "1db36cc4637a2eab9aef18175a205c4febfb8b41986ec0e11de4a993d3b11a99",
+    "old_predicate": "contexts.dtype == quality_examples.dtype == np.int64",
+    "new_predicate": "(contexts.dtype == quality_examples.dtype and contexts.dtype in (np.dtype(\"int32\"), np.dtype(\"int64\")))",
+    "statistical_rules_changed": false,
+    "raw_data_changed": false,
+    "predictions_changed": false,
+    "scope": "Exactly one signed-integer storage-width predicate. Original shape, range, provenance, probability, seed, interval and verdict checks remain in force."
+  },
+  "instrument_checks": 5003,
+  "measured_generations": 65,
+  "independent_trajectories": 13,
+  "trained_generations": 50,
+  "no_training_generations": 15,
+  "source_analysis_sha256": "ed95ee3496f1937904ea1b7872afb07da902466e81ceddc51da1cf8892b72ea6",
+  "terminal_execution_sha256": "bc502dc92cef650b6856682856b30a1a8e149994e02687cd9cf350c1a790c8a7",
+  "precommitment_sha256": "a7bf777d07faba017420e550a66f87d671d3c30409663148e97c7103881aa997",
+  "precommitment_created_utc": "2026-09-09T06:22:34Z",
+  "analysis_finished_utc": "2026-09-10T10:32:53Z",
+  "source_executable_sha256": {
+    "public_harness/prepare_wikitext.py": "297cad2b4f75c7a0c8576ebe8fabd2280bc3e186008ef56586deec3dd7fa67e1",
+    "public_harness/precommitment.py": "b4b3da1cf57229bd1902891237b99af31ea5dd499c470753fd6f84f8dfcb5fb9",
+    "public_harness/metrics.py": "2896de0b73e075a529e497416eb4aede1d503a0426817da03fc16442bf76c412",
+    "public_harness/engine.py": "7544acb23aff6b8ecf0327322d2f9293bee4caa2681a50cd8eeed0ea7fbdac7c",
+    "public_harness/run.py": "249cdf30ef1c711664d5b04c0dbf0a876ed086ef02d09b5aca241ff76dbcc1df",
+    "public_harness/launch.py": "225314ff097820e031eb078da608ae6c145af904ab7553c16fd071df68c1b78c",
+    "public_harness/self_test.py": "02545f40c433de604d6d2660c5dfe7e26e21a8b7018baa482a7f122519d3c7de",
+    "public_harness/transfer_forecast.py": "525fe03426712dbb30cb2bb72a59afe48c650b785657a60e143614d7bb7ab8b7",
+    "public_harness/analyze.py": "af293a8127b2ba3f8cb6651d9e618d0fdb7c9f86ea0ba3207a4679611338fcbd",
+    "public_harness/storage_dtype_self_test.py": "98bb5577a10b1946dcc296ed24e17db8d42fc8b44c2e283e5499462930c680bf",
+    "audit_history/original_frozen_analyze.py": "012f2c0fef56b37cf4f4986530a3133866ee39d47e504e305ee01f08044f06eb"
+  },
+  "launch_commit_audit": {
+    "launch_commits": 2,
+    "files_per_commit": 61,
+    "scope": "Exact local Git bytes at recorded launch commits; no independent public timestamp claim."
+  },
+  "launch_commits": [
+    "3af974ad9c5b9590b825b6cbd5f565d32b441178",
+    "6bb6af1b73f7cad9c1df1f7e10262b4af85a13ea"
+  ],
+  "baseline_entropy": 1.8001432698749495,
+  "baseline_NLL": 2.1252069325544842,
+  "training_target_labels": 960000,
+  "maximum_arithmetic_discrepancy": 1.9984014443252818e-14,
+  "analysis": {
+    "verdict": "DIRECTIONAL_AND_COMPLETE_CURVE_TRANSFER_OBSERVED",
+    "conditions": {
+      "near_warm": {
+        "seed_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "trajectory_mean_D_H": {
+          "n": 5,
+          "df": 4,
+          "values": [
+            -0.06343762656922922,
+            -0.06353539493597922,
+            -0.06671214294283606,
+            -0.06147575163521074,
+            -0.028068501885057183
+          ],
+          "mean": -0.05664588359366248,
+          "standard_error": 0.00719345913689997,
+          "critical_value": 2.7764451051977987,
+          "lower": -0.07661812800374879,
+          "upper": -0.036673639183576176,
+          "uncertainty_unit": "independent_complete_seed_trajectory"
+        },
+        "per_generation": [
+          {
+            "generation": 1,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                -0.023741079996698018,
+                -0.029728964013056053,
+                -0.03996204652910123,
+                -0.04506193385027413,
+                -0.02043275239083296
+              ],
+              "mean": -0.03178535535599248,
+              "standard_error": 0.004695458021062594,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.04482203679523346,
+              "upper": -0.018748673916751498,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.8238843498716477,
+                1.8298722338880056,
+                1.8401053164040508,
+                1.8452052037252238,
+                1.8205760222657825
+              ],
+              "mean": 1.8319286252309421,
+              "standard_error": 0.004695458021062601,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.818891943791701,
+              "upper": 1.8449653066701832,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 2,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                -0.03767284697627933,
+                -0.05096982217758844,
+                -0.07223773536105065,
+                -0.0373711605573402,
+                0.04627467907127756
+              ],
+              "mean": -0.03039537720019621,
+              "standard_error": 0.020191596483497196,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.08645623642293108,
+              "upper": 0.025665482022538665,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.861557196847927,
+                1.880842056065594,
+                1.9123430517651014,
+                1.882576364282564,
+                1.774301343194505
+              ],
+              "mean": 1.8623240024311383,
+              "standard_error": 0.02345587164990252,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.7972000624006186,
+              "upper": 1.927447942461658,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 3,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                -0.05521048895550453,
+                -0.08583332792663324,
+                -0.09173041574066935,
+                -0.0674613870152353,
+                -0.08023479229149731
+              ],
+              "mean": -0.07609408238590795,
+              "standard_error": 0.006584607835456981,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.09437588458030956,
+              "upper": -0.057812280191506346,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.9167676858034315,
+                1.9666753839922273,
+                2.004073467505771,
+                1.9500377512977993,
+                1.8545361354860024
+              ],
+              "mean": 1.9384180848170462,
+              "standard_error": 0.02524781384875437,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.868318915639727,
+              "upper": 2.0085172539943654,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 4,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                -0.07532351881721752,
+                -0.07773543349220909,
+                -0.04734609986137744,
+                -0.09263223692994622,
+                -0.04385120733598922
+              ],
+              "mean": -0.0673776992873479,
+              "standard_error": 0.009388746392626412,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.093445038253099,
+              "upper": -0.0413103603215968,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.992091204620649,
+                2.044410817484436,
+                2.0514195673671485,
+                2.0426699882277455,
+                1.8983873428219915
+              ],
+              "mean": 2.005795784104394,
+              "standard_error": 0.028858920708700067,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.9256705749614322,
+              "upper": 2.0859209932473557,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 5,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                -0.12524019810044668,
+                -0.07340942707040925,
+                -0.08228441722198163,
+                -0.06485203982325785,
+                -0.042098436478244
+              ],
+              "mean": -0.07757690373886787,
+              "standard_error": 0.01366009146237372,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.11550339781612963,
+              "upper": -0.039650409661606115,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.1173314027210957,
+                2.1178202445548457,
+                2.13370398458913,
+                2.107522028051003,
+                1.9404857793002355
+              ],
+              "mean": 2.083372687843262,
+              "standard_error": 0.03596729568449986,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.9835114657928306,
+              "upper": 2.1832339098936937,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          }
+        ],
+        "curves": {
+          "H_seed_mean": [
+            1.8001432698749495,
+            1.8319286252309421,
+            1.8623240024311383,
+            1.9384180848170462,
+            2.005795784104394,
+            2.083372687843262
+          ],
+          "central": [
+            1.8001432698749498,
+            1.8435157015976933,
+            1.882377219934926,
+            1.9171178927543258,
+            1.9481137576121896,
+            1.9757215357981974
+          ],
+          "decision_lower": [
+            1.8001432698749498,
+            1.431842798568719,
+            1.4670604457142966,
+            1.4985307131745453,
+            1.526598404740093,
+            1.5515899107881193
+          ],
+          "decision_upper": [
+            1.8001432698749498,
+            2.298838882930982,
+            2.3419405111288265,
+            2.380489190006171,
+            2.414896549157926,
+            2.445554014572928
+          ],
+          "inside_by_generation": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "covered_points_including_initial": 5,
+          "total_points_including_initial": 6,
+          "covered_postinitial_points": 5,
+          "total_postinitial_points": 5,
+          "complete_postinitial_agreement": true,
+          "max_absolute_central_error": 0.1076511520450647,
+          "coverage_guarantee": false
+        },
+        "quality": [
+          {
+            "generation": 1,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.1358558474528127,
+                2.128461455751097,
+                2.123260303433256,
+                2.1243971051171036,
+                2.1331215346157895
+              ],
+              "mean": 2.1290192492740116,
+              "standard_error": 0.002433193653431146,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.1222636206649446,
+              "upper": 2.1357748778830787,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.010648914898328421,
+                0.0032545231966127908,
+                -0.0019466291212282272,
+                -0.0008098274373806724,
+                0.007914602061305231
+              ],
+              "mean": 0.003812316719527509,
+              "standard_error": 0.002433193653431146,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.002943311889539746,
+              "upper": 0.010567945328594763,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.40661797039533,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.6545275590551181,
+                0.6459461122047244,
+                0.6526205708661418,
+                0.6528666338582677,
+                0.6502829724409449
+              ],
+              "mean": 0.6512487696850393,
+              "standard_error": 0.0014882997575601383,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.6471165871080944,
+              "upper": 0.6553809522619842,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 2,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.1380732569618757,
+                2.1533168641922766,
+                2.1191334554837247,
+                2.131922165716716,
+                2.137153758788845
+              ],
+              "mean": 2.1359199002286875,
+              "standard_error": 0.00550717856856467,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.1206295212485458,
+              "upper": 2.1512102792088292,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.012866324407391438,
+                0.028109931637792407,
+                -0.006073477070759559,
+                0.006715233162231549,
+                0.011946826234360941
+              ],
+              "mean": 0.010712967674203355,
+              "standard_error": 0.00550717856856467,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.0045774113059382435,
+              "upper": 0.026003346654344953,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.464829725220554,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.6640009842519685,
+                0.6581569881889764,
+                0.659787155511811,
+                0.6670460137795275,
+                0.6539892962598425
+              ],
+              "mean": 0.6605960875984251,
+              "standard_error": 0.002274292613148968,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.6542816390048601,
+              "upper": 0.6669105361919901,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 3,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.1390387458269537,
+                2.1461283088818806,
+                2.1195118249953255,
+                2.1399620737597007,
+                2.123911568906314
+              ],
+              "mean": 2.1337105044740348,
+              "standard_error": 0.005095565611192788,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.119562946274624,
+              "upper": 2.1478580626734454,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.013831813272469518,
+                0.020921376327396324,
+                -0.005695107559158696,
+                0.014755141205216482,
+                -0.001295363648170067
+              ],
+              "mean": 0.008503571919550711,
+              "standard_error": 0.005095565611192788,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.0056439862798597345,
+              "upper": 0.02265113011896116,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.446148211389842,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.6666307824803149,
+                0.678949311023622,
+                0.6725055364173228,
+                0.6732129675196851,
+                0.6529742864173228
+              ],
+              "mean": 0.6688545767716535,
+              "standard_error": 0.0044235597580045034,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.6565728059339919,
+              "upper": 0.6811363476093151,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 4,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.143100969036729,
+                2.155409568045754,
+                2.1233765750323426,
+                2.1279980870052086,
+                2.128112079759582
+              ],
+              "mean": 2.1355994557759232,
+              "standard_error": 0.0059663794289989,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.1190341308145264,
+              "upper": 2.15216478073732,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.017894036482244857,
+                0.03020263549126989,
+                -0.001830357522141668,
+                0.00279115445072442,
+                0.0029051472050976024
+              ],
+              "mean": 0.01039252322143902,
+              "standard_error": 0.0059663794289989,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.006172801739957812,
+              "upper": 0.026957848182835854,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.462117652049123,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.6836398868110236,
+                0.6949280265748031,
+                0.6904681348425197,
+                0.6797643946850394,
+                0.6672920767716536
+              ],
+              "mean": 0.6832185039370079,
+              "standard_error": 0.004771947113996417,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.6699694547300897,
+              "upper": 0.696467553143926,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 5,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.1505362283990057,
+                2.168438876669494,
+                2.1316128654196667,
+                2.129625958230318,
+                2.1305233226662694
+              ],
+              "mean": 2.1421474502769504,
+              "standard_error": 0.007630518606340577,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.1209617342422553,
+              "upper": 2.1633331663116455,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.025329295844521482,
+                0.043231944115009746,
+                0.006405932865182429,
+                0.004419025675833854,
+                0.005316390111785196
+              ],
+              "mean": 0.01694051772246654,
+              "standard_error": 0.007630518606340577,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.004245198312228485,
+              "upper": 0.038126233757161565,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.517709360371878,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.7000338336614174,
+                0.7077079232283464,
+                0.7017562746062992,
+                0.7013102854330708,
+                0.6709522637795275
+              ],
+              "mean": 0.6963521161417322,
+              "standard_error": 0.006486332823470716,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.6783431691233232,
+              "upper": 0.7143610631601413,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          }
+        ],
+        "terminal_quality": {
+          "generation": 5,
+          "NLL": {
+            "n": 5,
+            "df": 4,
+            "values": [
+              2.1505362283990057,
+              2.168438876669494,
+              2.1316128654196667,
+              2.129625958230318,
+              2.1305233226662694
+            ],
+            "mean": 2.1421474502769504,
+            "standard_error": 0.007630518606340577,
+            "critical_value": 2.7764451051977987,
+            "lower": 2.1209617342422553,
+            "upper": 2.1633331663116455,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          },
+          "NLL_change_from_base": {
+            "n": 5,
+            "df": 4,
+            "values": [
+              0.025329295844521482,
+              0.043231944115009746,
+              0.006405932865182429,
+              0.004419025675833854,
+              0.005316390111785196
+            ],
+            "mean": 0.01694051772246654,
+            "standard_error": 0.007630518606340577,
+            "critical_value": 2.7764451051977987,
+            "lower": -0.004245198312228485,
+            "upper": 0.038126233757161565,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          },
+          "perplexity_of_token_weighted_seed_mean_NLL": 8.517709360371878,
+          "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+          "distinct_2": {
+            "n": 5,
+            "df": 4,
+            "values": [
+              0.7000338336614174,
+              0.7077079232283464,
+              0.7017562746062992,
+              0.7013102854330708,
+              0.6709522637795275
+            ],
+            "mean": 0.6963521161417322,
+            "standard_error": 0.006486332823470716,
+            "critical_value": 2.7764451051977987,
+            "lower": 0.6783431691233232,
+            "upper": 0.7143610631601413,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          }
+        }
+      },
+      "near_cool": {
+        "seed_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "trajectory_mean_D_H": {
+          "n": 5,
+          "df": 4,
+          "values": [
+            0.050858268930255225,
+            0.03762538481757879,
+            0.04023700279438737,
+            0.07619182035689775,
+            0.0684032441117301
+          ],
+          "mean": 0.05466314420216985,
+          "standard_error": 0.007632660476856127,
+          "critical_value": 2.7764451051977987,
+          "lower": 0.03347148138156596,
+          "upper": 0.07585480702277374,
+          "uncertainty_unit": "independent_complete_seed_trajectory"
+        },
+        "per_generation": [
+          {
+            "generation": 1,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.08620365959508126,
+                0.06683799299293072,
+                0.04730761147951414,
+                0.10577463034295954,
+                0.1137811884860411
+              ],
+              "mean": 0.08398101657930536,
+              "standard_error": 0.012261268058040134,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.04993827889604171,
+              "upper": 0.118023754262569,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.7139396102798683,
+                1.733305276882019,
+                1.7528356583954354,
+                1.6943686395319901,
+                1.6863620813889084
+              ],
+              "mean": 1.7161622532956442,
+              "standard_error": 0.01226126805804014,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.6821195156123805,
+              "upper": 1.750204990978908,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 2,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.05493442006938352,
+                0.08332051198112017,
+                0.03504693364636788,
+                0.032409145953461574,
+                0.033381548677263596
+              ],
+              "mean": 0.04781851206551935,
+              "standard_error": 0.009797999377149872,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.020614904654100503,
+              "upper": 0.0750221194769382,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.6590051902104848,
+                1.6499847649008987,
+                1.7177887247490675,
+                1.6619594935785285,
+                1.652980532711645
+              ],
+              "mean": 1.668343741230125,
+              "standard_error": 0.012541638123170407,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.6335225714518864,
+              "upper": 1.7031649110083635,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 3,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.06924461727793685,
+                0.08719817209103517,
+                0.07711543376416884,
+                0.10540635279419465,
+                0.04558772733697123
+              ],
+              "mean": 0.07691046065286135,
+              "standard_error": 0.009893870998171643,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.04944067094852923,
+              "upper": 0.10438025035719346,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.589760572932548,
+                1.5627865928098634,
+                1.6406732909848987,
+                1.5565531407843338,
+                1.6073928053746738
+              ],
+              "mean": 1.5914332805772635,
+              "standard_error": 0.01536121720370018,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.54878370426217,
+              "upper": 1.634082856892357,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 4,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.039408265381267946,
+                -0.020596867918398667,
+                -0.0012740427393997894,
+                0.0018596282097600263,
+                0.06038835158848428
+              ],
+              "mean": 0.01595706690434276,
+              "standard_error": 0.014757941653589079,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.025017547962559346,
+              "upper": 0.056931681771244864,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.55035230755128,
+                1.5833834607282622,
+                1.6419473337242985,
+                1.5546935125745738,
+                1.5470044537861893
+              ],
+              "mean": 1.5754762136729208,
+              "standard_error": 0.017825132245903274,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.5259857124992793,
+              "upper": 1.6249667148465623,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 5,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.00450038232760655,
+                -0.02863288505879345,
+                0.04298907782128578,
+                0.135509344484113,
+                0.08887740446989029
+              ],
+              "mean": 0.048648664808820435,
+              "standard_error": 0.029254631162623584,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.0325752126870128,
+              "upper": 0.12987254230465367,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.5458519252236735,
+                1.6120163457870555,
+                1.5989582559030127,
+                1.4191841680904609,
+                1.458127049316299
+              ],
+              "mean": 1.5268275488641003,
+              "standard_error": 0.03816330238428062,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.420869234761081,
+              "upper": 1.6327858629671197,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          }
+        ],
+        "curves": {
+          "H_seed_mean": [
+            1.8001432698749495,
+            1.7161622532956442,
+            1.668343741230125,
+            1.5914332805772635,
+            1.5754762136729208,
+            1.5268275488641003
+          ],
+          "central": [
+            1.8001432698749498,
+            1.7594673853520384,
+            1.724263784777138,
+            1.6937384766088353,
+            1.667224583132112,
+            1.644159712500555
+          ],
+          "decision_lower": [
+            1.8001432698749498,
+            1.3556230443727462,
+            1.3236771716811537,
+            1.295966493784179,
+            1.2718896824789365,
+            1.2509390675820737
+          ],
+          "decision_upper": [
+            1.8001432698749498,
+            2.2056908965242736,
+            2.166704602092636,
+            2.1329129949309698,
+            2.1035723589644406,
+            2.078056260559754
+          ],
+          "inside_by_generation": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "covered_points_including_initial": 5,
+          "total_points_including_initial": 6,
+          "covered_postinitial_points": 5,
+          "total_postinitial_points": 5,
+          "complete_postinitial_agreement": true,
+          "max_absolute_central_error": 0.1173321636364546,
+          "coverage_guarantee": false
+        },
+        "quality": [
+          {
+            "generation": 1,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.134001817788216,
+                2.146455449215904,
+                2.1355034127194767,
+                2.1392535596677877,
+                2.13925121817286
+              ],
+              "mean": 2.1388930915128492,
+              "standard_error": 0.002154784525141848,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.132910450565263,
+              "upper": 2.1448757324604353,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.00879488523373162,
+                0.021248516661419803,
+                0.010296480164992516,
+                0.014046627113303511,
+                0.014044285618375785
+              ],
+              "mean": 0.013686158958364647,
+              "standard_error": 0.002154784525141848,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.0077035180107786,
+              "upper": 0.019668799905950694,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.490034734270699,
+            "NLL_direction": "NLL_INCREASE_RESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.6231083907480315,
+                0.6230776328740157,
+                0.6238927165354331,
+                0.6253229576771654,
+                0.6214782234251969
+              ],
+              "mean": 0.6233759842519685,
+              "standard_error": 0.0006252932813849026,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.6216398917815543,
+              "upper": 0.6251120767223827,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 2,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.149139518002872,
+                2.145900790632164,
+                2.1491157181197864,
+                2.1567643924190305,
+                2.1519132794861386
+              ],
+              "mean": 2.1505667397319983,
+              "standard_error": 0.0018184825366772098,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.145517822794153,
+              "upper": 2.1556156566698434,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.023932585448387833,
+                0.02069385807767965,
+                0.023908785565302182,
+                0.03155745986454628,
+                0.026706346931654412
+              ],
+              "mean": 0.02535980717751407,
+              "standard_error": 0.0018184825366772098,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.020310890239668956,
+              "upper": 0.030408724115359186,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.589725156487823,
+            "NLL_direction": "NLL_INCREASE_RESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.6122969980314961,
+                0.6174028051181102,
+                0.6244309793307087,
+                0.6158802903543307,
+                0.6172797736220472
+              ],
+              "mean": 0.6174581692913386,
+              "standard_error": 0.0019720846934768955,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.6119827843970992,
+              "upper": 0.6229335541855779,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 3,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.1613445802388163,
+                2.1585514599383435,
+                2.1551217604352138,
+                2.1671203116780564,
+                2.159355630768693
+              ],
+              "mean": 2.1602987486118246,
+              "standard_error": 0.0019795350718523654,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.154802678151013,
+              "upper": 2.1657948190726364,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.03613764768433203,
+                0.03334452738385929,
+                0.029914827880729522,
+                0.04191337912357218,
+                0.03414869821420874
+              ],
+              "mean": 0.03509181605734035,
+              "standard_error": 0.0019795350718523654,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.02959574559652848,
+              "upper": 0.040587886518152226,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.673728535793094,
+            "NLL_direction": "NLL_INCREASE_RESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.5965489665354331,
+                0.60814468503937,
+                0.6127429872047244,
+                0.5983483021653543,
+                0.6031311515748031
+              ],
+              "mean": 0.603783218503937,
+              "standard_error": 0.0030132852000978767,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.5954169975595603,
+              "upper": 0.6121494394483137,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 4,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.176273335159544,
+                2.1599879869126273,
+                2.1497936080375486,
+                2.15695733150916,
+                2.179066980028962
+              ],
+              "mean": 2.1644158483295683,
+              "standard_error": 0.005675830313890382,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.148657217036634,
+              "upper": 2.1801744796225027,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.05106640260505957,
+                0.03478105435814305,
+                0.02458667548306437,
+                0.031750398954675685,
+                0.05386004747447792
+              ],
+              "mean": 0.03920891577508412,
+              "standard_error": 0.005675830313890382,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.02345028448214988,
+              "upper": 0.05496754706801836,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.709512754150527,
+            "NLL_direction": "NLL_INCREASE_RESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.5862758366141733,
+                0.5986558809055118,
+                0.6003629429133859,
+                0.577878937007874,
+                0.5977331446850394
+              ],
+              "mean": 0.5921813484251969,
+              "standard_error": 0.004353817537627908,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.5800932130339256,
+              "upper": 0.6042694838164682,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 5,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.177591147379281,
+                2.15863299196636,
+                2.163896382390899,
+                2.188598329023427,
+                2.202257917096274
+              ],
+              "mean": 2.1781953535712484,
+              "standard_error": 0.007983547128794939,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.1560294732233896,
+              "upper": 2.200361233919107,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.052384214824796604,
+                0.03342605941187582,
+                0.03868944983641498,
+                0.06339139646894276,
+                0.07705098454178971
+              ],
+              "mean": 0.05298842101676397,
+              "standard_error": 0.007983547128794939,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.030822540668905326,
+              "upper": 0.07515430136462262,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.830356200160326,
+            "NLL_direction": "NLL_INCREASE_RESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.5810469980314961,
+                0.604253813976378,
+                0.5989634596456693,
+                0.5800627460629921,
+                0.5962106299212598
+              ],
+              "mean": 0.5921075295275591,
+              "standard_error": 0.004892768144008698,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.5785230273632584,
+              "upper": 0.6056920316918597,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          }
+        ],
+        "terminal_quality": {
+          "generation": 5,
+          "NLL": {
+            "n": 5,
+            "df": 4,
+            "values": [
+              2.177591147379281,
+              2.15863299196636,
+              2.163896382390899,
+              2.188598329023427,
+              2.202257917096274
+            ],
+            "mean": 2.1781953535712484,
+            "standard_error": 0.007983547128794939,
+            "critical_value": 2.7764451051977987,
+            "lower": 2.1560294732233896,
+            "upper": 2.200361233919107,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          },
+          "NLL_change_from_base": {
+            "n": 5,
+            "df": 4,
+            "values": [
+              0.052384214824796604,
+              0.03342605941187582,
+              0.03868944983641498,
+              0.06339139646894276,
+              0.07705098454178971
+            ],
+            "mean": 0.05298842101676397,
+            "standard_error": 0.007983547128794939,
+            "critical_value": 2.7764451051977987,
+            "lower": 0.030822540668905326,
+            "upper": 0.07515430136462262,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          },
+          "perplexity_of_token_weighted_seed_mean_NLL": 8.830356200160326,
+          "NLL_direction": "NLL_INCREASE_RESOLVED",
+          "distinct_2": {
+            "n": 5,
+            "df": 4,
+            "values": [
+              0.5810469980314961,
+              0.604253813976378,
+              0.5989634596456693,
+              0.5800627460629921,
+              0.5962106299212598
+            ],
+            "mean": 0.5921075295275591,
+            "standard_error": 0.004892768144008698,
+            "critical_value": 2.7764451051977987,
+            "lower": 0.5785230273632584,
+            "upper": 0.6056920316918597,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          }
+        }
+      },
+      "no_training": {
+        "seed_ids": [
+          1,
+          2,
+          3
+        ],
+        "trajectory_mean_D_H": {
+          "n": 3,
+          "df": 2,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "standard_error": 0.0,
+          "critical_value": 4.302652729696142,
+          "lower": 0.0,
+          "upper": 0.0,
+          "uncertainty_unit": "independent_complete_seed_trajectory"
+        },
+        "per_generation": [
+          {
+            "generation": 1,
+            "D_H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                1.8001432698749495,
+                1.8001432698749495,
+                1.8001432698749495
+              ],
+              "mean": 1.8001432698749495,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 1.8001432698749495,
+              "upper": 1.8001432698749495,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 2,
+            "D_H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                1.8001432698749495,
+                1.8001432698749495,
+                1.8001432698749495
+              ],
+              "mean": 1.8001432698749495,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 1.8001432698749495,
+              "upper": 1.8001432698749495,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 3,
+            "D_H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                1.8001432698749495,
+                1.8001432698749495,
+                1.8001432698749495
+              ],
+              "mean": 1.8001432698749495,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 1.8001432698749495,
+              "upper": 1.8001432698749495,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 4,
+            "D_H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                1.8001432698749495,
+                1.8001432698749495,
+                1.8001432698749495
+              ],
+              "mean": 1.8001432698749495,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 1.8001432698749495,
+              "upper": 1.8001432698749495,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 5,
+            "D_H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                1.8001432698749495,
+                1.8001432698749495,
+                1.8001432698749495
+              ],
+              "mean": 1.8001432698749495,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 1.8001432698749495,
+              "upper": 1.8001432698749495,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          }
+        ],
+        "curves": {
+          "H_seed_mean": [
+            1.8001432698749495,
+            1.8001432698749495,
+            1.8001432698749495,
+            1.8001432698749495,
+            1.8001432698749495,
+            1.8001432698749495
+          ],
+          "central": [
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498
+          ],
+          "decision_lower": [
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498
+          ],
+          "decision_upper": [
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498
+          ],
+          "inside_by_generation": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "covered_points_including_initial": 0,
+          "total_points_including_initial": 6,
+          "covered_postinitial_points": 0,
+          "total_postinitial_points": 5,
+          "complete_postinitial_agreement": false,
+          "max_absolute_central_error": 2.220446049250313e-16,
+          "coverage_guarantee": false
+        },
+        "quality": [
+          {
+            "generation": 1,
+            "NLL": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                2.1252069325544842,
+                2.1252069325544842,
+                2.1252069325544842
+              ],
+              "mean": 2.1252069325544842,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 2.1252069325544842,
+              "upper": 2.1252069325544842,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.37463029247355,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.6231083907480315,
+                0.6230776328740157,
+                0.6238927165354331
+              ],
+              "mean": 0.6233595800524935,
+              "standard_error": 0.000266716074871416,
+              "critical_value": 4.302652729696142,
+              "lower": 0.6222119934048942,
+              "upper": 0.6245071667000928,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 2,
+            "NLL": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                2.1252069325544842,
+                2.1252069325544842,
+                2.1252069325544842
+              ],
+              "mean": 2.1252069325544842,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 2.1252069325544842,
+              "upper": 2.1252069325544842,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.37463029247355,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.6221702755905512,
+                0.6225855068897638,
+                0.6314591535433071
+              ],
+              "mean": 0.6254049786745407,
+              "standard_error": 0.003029459757347472,
+              "critical_value": 4.302652729696142,
+              "lower": 0.612370265380085,
+              "upper": 0.6384396919689964,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 3,
+            "NLL": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                2.1252069325544842,
+                2.1252069325544842,
+                2.1252069325544842
+              ],
+              "mean": 2.1252069325544842,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 2.1252069325544842,
+              "upper": 2.1252069325544842,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.37463029247355,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.6243233267716536,
+                0.6250307578740157,
+                0.620355561023622
+              ],
+              "mean": 0.6232365485564304,
+              "standard_error": 0.0014548976555409446,
+              "critical_value": 4.302652729696142,
+              "lower": 0.6169766291873886,
+              "upper": 0.6294964679254722,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 4,
+            "NLL": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                2.1252069325544842,
+                2.1252069325544842,
+                2.1252069325544842
+              ],
+              "mean": 2.1252069325544842,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 2.1252069325544842,
+              "upper": 2.1252069325544842,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.37463029247355,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.6264302411417323,
+                0.6242156742125984,
+                0.6223394438976378
+              ],
+              "mean": 0.6243284530839895,
+              "standard_error": 0.0011822569980686477,
+              "critical_value": 4.302652729696142,
+              "lower": 0.6192416117840471,
+              "upper": 0.629415294383932,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 5,
+            "NLL": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                2.1252069325544842,
+                2.1252069325544842,
+                2.1252069325544842
+              ],
+              "mean": 2.1252069325544842,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 2.1252069325544842,
+              "upper": 2.1252069325544842,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.37463029247355,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.6239388533464567,
+                0.6259534940944882,
+                0.6238619586614174
+              ],
+              "mean": 0.6245847687007874,
+              "standard_error": 0.0006847225960605812,
+              "critical_value": 4.302652729696142,
+              "lower": 0.6216386451537627,
+              "upper": 0.6275308922478121,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          }
+        ],
+        "terminal_quality": {
+          "generation": 5,
+          "NLL": {
+            "n": 3,
+            "df": 2,
+            "values": [
+              2.1252069325544842,
+              2.1252069325544842,
+              2.1252069325544842
+            ],
+            "mean": 2.1252069325544842,
+            "standard_error": 0.0,
+            "critical_value": 4.302652729696142,
+            "lower": 2.1252069325544842,
+            "upper": 2.1252069325544842,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          },
+          "NLL_change_from_base": {
+            "n": 3,
+            "df": 2,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mean": 0.0,
+            "standard_error": 0.0,
+            "critical_value": 4.302652729696142,
+            "lower": 0.0,
+            "upper": 0.0,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          },
+          "perplexity_of_token_weighted_seed_mean_NLL": 8.37463029247355,
+          "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+          "distinct_2": {
+            "n": 3,
+            "df": 2,
+            "values": [
+              0.6239388533464567,
+              0.6259534940944882,
+              0.6238619586614174
+            ],
+            "mean": 0.6245847687007874,
+            "standard_error": 0.0006847225960605812,
+            "critical_value": 4.302652729696142,
+            "lower": 0.6216386451537627,
+            "upper": 0.6275308922478121,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          }
+        }
+      }
+    },
+    "primary": {
+      "warmer_upper_below_zero": true,
+      "cooler_lower_above_zero": true,
+      "both_directional_intervals": true
+    },
+    "complete_curve_transfer": true,
+    "control": {
+      "passed": true,
+      "tolerance": 1e-08,
+      "max_entropy_change": 0.0,
+      "max_NLL_change": 0.0,
+      "max_context_entropy_change": 0.0,
+      "max_per_example_NLL_change": 0.0,
+      "distinct_2_invariance_required": false
+    },
+    "quality_separate_from_entropy": true,
+    "quality_equivalence_authorized": false,
+    "actual_collapse_claim_authorized": false,
+    "exact_new_family_critical_beta_authorized": false,
+    "isolated_architecture_causality_authorized": false,
+    "public_claim_authorized": false,
+    "scope": "Finite combined model-family, context-length and prompt-label-policy transfer; no new-family interval-coverage guarantee."
+  },
+  "quality_audit_scope": "Saved per-example loss arithmetic only; no independent model forward reevaluation.",
+  "raw_experiment_files_included": false,
+  "independently_replayed_heldout_forward_passes": false,
+  "control_quality_reuses_fixed_baseline": true,
+  "public_preregistration_asserted": false,
+  "public_priority_asserted": false,
+  "scope": "Hash-bound summary of the complete local study under unchanged statistical rules after a disclosed post-run storage repair. All adverse or unresolved outcomes are retained; this is not a full raw-data archive."
+}
