@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-4.0
+
+Copyright 2026 AQiDA contributors.
+
+The two manuscripts in docs/, this publication README, and authored evidence
+figures are licensed under Creative Commons Attribution 4.0 International.
+See LICENSE-CC-BY-4.0.txt and https://creativecommons.org/licenses/by/4.0/.
+Attribution: AQiDA contributors, Temperature-drift preregistration harness,
+version v0.4.1, https://github.com/aqida-ai/temperature-drift-harness.
+Indicate changes when distributing adaptations. Public copies of the manuscripts
+have portable references and publication formatting; the release manifest records
+their source and exported hashes. Scientific corrections are described in the
+manuscripts and the evidence index.
+
+Executable code and associated machine-readable protocol/audit metadata are
+licensed under Apache-2.0 (LICENSE). Referenced third-party models, corpora,
+papers and software retain their respective licenses and are not relicensed.
+The original archive's null license and unpublished flags describe its historical
+build. The Director's present license authorization is supplied by this wrapper;
+the archived bytes have not been rewritten.
