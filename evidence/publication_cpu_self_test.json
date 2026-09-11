@@ -1,0 +1,177 @@
+{
+  "status": "PASS_PORTABLE_CPU_SELF_TEST",
+  "passed": 39,
+  "total": 39,
+  "checks": [
+    {
+      "name": "64_token_prompt_target_count",
+      "passed": true
+    },
+    {
+      "name": "direct_continuation_loss",
+      "passed": true
+    },
+    {
+      "name": "quality_equals_direct_NLL",
+      "passed": true
+    },
+    {
+      "name": "perplexity_definition",
+      "passed": true
+    },
+    {
+      "name": "distinct_excludes_prompts_and_sequence_boundaries",
+      "passed": true
+    },
+    {
+      "name": "finite_forecast_paths",
+      "passed": true
+    },
+    {
+      "name": "reject_negative_entropy",
+      "passed": true
+    },
+    {
+      "name": "reject_repeated_RNG_seed",
+      "passed": true
+    },
+    {
+      "name": "transfer_initial_anchor",
+      "passed": true
+    },
+    {
+      "name": "transfer_independent_odds_formula",
+      "passed": true
+    },
+    {
+      "name": "transfer_prefix_budget",
+      "passed": true
+    },
+    {
+      "name": "reject_transfer_entropy_ceiling",
+      "passed": true
+    },
+    {
+      "name": "analysis_seed_mean",
+      "passed": true
+    },
+    {
+      "name": "analysis_between_seed_SE",
+      "passed": true
+    },
+    {
+      "name": "analysis_rejects_25_dependent_generations",
+      "passed": true
+    },
+    {
+      "name": "analysis_rejects_nonfinite_seed",
+      "passed": true
+    },
+    {
+      "name": "analysis_retains_perplexity_overflow",
+      "passed": true
+    },
+    {
+      "name": "analysis_no_partial_grid_verdict",
+      "passed": true
+    },
+    {
+      "name": "analysis_independent_entropy_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "analysis_rejects_bad_probability_mass",
+      "passed": true
+    },
+    {
+      "name": "analysis_independent_NLL_aggregation",
+      "passed": true
+    },
+    {
+      "name": "analysis_rejects_wrong_heldout_token_count",
+      "passed": true
+    },
+    {
+      "name": "freeze_and_verify",
+      "passed": true
+    },
+    {
+      "name": "reject_changed_frozen_source",
+      "passed": true
+    },
+    {
+      "name": "snapshot_lookup_pins_revision_and_offline",
+      "passed": true
+    },
+    {
+      "name": "reject_changed_cached_weights",
+      "passed": true
+    },
+    {
+      "name": "uninterrupted_complete",
+      "passed": true
+    },
+    {
+      "name": "resource_pause",
+      "passed": true
+    },
+    {
+      "name": "resume_complete",
+      "passed": true
+    },
+    {
+      "name": "control_complete",
+      "passed": true
+    },
+    {
+      "name": "exact_resumed_measurements_g1",
+      "passed": true
+    },
+    {
+      "name": "optimizer_and_quality_counts_g1",
+      "passed": true
+    },
+    {
+      "name": "exact_resumed_measurements_g2",
+      "passed": true
+    },
+    {
+      "name": "optimizer_and_quality_counts_g2",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_log_probability_replay",
+      "passed": true
+    },
+    {
+      "name": "control_entropy_and_quality_invariant",
+      "passed": true
+    },
+    {
+      "name": "no_scientific_verdict",
+      "passed": true
+    },
+    {
+      "name": "temporary_cleanup_confined",
+      "passed": true
+    },
+    {
+      "name": "no_CUDA_initialized",
+      "passed": true
+    }
+  ],
+  "finished_utc": "2026-09-11T04:29:20Z",
+  "source_sha256": {
+    "self_test.py": "02545f40c433de604d6d2660c5dfe7e26e21a8b7018baa482a7f122519d3c7de",
+    "engine.py": "7544acb23aff6b8ecf0327322d2f9293bee4caa2681a50cd8eeed0ea7fbdac7c",
+    "metrics.py": "2896de0b73e075a529e497416eb4aede1d503a0426817da03fc16442bf76c412",
+    "precommitment.py": "b4b3da1cf57229bd1902891237b99af31ea5dd499c470753fd6f84f8dfcb5fb9",
+    "run.py": "249cdf30ef1c711664d5b04c0dbf0a876ed086ef02d09b5aca241ff76dbcc1df",
+    "transfer_forecast.py": "525fe03426712dbb30cb2bb72a59afe48c650b785657a60e143614d7bb7ab8b7",
+    "analyze.py": "af293a8127b2ba3f8cb6651d9e618d0fdb7c9f86ea0ba3207a4679611338fcbd"
+  },
+  "CUDA_initialized": false,
+  "no_external_data_or_model": true,
+  "fixture_only": true,
+  "scientific_verdict_authorized": false
+}

@@ -1,0 +1,4064 @@
+{
+  "status": "PASS_MEASURED_POSTRUN_AUDIT_REPAIR",
+  "instrument_valid": true,
+  "checks_passed": 5003,
+  "physical_trajectories": 13,
+  "measured_generations": 65,
+  "trained_generations": 50,
+  "untrained_generations": 15,
+  "training_target_labels": 960000,
+  "max_arithmetic_discrepancy": 1.9984014443252818e-14,
+  "baseline_entropy": 1.8001432698749495,
+  "baseline_NLL": 2.1252069325544842,
+  "evidence_files": {
+    "runtime.json": {
+      "sha256": "cd52c02319a0a84781c707aa479ee361344b65feb921951f5475007a325beb70",
+      "bytes": 36683
+    },
+    "execution_complete.json": {
+      "sha256": "7b7d1adc31120c34d218bb2a0805e061c74ab97d1578b7cb8438b9a14448cf61",
+      "bytes": 243
+    },
+    "near_warm_seed1/trajectory.json": {
+      "sha256": "bd91da9cd75da59e3b8c98eb935b22640d2575c31ad49d18cb6bf2692acb08e6",
+      "bytes": 204152
+    },
+    "near_warm_seed1/initial_adapter.json": {
+      "sha256": "74e6aaf9025a1b650741cf5c85d6915a9bf49450f4efd289304aab64adf69512",
+      "bytes": 100
+    },
+    "near_warm_seed1/initial_adapter.pt": {
+      "sha256": "2b0019a34f2c4ee382e73025dc811905364849391f20095fcce92a797b5333f9",
+      "bytes": 13667713
+    },
+    "near_warm_seed1/g01/stage.json": {
+      "sha256": "c07d8a165b36aeab72e6cfad2fc4dad55a6b0748c16e379a59b8a381a0c88b47",
+      "bytes": 501
+    },
+    "near_warm_seed1/g01/tokens.npz": {
+      "sha256": "0ef9f3939fe9152d28d4f1a4d7cb8c8ce8b201308d7083902485b23110a20261",
+      "bytes": 189330
+    },
+    "near_warm_seed1/g01/training.json": {
+      "sha256": "0e1dd7a1982495243069ce31e5bd2c7d0c163a1d477933bbb0147d42d8ae8152",
+      "bytes": 5589
+    },
+    "near_warm_seed1/g01/adapter.pt": {
+      "sha256": "6b8e658e59af98742de9ab30fc07165539ee35f94f4a9c141fa18838e754b3be",
+      "bytes": 13666641
+    },
+    "near_warm_seed1/g01/conditionals.npz": {
+      "sha256": "1f8879565c00bb3fb06c8c05f5549055b8f9e7d6d2ecc406e32309c501767c80",
+      "bytes": 8297460
+    },
+    "near_warm_seed1/g02/stage.json": {
+      "sha256": "e2924e4d809aeeb62162b737404a1a3d1b8c194b8376cd2c24310e8094a3a082",
+      "bytes": 501
+    },
+    "near_warm_seed1/g02/tokens.npz": {
+      "sha256": "90ac410ef44379bd5c7327a95ff5247b6e6549e0b1fd57685aac27286928a513",
+      "bytes": 190713
+    },
+    "near_warm_seed1/g02/training.json": {
+      "sha256": "20e385165af6835abad7a5e32442882e978ce2198de7f27d138b03316c73b7ea",
+      "bytes": 5593
+    },
+    "near_warm_seed1/g02/adapter.pt": {
+      "sha256": "58b40f12792a4d45e1d151b9fa344c4181abb2e855dec118c61f8eede6164515",
+      "bytes": 13666641
+    },
+    "near_warm_seed1/g02/conditionals.npz": {
+      "sha256": "cdd91fc4b2e85cc6784c6a667d214b9f62a10227e80de4c151c9962f1d9331dd",
+      "bytes": 8313573
+    },
+    "near_warm_seed1/g03/stage.json": {
+      "sha256": "1922a22bdf7121d208f6c3a61d2f41f8b90296ca2eb05130633ae10efea2e7ad",
+      "bytes": 489
+    },
+    "near_warm_seed1/g03/tokens.npz": {
+      "sha256": "1dd224f34c5313bbce44498b67df0a08b624e6decb530fe6c821876ffef98645",
+      "bytes": 190771
+    },
+    "near_warm_seed1/g03/training.json": {
+      "sha256": "6babbc75bab48abf5e6cb8d3df6989120bd7bff35318c7bc38b8ccd0d2a4301e",
+      "bytes": 5568
+    },
+    "near_warm_seed1/g03/adapter.pt": {
+      "sha256": "5d953d7e58a0a0a83c5cce480b28e8be39a671332cee1aa5ec949b8831acc2f0",
+      "bytes": 13666641
+    },
+    "near_warm_seed1/g03/conditionals.npz": {
+      "sha256": "b34db6244ee91e72a711ccfe9a987521b0a6760ade9156ac15760b97f2560f6f",
+      "bytes": 8338107
+    },
+    "near_warm_seed1/g04/stage.json": {
+      "sha256": "a248887c9407154ec0784b90d897a0a6f32bec48a1cfae4c536e19b4d37644e4",
+      "bytes": 501
+    },
+    "near_warm_seed1/g04/tokens.npz": {
+      "sha256": "01409313e5d4d3760e1cbd20f26d70070c5a0b84f9640e3db2ff20de8ab6de12",
+      "bytes": 192036
+    },
+    "near_warm_seed1/g04/training.json": {
+      "sha256": "c82d739be89383a347a3bd97863320d2692b99110da0d5b44159d706db0d0e2b",
+      "bytes": 5584
+    },
+    "near_warm_seed1/g04/adapter.pt": {
+      "sha256": "7dd35871ede01d06b1e4caaaf0a5759574061eaa351c80ccddd4bb8ff7751c5f",
+      "bytes": 13666641
+    },
+    "near_warm_seed1/g04/conditionals.npz": {
+      "sha256": "c0b5a33a9ed5b87bd90a5acc93d56b4335c428a6f6ebb8efc1a28d26df6466b1",
+      "bytes": 8365625
+    },
+    "near_warm_seed1/g05/stage.json": {
+      "sha256": "9ae95ebe3eaa0f2f1a95f8d082ba540ee72550667f62f398ae164237e2d313cb",
+      "bytes": 502
+    },
+    "near_warm_seed1/g05/tokens.npz": {
+      "sha256": "b304834a7b46e58fa93bbe42705a0f8a66a9e5583e88eaeb0fb48e2d15903b3a",
+      "bytes": 194307
+    },
+    "near_warm_seed1/g05/training.json": {
+      "sha256": "e1709179f9baf0003ace6b43bd79f16b6a2a6e8cc03e1d2f0ff7305a1eecb143",
+      "bytes": 5578
+    },
+    "near_warm_seed1/g05/adapter.pt": {
+      "sha256": "e33a42628baec0c0c636a90227b6bbd8149e8ef1c25d9f33c1627ea7bddcd91e",
+      "bytes": 13666641
+    },
+    "near_warm_seed1/g05/conditionals.npz": {
+      "sha256": "7710b3b90b0166d6a986d6972fd4c1b0fd63acd06c521a1ecb74438e354ead3d",
+      "bytes": 8392489
+    },
+    "near_cool_seed1/trajectory.json": {
+      "sha256": "370b44fd2ec2b3209438f0e08ae76e96338a99701a06efd6afddc66aafdc4cfb",
+      "bytes": 203884
+    },
+    "near_cool_seed1/initial_adapter.json": {
+      "sha256": "74b0c18b687fc14410f1a129d00ce598d8ba1d1228949e3df818c9499e01d72e",
+      "bytes": 100
+    },
+    "near_cool_seed1/initial_adapter.pt": {
+      "sha256": "46f0b431828680916912427fdd3572e667603dbb376331ce9b1e20170e128f42",
+      "bytes": 13667713
+    },
+    "near_cool_seed1/g01/stage.json": {
+      "sha256": "5c5f5df55b6a69e1bdb8b81f64db08a7468cee77ea86a804ab1b193c809cde25",
+      "bytes": 502
+    },
+    "near_cool_seed1/g01/tokens.npz": {
+      "sha256": "01a52e49ff87d1ab1fc2edc5e3f928266f6a305e28ad1605e4e21dfaeaca65ce",
+      "bytes": 186142
+    },
+    "near_cool_seed1/g01/training.json": {
+      "sha256": "639f2879c41db37a976ff578d137c2518079bc79fab021092df3d5895cec127f",
+      "bytes": 5602
+    },
+    "near_cool_seed1/g01/adapter.pt": {
+      "sha256": "422889c175a679583a9cbe4fc547ae46e31b4ae5e0f23a70e160c2872935efef",
+      "bytes": 13666641
+    },
+    "near_cool_seed1/g01/conditionals.npz": {
+      "sha256": "9d51fe54108f3ae3080737da5d9fecd2561e7736a51a5f034e8aaadf056c8afe",
+      "bytes": 8249045
+    },
+    "near_cool_seed1/g02/stage.json": {
+      "sha256": "ffa5ab5ed492d5add3e892cbef4e915caf093d3671912cba6c24d17e055d433d",
+      "bytes": 502
+    },
+    "near_cool_seed1/g02/tokens.npz": {
+      "sha256": "6412d38eb47ff6454104bafcbf78242dfeba9154db1f372725a649f0aa442e73",
+      "bytes": 185003
+    },
+    "near_cool_seed1/g02/training.json": {
+      "sha256": "bcc3250ab5ad6311108f67441960a79dd58770034a82adca6c7d6209389e63f7",
+      "bytes": 5591
+    },
+    "near_cool_seed1/g02/adapter.pt": {
+      "sha256": "af80b6a1326449bdd3215f209e619a8a819df723d4677f7bc6dd24dc43ebde58",
+      "bytes": 13666641
+    },
+    "near_cool_seed1/g02/conditionals.npz": {
+      "sha256": "52abe09cc876910e231b8f260a268caba9d437f16eb8bb3d2e187954b70e0d62",
+      "bytes": 8216681
+    },
+    "near_cool_seed1/g03/stage.json": {
+      "sha256": "1680c3def5bc4bebcd1acca24e40b965e3b5e29d20805270bacfd5437b2ae9f9",
+      "bytes": 501
+    },
+    "near_cool_seed1/g03/tokens.npz": {
+      "sha256": "33d7a96131711dcaacf41c80a9d28d9a2017c27db901c1e150bf2e487d6e984a",
+      "bytes": 183236
+    },
+    "near_cool_seed1/g03/training.json": {
+      "sha256": "1d54475262d5ff8e6137e85b97f56e47f0f44a364f0e17700f6ac312bad04b0f",
+      "bytes": 5617
+    },
+    "near_cool_seed1/g03/adapter.pt": {
+      "sha256": "4c367604c853ad49c4af1f483d8d484bfc8f7e9daea869bdee0fabd5d2ffc0de",
+      "bytes": 13666641
+    },
+    "near_cool_seed1/g03/conditionals.npz": {
+      "sha256": "8029555acab3f07118c4e2952c1b7018ad5fad281511e95f005713db35dfbf48",
+      "bytes": 8186892
+    },
+    "near_cool_seed1/g04/stage.json": {
+      "sha256": "57469dd028cd80e3cfa3b3df063c7ff64768a87222674b7d6fe819d396507c94",
+      "bytes": 501
+    },
+    "near_cool_seed1/g04/tokens.npz": {
+      "sha256": "94e84f019ae61bdfe69f8e4089c5748df172151fbc46fc03832e654a1eababe4",
+      "bytes": 181575
+    },
+    "near_cool_seed1/g04/training.json": {
+      "sha256": "3bceb830640f35bad135f7e48f9418451feb95283b5547168ea7042fe7ff110d",
+      "bytes": 5604
+    },
+    "near_cool_seed1/g04/adapter.pt": {
+      "sha256": "046f019abb31eedad22991077054ea745e602a1a494ab90f8b8c49a0f99645b5",
+      "bytes": 13666641
+    },
+    "near_cool_seed1/g04/conditionals.npz": {
+      "sha256": "7fee3688980973fce1ef366c48f9967ec2ab35a800fcf73d7c776a1907cf56c3",
+      "bytes": 8166596
+    },
+    "near_cool_seed1/g05/stage.json": {
+      "sha256": "0554ebe1ad49d6e5ace3766735b5692d363078210974fc51deb73480a810719c",
+      "bytes": 502
+    },
+    "near_cool_seed1/g05/tokens.npz": {
+      "sha256": "8524519bc49164fb100112d7a16f388ddf86c1e96ce41ee971a0818f5928493a",
+      "bytes": 181062
+    },
+    "near_cool_seed1/g05/training.json": {
+      "sha256": "04d27053a395defa75065dbcdef1725ec5f610968e42f5d3a769203ef1dd7058",
+      "bytes": 5606
+    },
+    "near_cool_seed1/g05/adapter.pt": {
+      "sha256": "2fafd250abdbafe2539babd9bc387933eb6089ca7c9e08cdbf286af29cc8fe31",
+      "bytes": 13666641
+    },
+    "near_cool_seed1/g05/conditionals.npz": {
+      "sha256": "5ea23400c504bd03a33cd601d176b07decd5be7bf8f96c863b1ff2e7fca87109",
+      "bytes": 8163685
+    },
+    "no_training_seed1/trajectory.json": {
+      "sha256": "d7f17df69375fe9e0611a4a52b2d4e23ea6e203b5a6781d0624c0ebd1d07163f",
+      "bytes": 192193
+    },
+    "no_training_seed1/initial_adapter.json": {
+      "sha256": "74b0c18b687fc14410f1a129d00ce598d8ba1d1228949e3df818c9499e01d72e",
+      "bytes": 100
+    },
+    "no_training_seed1/initial_adapter.pt": {
+      "sha256": "46f0b431828680916912427fdd3572e667603dbb376331ce9b1e20170e128f42",
+      "bytes": 13667713
+    },
+    "no_training_seed1/g01/stage.json": {
+      "sha256": "4fe16f22420b484e7973094ff1b55da277966307601b2a6589539c2061b9cc51",
+      "bytes": 502
+    },
+    "no_training_seed1/g01/tokens.npz": {
+      "sha256": "01a52e49ff87d1ab1fc2edc5e3f928266f6a305e28ad1605e4e21dfaeaca65ce",
+      "bytes": 186142
+    },
+    "no_training_seed1/g01/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "no_training_seed1/g02/stage.json": {
+      "sha256": "127742633b9638bc1572d82fb0f78a9a7e94c9a3e6a067d7fb1b1e72dbd6d23b",
+      "bytes": 502
+    },
+    "no_training_seed1/g02/tokens.npz": {
+      "sha256": "cc98876e105501ed1430cf22c279a9bd01ddb3d380d54821aeb76ce480b02f1c",
+      "bytes": 186237
+    },
+    "no_training_seed1/g02/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "no_training_seed1/g03/stage.json": {
+      "sha256": "0d28bd0cbc2566c4f948509b12918c0f5d0bc5635de5a4955d57f263aad54f4f",
+      "bytes": 502
+    },
+    "no_training_seed1/g03/tokens.npz": {
+      "sha256": "cb467205ab7a522bdcdde29232213ee4e448952d8002715bec979f1fb278b160",
+      "bytes": 186153
+    },
+    "no_training_seed1/g03/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "no_training_seed1/g04/stage.json": {
+      "sha256": "ee6a0ea3c151aa0458ad486b5266b7a1b7130c6d782811b1d6df3a907648ccc4",
+      "bytes": 490
+    },
+    "no_training_seed1/g04/tokens.npz": {
+      "sha256": "91b93030d21bd9d8cdc30c1ad936737f448eb6b2cc8eac8e4f4470d581814e76",
+      "bytes": 185870
+    },
+    "no_training_seed1/g04/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "no_training_seed1/g05/stage.json": {
+      "sha256": "ba89addaaa0e0ac5e1f84e3cec0cdd1a561b86f5e6e7c8263ffa7cbff47d943b",
+      "bytes": 502
+    },
+    "no_training_seed1/g05/tokens.npz": {
+      "sha256": "1f9bef610414d7b072c317de68b3db6bd256d03f3dd6bfe6b229b902d9a38521",
+      "bytes": 185851
+    },
+    "no_training_seed1/g05/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "near_warm_seed2/trajectory.json": {
+      "sha256": "5ce1f0eca152f9cd763bfddaa1442f1d3b796910e77754b8b7894f346961eb76",
+      "bytes": 203987
+    },
+    "near_warm_seed2/initial_adapter.json": {
+      "sha256": "0da81107a13801d5460ff9b2e1852b0f8b9ead1ff02771d6f4411e1f72e8c3fb",
+      "bytes": 100
+    },
+    "near_warm_seed2/initial_adapter.pt": {
+      "sha256": "15fb659d0e37e55fb18e3c69a5e85c61fc4bc123796a77fc0181684704b54d37",
+      "bytes": 13667713
+    },
+    "near_warm_seed2/g01/stage.json": {
+      "sha256": "5a00b2925b744cef3e6204d24f9ce59de08a0b96a329e92f9cd1cc40d793e536",
+      "bytes": 491
+    },
+    "near_warm_seed2/g01/tokens.npz": {
+      "sha256": "132db27785b293bada6bbe17410728b12920d8511cbc5a327332e965dab22340",
+      "bytes": 188429
+    },
+    "near_warm_seed2/g01/training.json": {
+      "sha256": "4448d65f05b1323638764bf524a7600e641218264254adba9d5448a6d50dd732",
+      "bytes": 5594
+    },
+    "near_warm_seed2/g01/adapter.pt": {
+      "sha256": "ef385b5474d45dcc1efcf4167f7fd2e122af3ba1f704f07429d9d5fe12b4e0ea",
+      "bytes": 13666641
+    },
+    "near_warm_seed2/g01/conditionals.npz": {
+      "sha256": "ae1d328184793e8b0e501906f6deb7ce089865c7c7621e8faa5e9c88bacbf4f9",
+      "bytes": 8286577
+    },
+    "near_warm_seed2/g02/stage.json": {
+      "sha256": "61050b01f5c3fbf66a5aa2a067354dd378cd057a68e8c31f6eb75ae89c5f5611",
+      "bytes": 491
+    },
+    "near_warm_seed2/g02/tokens.npz": {
+      "sha256": "cd1bab5427a17af99d53eea595d8584afeac2e569b63eaff4245e56769a9ebf9",
+      "bytes": 189929
+    },
+    "near_warm_seed2/g02/training.json": {
+      "sha256": "601481db7c3e8e33f40f3769791ed7803cf57b150463793fc3706705cac8fb25",
+      "bytes": 5573
+    },
+    "near_warm_seed2/g02/adapter.pt": {
+      "sha256": "81758b7977c903b1aa3d5d9b3249a7905cc22952f158630ec85bdab9a89555fa",
+      "bytes": 13666641
+    },
+    "near_warm_seed2/g02/conditionals.npz": {
+      "sha256": "7395189e8bdcb5b0cf721ad3c5a3516b5afdc52f528aaf448fbb72fe34bd3d1f",
+      "bytes": 8317063
+    },
+    "near_warm_seed2/g03/stage.json": {
+      "sha256": "b913df6a4345360909b95c5bacbd630c62643f4c1a6c24e300100a972cf77b59",
+      "bytes": 490
+    },
+    "near_warm_seed2/g03/tokens.npz": {
+      "sha256": "95b5c71a8ea27ed1bb9598c4f9a7a55fc121169513805c4928c7db2f49cd47e8",
+      "bytes": 192414
+    },
+    "near_warm_seed2/g03/training.json": {
+      "sha256": "c6f5d6ea59e317ed6e0f8b8eac027ba5f71f201699d6cacc1ee228997ed6a459",
+      "bytes": 5569
+    },
+    "near_warm_seed2/g03/adapter.pt": {
+      "sha256": "eb6dc5d968e734f426199561c93cd4784899518aab9fbcf72e608cbc5cb0740c",
+      "bytes": 13666641
+    },
+    "near_warm_seed2/g03/conditionals.npz": {
+      "sha256": "09c78f8a27b037c956e0d926b584e86029693114ef5f78b55afcc980fe751370",
+      "bytes": 8345442
+    },
+    "near_warm_seed2/g04/stage.json": {
+      "sha256": "5fb3d581b50cbe071b80fa6130abab5de8b9431b8f3fe39cbc7af23c120077c2",
+      "bytes": 491
+    },
+    "near_warm_seed2/g04/tokens.npz": {
+      "sha256": "3db7577f1ca9531c59bea79c6e0adebd8dbdbf7dd00db186a012274c37e4815f",
+      "bytes": 194600
+    },
+    "near_warm_seed2/g04/training.json": {
+      "sha256": "3f9d7e3a1d736667ca1fa8aa2a71545eb349b20f8e544e394caf4c2822f9b15e",
+      "bytes": 5579
+    },
+    "near_warm_seed2/g04/adapter.pt": {
+      "sha256": "0570c4b2ee0d287031ed3a1f8a5cfec94830d3c0613f105b644abab4bfc6210f",
+      "bytes": 13666641
+    },
+    "near_warm_seed2/g04/conditionals.npz": {
+      "sha256": "97ca2fdbe810b5cdc112b887c2443ab8bacc1d6f28f6c9f8683c55ac7e9c67ed",
+      "bytes": 8368550
+    },
+    "near_warm_seed2/g05/stage.json": {
+      "sha256": "2907c8aaf507ff16d9999295604f4b521e856b5bd100e24615eb56e1c9ef7f94",
+      "bytes": 501
+    },
+    "near_warm_seed2/g05/tokens.npz": {
+      "sha256": "3efbafbc2437fe00c0f343f0db8358419af51e587229396e26cfc04a8eb728d7",
+      "bytes": 196010
+    },
+    "near_warm_seed2/g05/training.json": {
+      "sha256": "71b58d39e4e52bbd813b0ec828657d220ec3eb5e80b39239e5be3974592d1852",
+      "bytes": 5581
+    },
+    "near_warm_seed2/g05/adapter.pt": {
+      "sha256": "970c52e94edf9cf080e0ea11edf98b6b30f9d89b98e0d218b9019c212c12c0e4",
+      "bytes": 13666641
+    },
+    "near_warm_seed2/g05/conditionals.npz": {
+      "sha256": "4441cabf5a8c520fa05bc17cfd7fa83d9fc35b646ab776af8c1c28b411d96a88",
+      "bytes": 8398913
+    },
+    "near_cool_seed2/trajectory.json": {
+      "sha256": "daafcbd1ab1b124b22dcd59d89f8f510f4619a7bbf58c87883b83305df9f4b40",
+      "bytes": 203628
+    },
+    "near_cool_seed2/initial_adapter.json": {
+      "sha256": "20b8b29e3822b0aa5e1aea6f32f5c5661721ca18361e109b350f040fab94035f",
+      "bytes": 100
+    },
+    "near_cool_seed2/initial_adapter.pt": {
+      "sha256": "c4ff15aca4369ebc1eba9dbe6e4b70efbee70f2e489eb8275104e90e32e5d26f",
+      "bytes": 13667713
+    },
+    "near_cool_seed2/g01/stage.json": {
+      "sha256": "cecef064bd0f1dd939c10a3ad216a9825044599879b4cb6ff4f9797036f0fffa",
+      "bytes": 491
+    },
+    "near_cool_seed2/g01/tokens.npz": {
+      "sha256": "f87c277d41a874a558b749bd7e0b0f2fae817350534603007d1e82109f686908",
+      "bytes": 185928
+    },
+    "near_cool_seed2/g01/training.json": {
+      "sha256": "d03d2d0ee1962e7f0003225a7e102eaa82d0bfc913ff91f4a332e7b023dd5889",
+      "bytes": 5587
+    },
+    "near_cool_seed2/g01/adapter.pt": {
+      "sha256": "78fc7e33a215b57a2d6e68e39c7fc7d4658f82d1417b93d533ae8f52724469bd",
+      "bytes": 13666641
+    },
+    "near_cool_seed2/g01/conditionals.npz": {
+      "sha256": "4b95c5f3259012432df114fac9e1fbea116e49791d2ab3094a906f8296b8afe5",
+      "bytes": 8248845
+    },
+    "near_cool_seed2/g02/stage.json": {
+      "sha256": "c24f89c03393ad699f5d126d75a06761e4047e121843de5f2a98db5e89df99c1",
+      "bytes": 502
+    },
+    "near_cool_seed2/g02/tokens.npz": {
+      "sha256": "bdf2c01164752cfe0b5888311926e2c77d503324e557d498ab335d12f02e2da1",
+      "bytes": 185495
+    },
+    "near_cool_seed2/g02/training.json": {
+      "sha256": "9cbde8a7f383374ba2bb189c46c18f5998ce64b15dc44013fb69fe5eca9c0a76",
+      "bytes": 5595
+    },
+    "near_cool_seed2/g02/adapter.pt": {
+      "sha256": "a63c8a282cd6a536d17cf7715e0ca8b419462061df2262533085fcacecfb8e83",
+      "bytes": 13666641
+    },
+    "near_cool_seed2/g02/conditionals.npz": {
+      "sha256": "a0bfe97e153ce1d0fd9b65391eaee3bc1e182e5c19dd54d6c8588e7f4d7285ef",
+      "bytes": 8223742
+    },
+    "near_cool_seed2/g03/stage.json": {
+      "sha256": "5e499e404338d35470764d8214539dfca3ca7bdcda5233a15db0694898983882",
+      "bytes": 502
+    },
+    "near_cool_seed2/g03/tokens.npz": {
+      "sha256": "0205c60bba2dedd8b65dd3af518b3996904fa85092059a3ac6400924d9324b7f",
+      "bytes": 184523
+    },
+    "near_cool_seed2/g03/training.json": {
+      "sha256": "f07c495c4db85ac62cc80774ad40e7b8b55e045af863a7a169b2c259e94d04a5",
+      "bytes": 5606
+    },
+    "near_cool_seed2/g03/adapter.pt": {
+      "sha256": "df7519ca99c2e317b38d44b4993480341a90cfaf474e363a1ea5649f5fe267f5",
+      "bytes": 13666641
+    },
+    "near_cool_seed2/g03/conditionals.npz": {
+      "sha256": "512c82fef0c87b1f77b0bce0048b4bc9cf292c4233e7f219f2c05867872065b1",
+      "bytes": 8207645
+    },
+    "near_cool_seed2/g04/stage.json": {
+      "sha256": "da666f5e39d0008ae41270651c6ff68b5b66ded9a2fd21421e50cd89b4923899",
+      "bytes": 501
+    },
+    "near_cool_seed2/g04/tokens.npz": {
+      "sha256": "5d276a1e4c9c53c8d099af558c0f66faf7c2cc853655a0f595ccb85a4ac960d8",
+      "bytes": 183983
+    },
+    "near_cool_seed2/g04/training.json": {
+      "sha256": "eca11ccb834915fe830a60b6f8e0a8c3b10df341a5a54a259228fcbaac962902",
+      "bytes": 5605
+    },
+    "near_cool_seed2/g04/adapter.pt": {
+      "sha256": "b14c695dcb198935042bd2c3aafcfb0062d7d4a34165b66b722fada06d299ff8",
+      "bytes": 13666641
+    },
+    "near_cool_seed2/g04/conditionals.npz": {
+      "sha256": "da95e91d40472c667dfe53d1368cb8dfcf9d78ec35d3c5ffb7be9e4604f4806d",
+      "bytes": 8212497
+    },
+    "near_cool_seed2/g05/stage.json": {
+      "sha256": "d04444773640163cc590bccb9469d20826abf7fd63e4c757919c3e5ae38dff8d",
+      "bytes": 501
+    },
+    "near_cool_seed2/g05/tokens.npz": {
+      "sha256": "ea7e165920c731bf0b82e6f90abc1bf60b7d5f9873d295961c5da25342873af4",
+      "bytes": 183847
+    },
+    "near_cool_seed2/g05/training.json": {
+      "sha256": "4c15b90cd1a954a3c3247ffd216e1ea6eb1261cf6ad5d03d7a277067a55aa04b",
+      "bytes": 5586
+    },
+    "near_cool_seed2/g05/adapter.pt": {
+      "sha256": "4675fe3540fc25a7e038c88842f4c8451fa51c618a07d5500c3ca5a05c106708",
+      "bytes": 13666641
+    },
+    "near_cool_seed2/g05/conditionals.npz": {
+      "sha256": "4a011e462727cfda8e7b5715a7100553895e25e28bd50de1874166d17f1db256",
+      "bytes": 8218879
+    },
+    "no_training_seed2/trajectory.json": {
+      "sha256": "292502e8fac8c91ffeaf8038ed6abe3341907c0f791ad234109840bc2d281c7b",
+      "bytes": 192075
+    },
+    "no_training_seed2/initial_adapter.json": {
+      "sha256": "20b8b29e3822b0aa5e1aea6f32f5c5661721ca18361e109b350f040fab94035f",
+      "bytes": 100
+    },
+    "no_training_seed2/initial_adapter.pt": {
+      "sha256": "c4ff15aca4369ebc1eba9dbe6e4b70efbee70f2e489eb8275104e90e32e5d26f",
+      "bytes": 13667713
+    },
+    "no_training_seed2/g01/stage.json": {
+      "sha256": "b145b5d02db6e90de0c67b8355c55e36fc668f7f16d3008a00f6db4ef09dd9aa",
+      "bytes": 501
+    },
+    "no_training_seed2/g01/tokens.npz": {
+      "sha256": "f87c277d41a874a558b749bd7e0b0f2fae817350534603007d1e82109f686908",
+      "bytes": 185928
+    },
+    "no_training_seed2/g01/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "no_training_seed2/g02/stage.json": {
+      "sha256": "6e12ec2a71e8d4b8597f3b798a734beb124c5ee0f1c6782d1e77ad47f2d85c3b",
+      "bytes": 501
+    },
+    "no_training_seed2/g02/tokens.npz": {
+      "sha256": "59d535deb95d67cd9b45c94f8ef889408e76a48e53b16b37ad6823147f542f6b",
+      "bytes": 185877
+    },
+    "no_training_seed2/g02/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "no_training_seed2/g03/stage.json": {
+      "sha256": "1ae5ed9fda5fcf253708167801afe6d9774973ca872998182da61861932a0d3d",
+      "bytes": 491
+    },
+    "no_training_seed2/g03/tokens.npz": {
+      "sha256": "a5fe1dff25e3022ae2d3b8a7e0740e36f56b98669da1234dc9a54c957a83869c",
+      "bytes": 186264
+    },
+    "no_training_seed2/g03/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "no_training_seed2/g04/stage.json": {
+      "sha256": "baed42ecf35b070a85ea59e6668cb6f0f6880c55c3f306937ad3efe8c5fcc74d",
+      "bytes": 502
+    },
+    "no_training_seed2/g04/tokens.npz": {
+      "sha256": "ecdb28bbc4a259425b3f798afb8228e6854f83c445e1833c14c86c76c3f5e562",
+      "bytes": 186233
+    },
+    "no_training_seed2/g04/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "no_training_seed2/g05/stage.json": {
+      "sha256": "e6b04636632db8e1ca99d86f85868de95b543cdce4296df82fca6d15410c67b1",
+      "bytes": 502
+    },
+    "no_training_seed2/g05/tokens.npz": {
+      "sha256": "74de203b6b6d08685b78d4c03188a3c27f3bdfd18c830626c27a3bbf42933977",
+      "bytes": 186407
+    },
+    "no_training_seed2/g05/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "near_warm_seed3/trajectory.json": {
+      "sha256": "af3d771b99f44c002d781718d3f40988cca81a48f619e32fc0da0c5d5e48f786",
+      "bytes": 204131
+    },
+    "near_warm_seed3/initial_adapter.json": {
+      "sha256": "3dca2931ca90131b342580cc046cf45311b59c51b0f843232f7746d44a9846e6",
+      "bytes": 100
+    },
+    "near_warm_seed3/initial_adapter.pt": {
+      "sha256": "2e508c5e366e48a215c1a8a90d572c387b6e251bb3c7da8c71d3bfdf85dfec1d",
+      "bytes": 13667713
+    },
+    "near_warm_seed3/g01/stage.json": {
+      "sha256": "d6b39083787f9c367fa66b24ba78f06e81260f76bf9c62d3bad59ffec9005575",
+      "bytes": 501
+    },
+    "near_warm_seed3/g01/tokens.npz": {
+      "sha256": "d99a3088997da704eac634a1c5b09bc7e15a85bba3a3ebef3de2147556a7869e",
+      "bytes": 188838
+    },
+    "near_warm_seed3/g01/training.json": {
+      "sha256": "ea90f3375510b278d25d8cee0a6cfc139c6a1e244ec42d03502ee20cd163434a",
+      "bytes": 5582
+    },
+    "near_warm_seed3/g01/adapter.pt": {
+      "sha256": "3660ab90b965cd3504462380f4862506381e61801b2cd2075302b9a1f21d5315",
+      "bytes": 13666641
+    },
+    "near_warm_seed3/g01/conditionals.npz": {
+      "sha256": "e1b722995272ad37e11cbd655fd63dd5062df9586a4f5acaa30727d5a54c9270",
+      "bytes": 8296323
+    },
+    "near_warm_seed3/g02/stage.json": {
+      "sha256": "6e966bc28ccb8eac8965a05612777a6199f38ac9db8ff11f9b2b56ac9f2b4c44",
+      "bytes": 501
+    },
+    "near_warm_seed3/g02/tokens.npz": {
+      "sha256": "0b8b3208f4efaf237e8f82edc1e5adcb849f67fb8f025e161c51903364a2f8b5",
+      "bytes": 190022
+    },
+    "near_warm_seed3/g02/training.json": {
+      "sha256": "66c8caa6a26eb44b13cf12f7c42dd4c8c19c9292c0d7ff6e83862be6145bf7a5",
+      "bytes": 5573
+    },
+    "near_warm_seed3/g02/adapter.pt": {
+      "sha256": "94278973709178c4cebc0a578270e37b84df71167c031b49716ffa0f7d679ef4",
+      "bytes": 13666641
+    },
+    "near_warm_seed3/g02/conditionals.npz": {
+      "sha256": "de3068ebdcc255f4a0d92e7d2af58d67d73476a96e227442d5c2ab047599ebf4",
+      "bytes": 8322816
+    },
+    "near_warm_seed3/g03/stage.json": {
+      "sha256": "7cbc061ec3c3a7fad44fa3ddd1d9e376b029ea148bef0d11f30db966a4d5c012",
+      "bytes": 490
+    },
+    "near_warm_seed3/g03/tokens.npz": {
+      "sha256": "7a5beeecee93e3b8bd00f2f151eb2a5a0ad98d300afde3d2033e1633dc6f52dd",
+      "bytes": 191336
+    },
+    "near_warm_seed3/g03/training.json": {
+      "sha256": "777a63ff37aadcbd23a135c4671e39a48afac48058981af8dcb468b6c7cdd399",
+      "bytes": 5575
+    },
+    "near_warm_seed3/g03/adapter.pt": {
+      "sha256": "0acfced762036c2cb08b81846796114e7e1d78b983a9b317c241e78f20290e5f",
+      "bytes": 13666641
+    },
+    "near_warm_seed3/g03/conditionals.npz": {
+      "sha256": "9287b02b6f4baa17e9754f627fd2ae9b1783595d27329815bb3b2d7aeedb45b1",
+      "bytes": 8347472
+    },
+    "near_warm_seed3/g04/stage.json": {
+      "sha256": "b494f5533a11ae52233c2862aaeb37795971fcefa51d9ae81e7dbd94d7c2b4fb",
+      "bytes": 501
+    },
+    "near_warm_seed3/g04/tokens.npz": {
+      "sha256": "30ecee55ad96a049dafcb176b5ee4ae0a62f482013ba591abf5f9bfbe4cd3bcd",
+      "bytes": 193173
+    },
+    "near_warm_seed3/g04/training.json": {
+      "sha256": "dee7fa5ad57499e6f5d36adbdea0212747dadb4e56bbf2cecf26d6b64f8e4137",
+      "bytes": 5592
+    },
+    "near_warm_seed3/g04/adapter.pt": {
+      "sha256": "48823ce52205af7f64f28adebf361b32790cb598b74732d7d7a3cbd983e1995d",
+      "bytes": 13666641
+    },
+    "near_warm_seed3/g04/conditionals.npz": {
+      "sha256": "56e90e6b1c2b50684052ed372948bead130c8d7c6f2aa827c130918e8fc8f441",
+      "bytes": 8361672
+    },
+    "near_warm_seed3/g05/stage.json": {
+      "sha256": "7f27f355c1857042845668dc63cddd09d82be2d2faef82db1d167d0cbb07b807",
+      "bytes": 502
+    },
+    "near_warm_seed3/g05/tokens.npz": {
+      "sha256": "4ef1fa66ecf5e45bc71882d7bddf9c43af9b3ab4380c381b04bbc7c54119089d",
+      "bytes": 194764
+    },
+    "near_warm_seed3/g05/training.json": {
+      "sha256": "bd8c271fb01fc6a52822ea2b49ed44b6698dabd83c7e316d2cb18e25b8be4a0e",
+      "bytes": 5564
+    },
+    "near_warm_seed3/g05/adapter.pt": {
+      "sha256": "316da776e06ba83baa7f9f19a9f0bbbef2832ec7c531e757c94dbeef341b6898",
+      "bytes": 13666641
+    },
+    "near_warm_seed3/g05/conditionals.npz": {
+      "sha256": "9463491939fbeacfbbd85a7eef14d94f850f4e130bfa4e3f38ca6a31191692c7",
+      "bytes": 8416552
+    },
+    "near_cool_seed3/trajectory.json": {
+      "sha256": "8451e9723781e35f265d502d7d4759d56c5f0a2d5cde6406df123fefeb70dd66",
+      "bytes": 203643
+    },
+    "near_cool_seed3/initial_adapter.json": {
+      "sha256": "fa09346b9c55a59f7946eda1cee03a60aff71c28097b39d8a20b27e783e3191c",
+      "bytes": 100
+    },
+    "near_cool_seed3/initial_adapter.pt": {
+      "sha256": "4262cf2311f55a504bded2581bded1bac250e9429afa03467a471298266ec0cf",
+      "bytes": 13667713
+    },
+    "near_cool_seed3/g01/stage.json": {
+      "sha256": "9ccc3a66359447fa3dbd226a9bd093982ac802c50a111f23215413cca3469682",
+      "bytes": 501
+    },
+    "near_cool_seed3/g01/tokens.npz": {
+      "sha256": "042fee791d80c2cc443ebf1c295374cf106583a413de033af4f7b6f27b2d2155",
+      "bytes": 186164
+    },
+    "near_cool_seed3/g01/training.json": {
+      "sha256": "d3fc049d5d9619bcd87be2b12c4f224b8b302ba89cb3b33076ac94bd3583da72",
+      "bytes": 5599
+    },
+    "near_cool_seed3/g01/adapter.pt": {
+      "sha256": "5e1d53577ae1a7db363af601af2eb4d953d7357e25fe813591e9f8a9a936a2d5",
+      "bytes": 13666641
+    },
+    "near_cool_seed3/g01/conditionals.npz": {
+      "sha256": "79df6b2b1e0961fc4f266eaebaa827211792b86a75596e4dd7ccc8e2a7741080",
+      "bytes": 8261622
+    },
+    "near_cool_seed3/g02/stage.json": {
+      "sha256": "35e868a465cdea63df3c83249db69d7d36d4c166cb7cafe8b68aa9ac452fd5bd",
+      "bytes": 501
+    },
+    "near_cool_seed3/g02/tokens.npz": {
+      "sha256": "ace2eef2409c983a42139f5ce59046db68a257218c3fb4bc327272d71d1e184f",
+      "bytes": 186022
+    },
+    "near_cool_seed3/g02/training.json": {
+      "sha256": "9dba38b6bec553ce4888c2439ddbfba6b36ef9f08e0ffb16736706902e2e2aff",
+      "bytes": 5600
+    },
+    "near_cool_seed3/g02/adapter.pt": {
+      "sha256": "c556d40273cbef45067ea2cd248b59b08d35ead08691e7368823dec349b9b4df",
+      "bytes": 13666641
+    },
+    "near_cool_seed3/g02/conditionals.npz": {
+      "sha256": "fa09c33083eaffce62c9ac92dcd246e15d943351a38acf8387cecadb33746caa",
+      "bytes": 8249685
+    },
+    "near_cool_seed3/g03/stage.json": {
+      "sha256": "8beaf1fe4c866e39439ebdb8a00e9efb27ba46d6083777cd345648c929a30cf2",
+      "bytes": 501
+    },
+    "near_cool_seed3/g03/tokens.npz": {
+      "sha256": "2950af2e69a0d8083f1f1334ad1e377b5e8b33de3e31f19c14533f5e16884ba5",
+      "bytes": 185211
+    },
+    "near_cool_seed3/g03/training.json": {
+      "sha256": "e7858ea706fa44ad4f227fdd3e941ae3b701f62978e42a11d4f6b519337f62da",
+      "bytes": 5615
+    },
+    "near_cool_seed3/g03/adapter.pt": {
+      "sha256": "7e06a33a357b4f3fd42dd46c92ccc829eb558e8bda185103c538aa3d1b789971",
+      "bytes": 13666641
+    },
+    "near_cool_seed3/g03/conditionals.npz": {
+      "sha256": "58c3441d4aa993b627f01cd2233649a4e46aafd5bbf5ad08a5cf01b295630b9e",
+      "bytes": 8232122
+    },
+    "near_cool_seed3/g04/stage.json": {
+      "sha256": "d90b99d622c8493700fd8f07954333bd0b4560f9fbad7a38a13d9dbf0a579190",
+      "bytes": 501
+    },
+    "near_cool_seed3/g04/tokens.npz": {
+      "sha256": "318e32316dc39f9a6f015ff01a1d9e0e1603ad0f9a1a876d9fe334acb1ff526d",
+      "bytes": 183316
+    },
+    "near_cool_seed3/g04/training.json": {
+      "sha256": "315b1b5a7ed1f0b0666507edc86cd9804ce8cdedf44948faa455194b60a6ef71",
+      "bytes": 5597
+    },
+    "near_cool_seed3/g04/adapter.pt": {
+      "sha256": "da13187de2862927fa4378fba2d199db2bd76beb54f2b403bbb0b06dd0e8c89b",
+      "bytes": 13666641
+    },
+    "near_cool_seed3/g04/conditionals.npz": {
+      "sha256": "59c62f7a2816b3fae6cd14c67698196373f7bd029f1bb4a7e0b2979f397ad3aa",
+      "bytes": 8234853
+    },
+    "near_cool_seed3/g05/stage.json": {
+      "sha256": "263ee968f007f5bba394253e2d3892c1c547937c80c9581068823d0341e8e598",
+      "bytes": 502
+    },
+    "near_cool_seed3/g05/tokens.npz": {
+      "sha256": "d4833910eeaef97ed14b52f2e62dd7874e71b92177520c1faa90ef6018ad0878",
+      "bytes": 182890
+    },
+    "near_cool_seed3/g05/training.json": {
+      "sha256": "cf0ade41c42614ac20d241c9553f5625043bed764385f0a2e86248d10e41e7ad",
+      "bytes": 5603
+    },
+    "near_cool_seed3/g05/adapter.pt": {
+      "sha256": "61d8f91fb7a260504a02d89f1484a2a307c43dcdb3e1aa34c365774d5d44414f",
+      "bytes": 13666641
+    },
+    "near_cool_seed3/g05/conditionals.npz": {
+      "sha256": "a8216de30244e5f4b1412dd856a3b03d4d00d3393f839a93f5d98657dc0c8a99",
+      "bytes": 8218062
+    },
+    "no_training_seed3/trajectory.json": {
+      "sha256": "a8fa87576347a73c4f9b8cb456ebff610a3c5e62d47de6a658660de7819e0af4",
+      "bytes": 192085
+    },
+    "no_training_seed3/initial_adapter.json": {
+      "sha256": "fa09346b9c55a59f7946eda1cee03a60aff71c28097b39d8a20b27e783e3191c",
+      "bytes": 100
+    },
+    "no_training_seed3/initial_adapter.pt": {
+      "sha256": "4262cf2311f55a504bded2581bded1bac250e9429afa03467a471298266ec0cf",
+      "bytes": 13667713
+    },
+    "no_training_seed3/g01/stage.json": {
+      "sha256": "5a2db00a8739d90d8b4ba92b6b7035dbdbf7fba81af47c4006ca3357e1bd233f",
+      "bytes": 502
+    },
+    "no_training_seed3/g01/tokens.npz": {
+      "sha256": "042fee791d80c2cc443ebf1c295374cf106583a413de033af4f7b6f27b2d2155",
+      "bytes": 186164
+    },
+    "no_training_seed3/g01/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "no_training_seed3/g02/stage.json": {
+      "sha256": "7e046318a90d2c2324451566c9aa438c013c187f87dcd3e073fc3476c178283b",
+      "bytes": 501
+    },
+    "no_training_seed3/g02/tokens.npz": {
+      "sha256": "c50f1de418d0b1eda792e42687fff31d915a2f3e059414e945d83f00728454e6",
+      "bytes": 186621
+    },
+    "no_training_seed3/g02/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "no_training_seed3/g03/stage.json": {
+      "sha256": "8915dd3701647dc1a5f4d4ec9800466ff1e529e6fef53b25212827542756e361",
+      "bytes": 501
+    },
+    "no_training_seed3/g03/tokens.npz": {
+      "sha256": "da4a63d80c855318a6aff7877660966e3ef53878a8b5eaa03a91d8fa83917c51",
+      "bytes": 185935
+    },
+    "no_training_seed3/g03/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "no_training_seed3/g04/stage.json": {
+      "sha256": "e55d07555d1ae09b7b36d538aab75ee969fe7bbd3d78152e8354ebfbc1616304",
+      "bytes": 501
+    },
+    "no_training_seed3/g04/tokens.npz": {
+      "sha256": "25129c1e0618bab2e5ab5ed40c19c7ff990bc61053f9b6ce3e56be2c0a47a636",
+      "bytes": 185920
+    },
+    "no_training_seed3/g04/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "no_training_seed3/g05/stage.json": {
+      "sha256": "2babf5dd45318f35264fee760b17edf9598829e70e180aad398d3acd96f165c1",
+      "bytes": 501
+    },
+    "no_training_seed3/g05/tokens.npz": {
+      "sha256": "831195093bdee885d60c734e560146bdaa820d8c2e9185617f7192ca96c9f2fc",
+      "bytes": 186169
+    },
+    "no_training_seed3/g05/conditionals.npz": {
+      "sha256": "1b11d18414e0aa37207fe725cba63b633c58eb49bb9f4f5b83e5a7f73e54e476",
+      "bytes": 8279998
+    },
+    "near_warm_seed4/trajectory.json": {
+      "sha256": "e566f5bb2872af904a5ee1be5a8f4c1e7d3c32d070c4f1f81833579d19aeab06",
+      "bytes": 204104
+    },
+    "near_warm_seed4/initial_adapter.json": {
+      "sha256": "e31408d3582757eb5a502972f49f6f0ac518caf722643564e9c87f118b552adb",
+      "bytes": 100
+    },
+    "near_warm_seed4/initial_adapter.pt": {
+      "sha256": "edfb4cff55815ca90a548a126b801e53b2f7c44eb2c6bb98513f3ec2be9f308e",
+      "bytes": 13667713
+    },
+    "near_warm_seed4/g01/stage.json": {
+      "sha256": "7bf22eeb8cb575f6c4228ca5abdebccc7b6de82fdb72687f90028035adeac821",
+      "bytes": 502
+    },
+    "near_warm_seed4/g01/tokens.npz": {
+      "sha256": "f7984e3e9ead8abe1acb9b7066a9e32361140c28c0ce291841198580be05ebb4",
+      "bytes": 189207
+    },
+    "near_warm_seed4/g01/training.json": {
+      "sha256": "4da7b681bf626811c97649a11c0a9441f01807da6afc454c9edfe6526e9d60ab",
+      "bytes": 5590
+    },
+    "near_warm_seed4/g01/adapter.pt": {
+      "sha256": "f1bc0b0119ddaec97fa6b210571ec11c33ecd70be3dfe5994c46288dcaa484e5",
+      "bytes": 13666641
+    },
+    "near_warm_seed4/g01/conditionals.npz": {
+      "sha256": "6fc290c501d4f2ae11b839f440811c6a01fa0981e99d18931ebf8d905fdf708e",
+      "bytes": 8299085
+    },
+    "near_warm_seed4/g02/stage.json": {
+      "sha256": "9b66bc01512bb6336491f98fce5aeaa1fc1a8dd786c1d196dc5e2034d79944b0",
+      "bytes": 489
+    },
+    "near_warm_seed4/g02/tokens.npz": {
+      "sha256": "894536aa7f8abd034672fa6ec5dde52c0bf7952b19f5f6c8b9714e9e5306f9aa",
+      "bytes": 191052
+    },
+    "near_warm_seed4/g02/training.json": {
+      "sha256": "45a18587d0df981d73d271a37cea7b3b4797a4d733f25f293cafb4ec64472d3a",
+      "bytes": 5583
+    },
+    "near_warm_seed4/g02/adapter.pt": {
+      "sha256": "47f463f07d60467df6e0861e34f64bd5fa822f5f5d58999ea8760aca3fe11ae3",
+      "bytes": 13666641
+    },
+    "near_warm_seed4/g02/conditionals.npz": {
+      "sha256": "b2e813929173d161b997c2d5af9a0f5cd5b5d275d7c3a63c236f20e6288ab12f",
+      "bytes": 8317649
+    },
+    "near_warm_seed4/g03/stage.json": {
+      "sha256": "756b01bf03121646e15a6727dd02692f3bf8eb80e04e13884726d3d80477b680",
+      "bytes": 502
+    },
+    "near_warm_seed4/g03/tokens.npz": {
+      "sha256": "e981ab672d69cb13d643e6c355979929d3e5db61cb3f308c85698da4a7022eb3",
+      "bytes": 192336
+    },
+    "near_warm_seed4/g03/training.json": {
+      "sha256": "6768f9de29d9591a139ea8ca9ea185ea3304067db7b31cee7701b73ac05d3ee1",
+      "bytes": 5582
+    },
+    "near_warm_seed4/g03/adapter.pt": {
+      "sha256": "c584a9cf49947f11562ccd5cbab06a7fd471cc12f8f29c59b1ca71f095f2ecd8",
+      "bytes": 13666641
+    },
+    "near_warm_seed4/g03/conditionals.npz": {
+      "sha256": "8b93e1a3add1eae4c07d75e87483d8441a94e1b5e3b33c3eddb1a24f82207389",
+      "bytes": 8343776
+    },
+    "near_warm_seed4/g04/stage.json": {
+      "sha256": "6454cab82d47d8639863640eb2f8fe3faeb1210d66e72aee2b966c4410014edc",
+      "bytes": 489
+    },
+    "near_warm_seed4/g04/tokens.npz": {
+      "sha256": "862f11e82f4ec38153f8166fba1fa6afa45e895fe7bdd9675bb8eb891c68ba79",
+      "bytes": 192978
+    },
+    "near_warm_seed4/g04/training.json": {
+      "sha256": "865b2bc4dfff32c30ea2ca514ba6236ea4ded4b139545c6e86ec7da5d5515e3b",
+      "bytes": 5585
+    },
+    "near_warm_seed4/g04/adapter.pt": {
+      "sha256": "202d51fed38658e1ea0739e8da28436334452a5ee46567daeffcd268aec932bc",
+      "bytes": 13666641
+    },
+    "near_warm_seed4/g04/conditionals.npz": {
+      "sha256": "2caa2b00775b0c8354ae764b6f57afa307058e6bff9fa7163ed81ffb1f42fcfd",
+      "bytes": 8387293
+    },
+    "near_warm_seed4/g05/stage.json": {
+      "sha256": "717f4320158c265f97eb14d0d4dcf9c12a0417fa93d4af926086d4123936303f",
+      "bytes": 501
+    },
+    "near_warm_seed4/g05/tokens.npz": {
+      "sha256": "6d75cab2606c30d2a0a137a2990af8794d27b87bc2bedc8d8d58f2f1d5d6714b",
+      "bytes": 195282
+    },
+    "near_warm_seed4/g05/training.json": {
+      "sha256": "4882726e1cc083ad4b2d4687bcd60f559c7bf46661c99aec726c8b48ae13adda",
+      "bytes": 5574
+    },
+    "near_warm_seed4/g05/adapter.pt": {
+      "sha256": "c3b698e0560d151e397e7a19fa830b5e9aa3e426871cb64c734d2d3847662085",
+      "bytes": 13666641
+    },
+    "near_warm_seed4/g05/conditionals.npz": {
+      "sha256": "380e620e19b74e1246cbdedcbd81e294c45a5a4563190199e368054876ecafc0",
+      "bytes": 8418996
+    },
+    "near_cool_seed4/trajectory.json": {
+      "sha256": "5aeb00bb9386653f2b70315fabcb56608abc370ebebf170099bb7224d867a2cc",
+      "bytes": 203682
+    },
+    "near_cool_seed4/initial_adapter.json": {
+      "sha256": "fb87cbed2a1a68787e02caacd0b6db9c5faeb7ba48de1fc6137059c6242f8624",
+      "bytes": 100
+    },
+    "near_cool_seed4/initial_adapter.pt": {
+      "sha256": "ab02737ede0b7d902a958702ea73ee416f75b23a002d86d7a19f7b0349abbcbd",
+      "bytes": 13667713
+    },
+    "near_cool_seed4/g01/stage.json": {
+      "sha256": "90f0ad666528227b1ca357c2502666d3662831b18c530302da8a782f02a11deb",
+      "bytes": 501
+    },
+    "near_cool_seed4/g01/tokens.npz": {
+      "sha256": "52767ece6980418ce1617b1c8a0b8f33593d29a11794ae2c2f208f309acfa0f8",
+      "bytes": 186010
+    },
+    "near_cool_seed4/g01/training.json": {
+      "sha256": "fff39dc4fca56c52d932e99445bf5f253b78f41c10a6606e383be81def1d3772",
+      "bytes": 5583
+    },
+    "near_cool_seed4/g01/adapter.pt": {
+      "sha256": "532e6fb8b35bbb8bded5a920c4b2f03f7c7541662cd9438b10dea05be27a39d5",
+      "bytes": 13666641
+    },
+    "near_cool_seed4/g01/conditionals.npz": {
+      "sha256": "28efef3fba5134dff3536be535f1492d66843e28e8d5a068ea3518cf0265d32b",
+      "bytes": 8231734
+    },
+    "near_cool_seed4/g02/stage.json": {
+      "sha256": "b54854eb6dfb59df01f8858d3082cf04901f6190ba877bf804e8263894fbe716",
+      "bytes": 501
+    },
+    "near_cool_seed4/g02/tokens.npz": {
+      "sha256": "22e9684144e51dc70866a9baccc534feac4735fe2bf9c2f29c435734997ef68d",
+      "bytes": 185700
+    },
+    "near_cool_seed4/g02/training.json": {
+      "sha256": "ed0531fbddfef35a381f350c81b5d5eb885cb7f106af3555bc545e7427ace78c",
+      "bytes": 5614
+    },
+    "near_cool_seed4/g02/adapter.pt": {
+      "sha256": "4ac8308884899d009dbf539065905fc2736938136329d458b44818f036268eed",
+      "bytes": 13666641
+    },
+    "near_cool_seed4/g02/conditionals.npz": {
+      "sha256": "13334db32fe5d3b2b1ac8622d6f3d4ac4c7b260beba1df124fc33cb7b9e2c446",
+      "bytes": 8224460
+    },
+    "near_cool_seed4/g03/stage.json": {
+      "sha256": "026f910da80795508cbc7a033399fd5d24c1c81d91d09489eb2d545759142035",
+      "bytes": 501
+    },
+    "near_cool_seed4/g03/tokens.npz": {
+      "sha256": "350361965dd8f6ec0ad2adc2519c8fb97b926e50162b765ec2930c87a67fba47",
+      "bytes": 183677
+    },
+    "near_cool_seed4/g03/training.json": {
+      "sha256": "28f548fe5ceefcf801665b5c5a64ee1f3491bbb37510c3d0598ef7601a5fbbb6",
+      "bytes": 5587
+    },
+    "near_cool_seed4/g03/adapter.pt": {
+      "sha256": "e5526b9403d8f4036cd0424c5f397a2efbe5c3a79c5aed91993bda7aa316010f",
+      "bytes": 13666641
+    },
+    "near_cool_seed4/g03/conditionals.npz": {
+      "sha256": "b5bfa02328831a27871cb72fcef21627882684bf0a4a4f875f55a8de004d20a0",
+      "bytes": 8194165
+    },
+    "near_cool_seed4/g04/stage.json": {
+      "sha256": "31a6cc120d528d12afa297f1e9ec4076bc8fc798fd60b8965d3e30b8c89c1e82",
+      "bytes": 502
+    },
+    "near_cool_seed4/g04/tokens.npz": {
+      "sha256": "fcf595ba02504c3df3ef4571ef00f816920ec8ff9f52f2c10a8eda21b6e86fb7",
+      "bytes": 181152
+    },
+    "near_cool_seed4/g04/training.json": {
+      "sha256": "fb8e24db6b4567826867686e9ab7423e6a63f4abb1c60eb17c942964502c2e40",
+      "bytes": 5626
+    },
+    "near_cool_seed4/g04/adapter.pt": {
+      "sha256": "837ab8cbb261305c980ebfc24c9178fd128d8f68a5f5feaa3da476b1dae3759c",
+      "bytes": 13666641
+    },
+    "near_cool_seed4/g04/conditionals.npz": {
+      "sha256": "a2b5459a69c75143e957ea2d0b13c2c3b5d822a4a2b677f0218e06bef17ac3b8",
+      "bytes": 8188248
+    },
+    "near_cool_seed4/g05/stage.json": {
+      "sha256": "3d0c6aa67417d98143328659c8af9f8e7b3eabdfeed8a98f76bc74fcc9299a9b",
+      "bytes": 491
+    },
+    "near_cool_seed4/g05/tokens.npz": {
+      "sha256": "65ce9a976f0ca9151ba18853c989fb7abb71203846e10c95a9fc83f9a9593ecf",
+      "bytes": 180436
+    },
+    "near_cool_seed4/g05/training.json": {
+      "sha256": "52caaf6fea0e3d648141657e771c474cc0ea35ee21764a0cd9bf6ceb99ee8cbd",
+      "bytes": 5607
+    },
+    "near_cool_seed4/g05/adapter.pt": {
+      "sha256": "1bcf07cd0e417148299fb0256e03b4c1fdd36165a594f5193851089357e3a627",
+      "bytes": 13666641
+    },
+    "near_cool_seed4/g05/conditionals.npz": {
+      "sha256": "c9315eeddb11de18c11bf79f2c4313e5925d15c551d18ba36b745211e71c047e",
+      "bytes": 8137240
+    },
+    "near_warm_seed5/trajectory.json": {
+      "sha256": "9c3d1cb2d58c976adb8caeed8a896fed9f656ec9c1cf754a0272e10c5ac02da0",
+      "bytes": 204334
+    },
+    "near_warm_seed5/initial_adapter.json": {
+      "sha256": "fbe9684e7c3c7cc6a54fa32c59932fa384d4ed4df79ee1bc61125121e4146ede",
+      "bytes": 100
+    },
+    "near_warm_seed5/initial_adapter.pt": {
+      "sha256": "7c84870fbbc47c777d6b8d4d76786a4eb95888d27c12bd388a56dc26185cc042",
+      "bytes": 13667713
+    },
+    "near_warm_seed5/g01/stage.json": {
+      "sha256": "a39359ef150eea06ff0505c473bbc3d5cdfe79a7c169b68573ba538baa9053bd",
+      "bytes": 501
+    },
+    "near_warm_seed5/g01/tokens.npz": {
+      "sha256": "ea04dd0ad76c60e40adba78effeb1d25160acd9f0b0cccc9c3671befed67dc12",
+      "bytes": 188554
+    },
+    "near_warm_seed5/g01/training.json": {
+      "sha256": "76d8f0cd7394ce4851d8d3ca701ea4364071ae1e77e956be8c230c5a30f87a47",
+      "bytes": 5583
+    },
+    "near_warm_seed5/g01/adapter.pt": {
+      "sha256": "319077f76f5c27f86ecce50773cf6d1798129b757e5862ffb7cf4600870080bc",
+      "bytes": 13666641
+    },
+    "near_warm_seed5/g01/conditionals.npz": {
+      "sha256": "28c2a827a1ccf4129700024dd55c8da4cd15464bc13b575353d8ac620fc0e7c1",
+      "bytes": 8301694
+    },
+    "near_warm_seed5/g02/stage.json": {
+      "sha256": "efabc17086268e939a4d64b1c082689c77b9af557955c832b93e3d154ac8317c",
+      "bytes": 502
+    },
+    "near_warm_seed5/g02/tokens.npz": {
+      "sha256": "2c62f3907386c5d47bb9e26853673dd5f0989ca9905068775e804cc1d645457c",
+      "bytes": 190123
+    },
+    "near_warm_seed5/g02/training.json": {
+      "sha256": "b121e8dc763c764a485c354909366936be6dac9e3f2e9eab6eff08314ab2aff6",
+      "bytes": 5600
+    },
+    "near_warm_seed5/g02/adapter.pt": {
+      "sha256": "f838edc51ce01431c1616709ec81b862c9654c59da2f2e13d120d35db6a2de18",
+      "bytes": 13666641
+    },
+    "near_warm_seed5/g02/conditionals.npz": {
+      "sha256": "39097e50e9a57188e4592035ced9e8e9d6bcabf2bb86852e1619dc6ae92f6d48",
+      "bytes": 8293045
+    },
+    "near_warm_seed5/g03/stage.json": {
+      "sha256": "a5e1439dcba585155d752e820f3810e6e44b701c3365443704af7584508462d8",
+      "bytes": 502
+    },
+    "near_warm_seed5/g03/tokens.npz": {
+      "sha256": "9e5a768bb4c87a5d032cd40d69944a23cbb5195982aa4cbbdc1efde63bf3b2f1",
+      "bytes": 189641
+    },
+    "near_warm_seed5/g03/training.json": {
+      "sha256": "e0641d190ab79bd223c40ae256b28be7824a0f2c1de3ec587fec995d152bd540",
+      "bytes": 5579
+    },
+    "near_warm_seed5/g03/adapter.pt": {
+      "sha256": "1fb41e00479a6ea8220b755eb22f913aa32b80a2a050140ed43b3282f85683f8",
+      "bytes": 13666641
+    },
+    "near_warm_seed5/g03/conditionals.npz": {
+      "sha256": "42adadf6e45212ef26ac4fb77e17664376cada72c6f0936f51de9885d662d399",
+      "bytes": 8312830
+    },
+    "near_warm_seed5/g04/stage.json": {
+      "sha256": "5e9cd6a32a1a75448c16243404dc1a1f07aaacfd6051986ee7e708db9f924594",
+      "bytes": 501
+    },
+    "near_warm_seed5/g04/tokens.npz": {
+      "sha256": "1ea00edcdb0df1ac11aca87b7e64d6c724ad832a9919fc0274549f045f089522",
+      "bytes": 190657
+    },
+    "near_warm_seed5/g04/training.json": {
+      "sha256": "2318970a562d95f59d39c5ceee3fdbcd20596fd6acc6e44a13923b3424bbf81b",
+      "bytes": 5587
+    },
+    "near_warm_seed5/g04/adapter.pt": {
+      "sha256": "b0724deb76faa845a2579c0867389bc5bc2c9c2e3aed300882a44208ea64a4ab",
+      "bytes": 13666641
+    },
+    "near_warm_seed5/g04/conditionals.npz": {
+      "sha256": "9126be719054c881b6f9a0f8ea1e724f7b83c6e62a70fca43dc267172836fa93",
+      "bytes": 8324634
+    },
+    "near_warm_seed5/g05/stage.json": {
+      "sha256": "aff760a0a1565344b3eee5a55788bd55abe85494299ecb6f717693eca0db2646",
+      "bytes": 501
+    },
+    "near_warm_seed5/g05/tokens.npz": {
+      "sha256": "4658bcf5e3e173e46c000248a6f65ef34aa7a2cf6eef340da3d67480dab20015",
+      "bytes": 191318
+    },
+    "near_warm_seed5/g05/training.json": {
+      "sha256": "189f683eab5827528af23129eeceda2d7ac1482d322eeaa7a5abde12472d53ba",
+      "bytes": 5602
+    },
+    "near_warm_seed5/g05/adapter.pt": {
+      "sha256": "6a20f3d836e7e64bea8d2d46f845d3d33b05f8ce8d8f87fec8e64db922237c88",
+      "bytes": 13666641
+    },
+    "near_warm_seed5/g05/conditionals.npz": {
+      "sha256": "b6ba70400d45e3f18e1e4eb7a51fc0cc4c5e97bacd8660aa475dbc3c6f86bcce",
+      "bytes": 8343949
+    },
+    "near_cool_seed5/trajectory.json": {
+      "sha256": "1aecd0d9895a84c029a871cb53a8905738fac8b6f21bd05c4ceb59ba3177f5ee",
+      "bytes": 203760
+    },
+    "near_cool_seed5/initial_adapter.json": {
+      "sha256": "d12bc05fa3866650417e1e7257b8e99606c7382b6ebdf12cd890f952c72fc979",
+      "bytes": 100
+    },
+    "near_cool_seed5/initial_adapter.pt": {
+      "sha256": "f8c9a6eab13a007fe6ff38c482632a9d4a688d4432b10a99d56ae07f1d2fbcc3",
+      "bytes": 13667713
+    },
+    "near_cool_seed5/g01/stage.json": {
+      "sha256": "c8a0c5f3162a947ec8256e0f85f1ba2540f215dbb403cd93bbff945fe9b93bd7",
+      "bytes": 502
+    },
+    "near_cool_seed5/g01/tokens.npz": {
+      "sha256": "04f1c0ed38df92e7d42bd61bb46dc4f78282407225ab50ffd4262fca6e3db2d1",
+      "bytes": 185626
+    },
+    "near_cool_seed5/g01/training.json": {
+      "sha256": "ccdfdfc189e52cce09482865f8119c2ab449da0280dce8d1585a7888f44c8572",
+      "bytes": 5587
+    },
+    "near_cool_seed5/g01/adapter.pt": {
+      "sha256": "7678ead0349d7bc22c3f823b312450f6a554835dc76b5aea85bf1df14be8ddc1",
+      "bytes": 13666641
+    },
+    "near_cool_seed5/g01/conditionals.npz": {
+      "sha256": "fcd631be957701dd7c851dc18dfc99a014e65d321f1f3ce5dbfb9e1930ce907c",
+      "bytes": 8249919
+    },
+    "near_cool_seed5/g02/stage.json": {
+      "sha256": "b88fa95b945d14ed0360d17c6a490b35351d85d002bda69569b37476861acb68",
+      "bytes": 491
+    },
+    "near_cool_seed5/g02/tokens.npz": {
+      "sha256": "0a9aafb129fdb20d946e596eebcc3a5c92adcd964a5ad803aed2eca720daa11a",
+      "bytes": 185121
+    },
+    "near_cool_seed5/g02/training.json": {
+      "sha256": "9bb3b8537c36a8a52640525700f58e8723e4991e83ed1652cf2352e4d8d4a7ff",
+      "bytes": 5583
+    },
+    "near_cool_seed5/g02/adapter.pt": {
+      "sha256": "19669c226148d0d2186bccd399e14201faa0f5af6b22911dbc9bd86e81ffcb9c",
+      "bytes": 13666641
+    },
+    "near_cool_seed5/g02/conditionals.npz": {
+      "sha256": "bd82b6ad3b07df8e45eca8930aba9710dd5b7625f10dc36498273b6b58488f23",
+      "bytes": 8237487
+    },
+    "near_cool_seed5/g03/stage.json": {
+      "sha256": "67e58ecf42580e237768d829a47c4c30a98fa8e18f11bc5e3aec0940f16041aa",
+      "bytes": 502
+    },
+    "near_cool_seed5/g03/tokens.npz": {
+      "sha256": "40a99f018480dde5f76742e04e3dcd03013c24db1ce8a9204dac7a9bf224fba9",
+      "bytes": 183886
+    },
+    "near_cool_seed5/g03/training.json": {
+      "sha256": "a420be8cd0d9da3d0352bd3aaf0f026b0de81268ddcd5163292b84ea67885a8a",
+      "bytes": 5604
+    },
+    "near_cool_seed5/g03/adapter.pt": {
+      "sha256": "9107335f7012942c1323caa355f1652f1b93d37a1cc30ccdaff2a7b34c2a1ebb",
+      "bytes": 13666641
+    },
+    "near_cool_seed5/g03/conditionals.npz": {
+      "sha256": "be321677837ae0312387397b002c60eec0e84a125a8de5ba52a3ba2d47bd673a",
+      "bytes": 8206500
+    },
+    "near_cool_seed5/g04/stage.json": {
+      "sha256": "96c9b300b560dca9c6aeedd8ede297a6ac43785fbf7eb44fddd78b25a81f0781",
+      "bytes": 501
+    },
+    "near_cool_seed5/g04/tokens.npz": {
+      "sha256": "d0cab8ab94c85ce2ff743b7be09573337756e2d778126dead6214825172f00d8",
+      "bytes": 182968
+    },
+    "near_cool_seed5/g04/training.json": {
+      "sha256": "49c6f60c1ef5a38a9bd45bef02f8ea7d216d271bdf1352f84bce573f95206a6e",
+      "bytes": 5601
+    },
+    "near_cool_seed5/g04/adapter.pt": {
+      "sha256": "717afe077bc7494f4f432cbbfc2666a3e822384f1cf7cc862d1e8dacc8c04dff",
+      "bytes": 13666641
+    },
+    "near_cool_seed5/g04/conditionals.npz": {
+      "sha256": "2febc52c988841d8960c87b808776729fb0a5412a7fce586238b665572faf5fa",
+      "bytes": 8192836
+    },
+    "near_cool_seed5/g05/stage.json": {
+      "sha256": "e75bc3d652c1f49b700367ac2208ce7b1af1355a0fa7cdb2fe14ad5c288201ca",
+      "bytes": 502
+    },
+    "near_cool_seed5/g05/tokens.npz": {
+      "sha256": "b9206b8817af2e59e9690713f59fcf36c8a3bb833b713384aeba53398cfbd688",
+      "bytes": 183275
+    },
+    "near_cool_seed5/g05/training.json": {
+      "sha256": "6f9a05c24c95bc24a997e0ac4b29bd9dae1cf0a7ce9d6e92ea1e2fed0ada87f0",
+      "bytes": 5613
+    },
+    "near_cool_seed5/g05/adapter.pt": {
+      "sha256": "b4a31c861d9ef1e0b4a70a3cb0664ace83243e7d48c996c294575653063e2194",
+      "bytes": 13666641
+    },
+    "near_cool_seed5/g05/conditionals.npz": {
+      "sha256": "7e6c14ddcecacae9dd0df72ae7841c761ed4d88cb9285346a50af226e7f1daec",
+      "bytes": 8151175
+    }
+  },
+  "runtime_chain": [
+    {
+      "HEAD_at_start": "6bb6af1b73f7cad9c1df1f7e10262b4af85a13ea",
+      "started_utc": "2026-09-10T01:07:23Z"
+    },
+    {
+      "HEAD_at_start": "3af974ad9c5b9590b825b6cbd5f565d32b441178",
+      "started_utc": "2026-09-09T06:30:14Z"
+    }
+  ],
+  "reconstructed": {
+    "near_warm_seed1": {
+      "job": {
+        "name": "near_warm_seed1",
+        "condition": "near_warm",
+        "seed": 1,
+        "beta": 0.9780462409775849,
+        "train": true,
+        "initialization_seed": 830001,
+        "sampling_seeds": [
+          830101,
+          830102,
+          830103,
+          830104,
+          830105
+        ],
+        "training_seeds": [
+          830201,
+          830202,
+          830203,
+          830204,
+          830205
+        ]
+      },
+      "generations": [
+        {
+          "generation": 1,
+          "H": 1.8238843498716477,
+          "D_H": -0.023741079996698018,
+          "NLL": 2.1358558474528127,
+          "perplexity": 8.46428754674355,
+          "distinct_2": 0.6545275590551181
+        },
+        {
+          "generation": 2,
+          "H": 1.861557196847927,
+          "D_H": -0.03767284697627933,
+          "NLL": 2.1380732569618757,
+          "perplexity": 8.483077162874988,
+          "distinct_2": 0.6640009842519685
+        },
+        {
+          "generation": 3,
+          "H": 1.9167676858034315,
+          "D_H": -0.05521048895550453,
+          "NLL": 2.1390387458269537,
+          "perplexity": 8.49127143451982,
+          "distinct_2": 0.6666307824803149
+        },
+        {
+          "generation": 4,
+          "H": 1.992091204620649,
+          "D_H": -0.07532351881721752,
+          "NLL": 2.143100969036729,
+          "perplexity": 8.525835029410613,
+          "distinct_2": 0.6836398868110236
+        },
+        {
+          "generation": 5,
+          "H": 2.1173314027210957,
+          "D_H": -0.12524019810044668,
+          "NLL": 2.1505362283990057,
+          "perplexity": 8.589463076521483,
+          "distinct_2": 0.7000338336614174
+        }
+      ],
+      "max_control_context_entropy_error": 0.0,
+      "max_control_per_example_NLL_error": 0.0
+    },
+    "near_cool_seed1": {
+      "job": {
+        "name": "near_cool_seed1",
+        "condition": "near_cool",
+        "seed": 1,
+        "beta": 1.0171680906166884,
+        "train": true,
+        "initialization_seed": 840001,
+        "sampling_seeds": [
+          840101,
+          840102,
+          840103,
+          840104,
+          840105
+        ],
+        "training_seeds": [
+          840201,
+          840202,
+          840203,
+          840204,
+          840205
+        ]
+      },
+      "generations": [
+        {
+          "generation": 1,
+          "H": 1.7139396102798683,
+          "D_H": 0.08620365959508126,
+          "NLL": 2.134001817788216,
+          "perplexity": 8.448609045236795,
+          "distinct_2": 0.6231083907480315
+        },
+        {
+          "generation": 2,
+          "H": 1.6590051902104848,
+          "D_H": 0.05493442006938352,
+          "NLL": 2.149139518002872,
+          "perplexity": 8.577474458408027,
+          "distinct_2": 0.6122969980314961
+        },
+        {
+          "generation": 3,
+          "H": 1.589760572932548,
+          "D_H": 0.06924461727793685,
+          "NLL": 2.1613445802388163,
+          "perplexity": 8.682804540578942,
+          "distinct_2": 0.5965489665354331
+        },
+        {
+          "generation": 4,
+          "H": 1.55035230755128,
+          "D_H": 0.039408265381267946,
+          "NLL": 2.176273335159544,
+          "perplexity": 8.81340039286839,
+          "distinct_2": 0.5862758366141733
+        },
+        {
+          "generation": 5,
+          "H": 1.5458519252236735,
+          "D_H": 0.00450038232760655,
+          "NLL": 2.177591147379281,
+          "perplexity": 8.825022455769867,
+          "distinct_2": 0.5810469980314961
+        }
+      ],
+      "max_control_context_entropy_error": 0.0,
+      "max_control_per_example_NLL_error": 0.0
+    },
+    "no_training_seed1": {
+      "job": {
+        "name": "no_training_seed1",
+        "condition": "no_training",
+        "seed": 1,
+        "beta": 1.0171680906166884,
+        "train": false,
+        "initialization_seed": 840001,
+        "sampling_seeds": [
+          840101,
+          840102,
+          840103,
+          840104,
+          840105
+        ],
+        "training_seeds": [
+          840201,
+          840202,
+          840203,
+          840204,
+          840205
+        ]
+      },
+      "generations": [
+        {
+          "generation": 1,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.6231083907480315
+        },
+        {
+          "generation": 2,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.6221702755905512
+        },
+        {
+          "generation": 3,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.6243233267716536
+        },
+        {
+          "generation": 4,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.6264302411417323
+        },
+        {
+          "generation": 5,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.6239388533464567
+        }
+      ],
+      "max_control_context_entropy_error": 0.0,
+      "max_control_per_example_NLL_error": 0.0
+    },
+    "near_warm_seed2": {
+      "job": {
+        "name": "near_warm_seed2",
+        "condition": "near_warm",
+        "seed": 2,
+        "beta": 0.9780462409775849,
+        "train": true,
+        "initialization_seed": 831001,
+        "sampling_seeds": [
+          831101,
+          831102,
+          831103,
+          831104,
+          831105
+        ],
+        "training_seeds": [
+          831201,
+          831202,
+          831203,
+          831204,
+          831205
+        ]
+      },
+      "generations": [
+        {
+          "generation": 1,
+          "H": 1.8298722338880056,
+          "D_H": -0.029728964013056053,
+          "NLL": 2.128461455751097,
+          "perplexity": 8.401930120889416,
+          "distinct_2": 0.6459461122047244
+        },
+        {
+          "generation": 2,
+          "H": 1.880842056065594,
+          "D_H": -0.05096982217758844,
+          "NLL": 2.1533168641922766,
+          "perplexity": 8.613380482383798,
+          "distinct_2": 0.6581569881889764
+        },
+        {
+          "generation": 3,
+          "H": 1.9666753839922273,
+          "D_H": -0.08583332792663324,
+          "NLL": 2.1461283088818806,
+          "perplexity": 8.551684737692018,
+          "distinct_2": 0.678949311023622
+        },
+        {
+          "generation": 4,
+          "H": 2.044410817484436,
+          "D_H": -0.07773543349220909,
+          "NLL": 2.155409568045754,
+          "perplexity": 8.631424610834102,
+          "distinct_2": 0.6949280265748031
+        },
+        {
+          "generation": 5,
+          "H": 2.1178202445548457,
+          "D_H": -0.07340942707040925,
+          "NLL": 2.168438876669494,
+          "perplexity": 8.744621946071666,
+          "distinct_2": 0.7077079232283464
+        }
+      ],
+      "max_control_context_entropy_error": 0.0,
+      "max_control_per_example_NLL_error": 0.0
+    },
+    "near_cool_seed2": {
+      "job": {
+        "name": "near_cool_seed2",
+        "condition": "near_cool",
+        "seed": 2,
+        "beta": 1.0171680906166884,
+        "train": true,
+        "initialization_seed": 841001,
+        "sampling_seeds": [
+          841101,
+          841102,
+          841103,
+          841104,
+          841105
+        ],
+        "training_seeds": [
+          841201,
+          841202,
+          841203,
+          841204,
+          841205
+        ]
+      },
+      "generations": [
+        {
+          "generation": 1,
+          "H": 1.733305276882019,
+          "D_H": 0.06683799299293072,
+          "NLL": 2.146455449215904,
+          "perplexity": 8.554482796347537,
+          "distinct_2": 0.6230776328740157
+        },
+        {
+          "generation": 2,
+          "H": 1.6499847649008987,
+          "D_H": 0.08332051198112017,
+          "NLL": 2.145900790632164,
+          "perplexity": 8.549739294668658,
+          "distinct_2": 0.6174028051181102
+        },
+        {
+          "generation": 3,
+          "H": 1.5627865928098634,
+          "D_H": 0.08719817209103517,
+          "NLL": 2.1585514599383435,
+          "perplexity": 8.658586260980757,
+          "distinct_2": 0.60814468503937
+        },
+        {
+          "generation": 4,
+          "H": 1.5833834607282622,
+          "D_H": -0.020596867918398667,
+          "NLL": 2.1599879869126273,
+          "perplexity": 8.671033491954825,
+          "distinct_2": 0.5986558809055118
+        },
+        {
+          "generation": 5,
+          "H": 1.6120163457870555,
+          "D_H": -0.02863288505879345,
+          "NLL": 2.15863299196636,
+          "perplexity": 8.659292241858006,
+          "distinct_2": 0.604253813976378
+        }
+      ],
+      "max_control_context_entropy_error": 0.0,
+      "max_control_per_example_NLL_error": 0.0
+    },
+    "no_training_seed2": {
+      "job": {
+        "name": "no_training_seed2",
+        "condition": "no_training",
+        "seed": 2,
+        "beta": 1.0171680906166884,
+        "train": false,
+        "initialization_seed": 841001,
+        "sampling_seeds": [
+          841101,
+          841102,
+          841103,
+          841104,
+          841105
+        ],
+        "training_seeds": [
+          841201,
+          841202,
+          841203,
+          841204,
+          841205
+        ]
+      },
+      "generations": [
+        {
+          "generation": 1,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.6230776328740157
+        },
+        {
+          "generation": 2,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.6225855068897638
+        },
+        {
+          "generation": 3,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.6250307578740157
+        },
+        {
+          "generation": 4,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.6242156742125984
+        },
+        {
+          "generation": 5,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.6259534940944882
+        }
+      ],
+      "max_control_context_entropy_error": 0.0,
+      "max_control_per_example_NLL_error": 0.0
+    },
+    "near_warm_seed3": {
+      "job": {
+        "name": "near_warm_seed3",
+        "condition": "near_warm",
+        "seed": 3,
+        "beta": 0.9780462409775849,
+        "train": true,
+        "initialization_seed": 832001,
+        "sampling_seeds": [
+          832101,
+          832102,
+          832103,
+          832104,
+          832105
+        ],
+        "training_seeds": [
+          832201,
+          832202,
+          832203,
+          832204,
+          832205
+        ]
+      },
+      "generations": [
+        {
+          "generation": 1,
+          "H": 1.8401053164040508,
+          "D_H": -0.03996204652910123,
+          "NLL": 2.123260303433256,
+          "perplexity": 8.358343850241004,
+          "distinct_2": 0.6526205708661418
+        },
+        {
+          "generation": 2,
+          "H": 1.9123430517651014,
+          "D_H": -0.07223773536105065,
+          "NLL": 2.1191334554837247,
+          "perplexity": 8.323921313203167,
+          "distinct_2": 0.659787155511811
+        },
+        {
+          "generation": 3,
+          "H": 2.004073467505771,
+          "D_H": -0.09173041574066935,
+          "NLL": 2.1195118249953255,
+          "perplexity": 8.327071427161005,
+          "distinct_2": 0.6725055364173228
+        },
+        {
+          "generation": 4,
+          "H": 2.0514195673671485,
+          "D_H": -0.04734609986137744,
+          "NLL": 2.1233765750323426,
+          "perplexity": 8.359315744746956,
+          "distinct_2": 0.6904681348425197
+        },
+        {
+          "generation": 5,
+          "H": 2.13370398458913,
+          "D_H": -0.08228441722198163,
+          "NLL": 2.1316128654196667,
+          "perplexity": 8.428449809961213,
+          "distinct_2": 0.7017562746062992
+        }
+      ],
+      "max_control_context_entropy_error": 0.0,
+      "max_control_per_example_NLL_error": 0.0
+    },
+    "near_cool_seed3": {
+      "job": {
+        "name": "near_cool_seed3",
+        "condition": "near_cool",
+        "seed": 3,
+        "beta": 1.0171680906166884,
+        "train": true,
+        "initialization_seed": 842001,
+        "sampling_seeds": [
+          842101,
+          842102,
+          842103,
+          842104,
+          842105
+        ],
+        "training_seeds": [
+          842201,
+          842202,
+          842203,
+          842204,
+          842205
+        ]
+      },
+      "generations": [
+        {
+          "generation": 1,
+          "H": 1.7528356583954354,
+          "D_H": 0.04730761147951414,
+          "NLL": 2.1355034127194767,
+          "perplexity": 8.461304963432983,
+          "distinct_2": 0.6238927165354331
+        },
+        {
+          "generation": 2,
+          "H": 1.7177887247490675,
+          "D_H": 0.03504693364636788,
+          "NLL": 2.1491157181197864,
+          "perplexity": 8.577270317948015,
+          "distinct_2": 0.6244309793307087
+        },
+        {
+          "generation": 3,
+          "H": 1.6406732909848987,
+          "D_H": 0.07711543376416884,
+          "NLL": 2.1551217604352138,
+          "perplexity": 8.628940778591355,
+          "distinct_2": 0.6127429872047244
+        },
+        {
+          "generation": 4,
+          "H": 1.6419473337242985,
+          "D_H": -0.0012740427393997894,
+          "NLL": 2.1497936080375486,
+          "perplexity": 8.583086734240718,
+          "distinct_2": 0.6003629429133859
+        },
+        {
+          "generation": 5,
+          "H": 1.5989582559030127,
+          "D_H": 0.04298907782128578,
+          "NLL": 2.163896382390899,
+          "perplexity": 8.704989633837524,
+          "distinct_2": 0.5989634596456693
+        }
+      ],
+      "max_control_context_entropy_error": 0.0,
+      "max_control_per_example_NLL_error": 0.0
+    },
+    "no_training_seed3": {
+      "job": {
+        "name": "no_training_seed3",
+        "condition": "no_training",
+        "seed": 3,
+        "beta": 1.0171680906166884,
+        "train": false,
+        "initialization_seed": 842001,
+        "sampling_seeds": [
+          842101,
+          842102,
+          842103,
+          842104,
+          842105
+        ],
+        "training_seeds": [
+          842201,
+          842202,
+          842203,
+          842204,
+          842205
+        ]
+      },
+      "generations": [
+        {
+          "generation": 1,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.6238927165354331
+        },
+        {
+          "generation": 2,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.6314591535433071
+        },
+        {
+          "generation": 3,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.620355561023622
+        },
+        {
+          "generation": 4,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.6223394438976378
+        },
+        {
+          "generation": 5,
+          "H": 1.8001432698749495,
+          "D_H": 0.0,
+          "NLL": 2.1252069325544842,
+          "perplexity": 8.37463029247355,
+          "distinct_2": 0.6238619586614174
+        }
+      ],
+      "max_control_context_entropy_error": 0.0,
+      "max_control_per_example_NLL_error": 0.0
+    },
+    "near_warm_seed4": {
+      "job": {
+        "name": "near_warm_seed4",
+        "condition": "near_warm",
+        "seed": 4,
+        "beta": 0.9780462409775849,
+        "train": true,
+        "initialization_seed": 833001,
+        "sampling_seeds": [
+          833101,
+          833102,
+          833103,
+          833104,
+          833105
+        ],
+        "training_seeds": [
+          833201,
+          833202,
+          833203,
+          833204,
+          833205
+        ]
+      },
+      "generations": [
+        {
+          "generation": 1,
+          "H": 1.8452052037252238,
+          "D_H": -0.04506193385027413,
+          "NLL": 2.1243971051171036,
+          "perplexity": 8.36785103247066,
+          "distinct_2": 0.6528666338582677
+        },
+        {
+          "generation": 2,
+          "H": 1.882576364282564,
+          "D_H": -0.0373711605573402,
+          "NLL": 2.131922165716716,
+          "perplexity": 8.431057135193546,
+          "distinct_2": 0.6670460137795275
+        },
+        {
+          "generation": 3,
+          "H": 1.9500377512977993,
+          "D_H": -0.0674613870152353,
+          "NLL": 2.1399620737597007,
+          "perplexity": 8.499115283284919,
+          "distinct_2": 0.6732129675196851
+        },
+        {
+          "generation": 4,
+          "H": 2.0426699882277455,
+          "D_H": -0.09263223692994622,
+          "NLL": 2.1279980870052086,
+          "perplexity": 8.398037830918662,
+          "distinct_2": 0.6797643946850394
+        },
+        {
+          "generation": 5,
+          "H": 2.107522028051003,
+          "D_H": -0.06485203982325785,
+          "NLL": 2.129625958230318,
+          "perplexity": 8.411719888343372,
+          "distinct_2": 0.7013102854330708
+        }
+      ],
+      "max_control_context_entropy_error": 0.0,
+      "max_control_per_example_NLL_error": 0.0
+    },
+    "near_cool_seed4": {
+      "job": {
+        "name": "near_cool_seed4",
+        "condition": "near_cool",
+        "seed": 4,
+        "beta": 1.0171680906166884,
+        "train": true,
+        "initialization_seed": 843001,
+        "sampling_seeds": [
+          843101,
+          843102,
+          843103,
+          843104,
+          843105
+        ],
+        "training_seeds": [
+          843201,
+          843202,
+          843203,
+          843204,
+          843205
+        ]
+      },
+      "generations": [
+        {
+          "generation": 1,
+          "H": 1.6943686395319901,
+          "D_H": 0.10577463034295954,
+          "NLL": 2.1392535596677877,
+          "perplexity": 8.493095673079063,
+          "distinct_2": 0.6253229576771654
+        },
+        {
+          "generation": 2,
+          "H": 1.6619594935785285,
+          "D_H": 0.032409145953461574,
+          "NLL": 2.1567643924190305,
+          "perplexity": 8.643126600553437,
+          "distinct_2": 0.6158802903543307
+        },
+        {
+          "generation": 3,
+          "H": 1.5565531407843338,
+          "D_H": 0.10540635279419465,
+          "NLL": 2.1671203116780564,
+          "perplexity": 8.733099192129663,
+          "distinct_2": 0.5983483021653543
+        },
+        {
+          "generation": 4,
+          "H": 1.5546935125745738,
+          "D_H": 0.0018596282097600263,
+          "NLL": 2.15695733150916,
+          "perplexity": 8.64479435841829,
+          "distinct_2": 0.577878937007874
+        },
+        {
+          "generation": 5,
+          "H": 1.4191841680904609,
+          "D_H": 0.135509344484113,
+          "NLL": 2.188598329023427,
+          "perplexity": 8.922697659130868,
+          "distinct_2": 0.5800627460629921
+        }
+      ],
+      "max_control_context_entropy_error": 0.0,
+      "max_control_per_example_NLL_error": 0.0
+    },
+    "near_warm_seed5": {
+      "job": {
+        "name": "near_warm_seed5",
+        "condition": "near_warm",
+        "seed": 5,
+        "beta": 0.9780462409775849,
+        "train": true,
+        "initialization_seed": 834001,
+        "sampling_seeds": [
+          834101,
+          834102,
+          834103,
+          834104,
+          834105
+        ],
+        "training_seeds": [
+          834201,
+          834202,
+          834203,
+          834204,
+          834205
+        ]
+      },
+      "generations": [
+        {
+          "generation": 1,
+          "H": 1.8205760222657825,
+          "D_H": -0.02043275239083296,
+          "NLL": 2.1331215346157895,
+          "perplexity": 8.441175149310652,
+          "distinct_2": 0.6502829724409449
+        },
+        {
+          "generation": 2,
+          "H": 1.774301343194505,
+          "D_H": 0.04627467907127756,
+          "NLL": 2.137153758788845,
+          "perplexity": 8.475280573946005,
+          "distinct_2": 0.6539892962598425
+        },
+        {
+          "generation": 3,
+          "H": 1.8545361354860024,
+          "D_H": -0.08023479229149731,
+          "NLL": 2.123911568906314,
+          "perplexity": 8.363789123969534,
+          "distinct_2": 0.6529742864173228
+        },
+        {
+          "generation": 4,
+          "H": 1.8983873428219915,
+          "D_H": -0.04385120733598922,
+          "NLL": 2.128112079759582,
+          "perplexity": 8.398995200947926,
+          "distinct_2": 0.6672920767716536
+        },
+        {
+          "generation": 5,
+          "H": 1.9404857793002355,
+          "D_H": -0.042098436478244,
+          "NLL": 2.1305233226662694,
+          "perplexity": 8.41927165445276,
+          "distinct_2": 0.6709522637795275
+        }
+      ],
+      "max_control_context_entropy_error": 0.0,
+      "max_control_per_example_NLL_error": 0.0
+    },
+    "near_cool_seed5": {
+      "job": {
+        "name": "near_cool_seed5",
+        "condition": "near_cool",
+        "seed": 5,
+        "beta": 1.0171680906166884,
+        "train": true,
+        "initialization_seed": 844001,
+        "sampling_seeds": [
+          844101,
+          844102,
+          844103,
+          844104,
+          844105
+        ],
+        "training_seeds": [
+          844201,
+          844202,
+          844203,
+          844204,
+          844205
+        ]
+      },
+      "generations": [
+        {
+          "generation": 1,
+          "H": 1.6863620813889084,
+          "D_H": 0.1137811884860411,
+          "NLL": 2.13925121817286,
+          "perplexity": 8.493075786561906,
+          "distinct_2": 0.6214782234251969
+        },
+        {
+          "generation": 2,
+          "H": 1.652980532711645,
+          "D_H": 0.033381548677263596,
+          "NLL": 2.1519132794861386,
+          "perplexity": 8.601299353697675,
+          "distinct_2": 0.6172797736220472
+        },
+        {
+          "generation": 3,
+          "H": 1.6073928053746738,
+          "D_H": 0.04558772733697123,
+          "NLL": 2.159355630768693,
+          "perplexity": 8.665552043948248,
+          "distinct_2": 0.6031311515748031
+        },
+        {
+          "generation": 4,
+          "H": 1.5470044537861893,
+          "D_H": 0.06038835158848428,
+          "NLL": 2.179066980028962,
+          "perplexity": 8.838056327585315,
+          "distinct_2": 0.5977331446850394
+        },
+        {
+          "generation": 5,
+          "H": 1.458127049316299,
+          "D_H": 0.08887740446989029,
+          "NLL": 2.202257917096274,
+          "perplexity": 9.04541425464834,
+          "distinct_2": 0.5962106299212598
+        }
+      ],
+      "max_control_context_entropy_error": 0.0,
+      "max_control_per_example_NLL_error": 0.0
+    }
+  },
+  "analysis": {
+    "verdict": "DIRECTIONAL_AND_COMPLETE_CURVE_TRANSFER_OBSERVED",
+    "conditions": {
+      "near_warm": {
+        "seed_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "trajectory_mean_D_H": {
+          "n": 5,
+          "df": 4,
+          "values": [
+            -0.06343762656922922,
+            -0.06353539493597922,
+            -0.06671214294283606,
+            -0.06147575163521074,
+            -0.028068501885057183
+          ],
+          "mean": -0.05664588359366248,
+          "standard_error": 0.00719345913689997,
+          "critical_value": 2.7764451051977987,
+          "lower": -0.07661812800374879,
+          "upper": -0.036673639183576176,
+          "uncertainty_unit": "independent_complete_seed_trajectory"
+        },
+        "per_generation": [
+          {
+            "generation": 1,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                -0.023741079996698018,
+                -0.029728964013056053,
+                -0.03996204652910123,
+                -0.04506193385027413,
+                -0.02043275239083296
+              ],
+              "mean": -0.03178535535599248,
+              "standard_error": 0.004695458021062594,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.04482203679523346,
+              "upper": -0.018748673916751498,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.8238843498716477,
+                1.8298722338880056,
+                1.8401053164040508,
+                1.8452052037252238,
+                1.8205760222657825
+              ],
+              "mean": 1.8319286252309421,
+              "standard_error": 0.004695458021062601,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.818891943791701,
+              "upper": 1.8449653066701832,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 2,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                -0.03767284697627933,
+                -0.05096982217758844,
+                -0.07223773536105065,
+                -0.0373711605573402,
+                0.04627467907127756
+              ],
+              "mean": -0.03039537720019621,
+              "standard_error": 0.020191596483497196,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.08645623642293108,
+              "upper": 0.025665482022538665,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.861557196847927,
+                1.880842056065594,
+                1.9123430517651014,
+                1.882576364282564,
+                1.774301343194505
+              ],
+              "mean": 1.8623240024311383,
+              "standard_error": 0.02345587164990252,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.7972000624006186,
+              "upper": 1.927447942461658,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 3,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                -0.05521048895550453,
+                -0.08583332792663324,
+                -0.09173041574066935,
+                -0.0674613870152353,
+                -0.08023479229149731
+              ],
+              "mean": -0.07609408238590795,
+              "standard_error": 0.006584607835456981,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.09437588458030956,
+              "upper": -0.057812280191506346,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.9167676858034315,
+                1.9666753839922273,
+                2.004073467505771,
+                1.9500377512977993,
+                1.8545361354860024
+              ],
+              "mean": 1.9384180848170462,
+              "standard_error": 0.02524781384875437,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.868318915639727,
+              "upper": 2.0085172539943654,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 4,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                -0.07532351881721752,
+                -0.07773543349220909,
+                -0.04734609986137744,
+                -0.09263223692994622,
+                -0.04385120733598922
+              ],
+              "mean": -0.0673776992873479,
+              "standard_error": 0.009388746392626412,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.093445038253099,
+              "upper": -0.0413103603215968,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.992091204620649,
+                2.044410817484436,
+                2.0514195673671485,
+                2.0426699882277455,
+                1.8983873428219915
+              ],
+              "mean": 2.005795784104394,
+              "standard_error": 0.028858920708700067,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.9256705749614322,
+              "upper": 2.0859209932473557,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 5,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                -0.12524019810044668,
+                -0.07340942707040925,
+                -0.08228441722198163,
+                -0.06485203982325785,
+                -0.042098436478244
+              ],
+              "mean": -0.07757690373886787,
+              "standard_error": 0.01366009146237372,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.11550339781612963,
+              "upper": -0.039650409661606115,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.1173314027210957,
+                2.1178202445548457,
+                2.13370398458913,
+                2.107522028051003,
+                1.9404857793002355
+              ],
+              "mean": 2.083372687843262,
+              "standard_error": 0.03596729568449986,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.9835114657928306,
+              "upper": 2.1832339098936937,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          }
+        ],
+        "curves": {
+          "H_seed_mean": [
+            1.8001432698749495,
+            1.8319286252309421,
+            1.8623240024311383,
+            1.9384180848170462,
+            2.005795784104394,
+            2.083372687843262
+          ],
+          "central": [
+            1.8001432698749498,
+            1.8435157015976933,
+            1.882377219934926,
+            1.9171178927543258,
+            1.9481137576121896,
+            1.9757215357981974
+          ],
+          "decision_lower": [
+            1.8001432698749498,
+            1.431842798568719,
+            1.4670604457142966,
+            1.4985307131745453,
+            1.526598404740093,
+            1.5515899107881193
+          ],
+          "decision_upper": [
+            1.8001432698749498,
+            2.298838882930982,
+            2.3419405111288265,
+            2.380489190006171,
+            2.414896549157926,
+            2.445554014572928
+          ],
+          "inside_by_generation": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "covered_points_including_initial": 5,
+          "total_points_including_initial": 6,
+          "covered_postinitial_points": 5,
+          "total_postinitial_points": 5,
+          "complete_postinitial_agreement": true,
+          "max_absolute_central_error": 0.1076511520450647,
+          "coverage_guarantee": false
+        },
+        "quality": [
+          {
+            "generation": 1,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.1358558474528127,
+                2.128461455751097,
+                2.123260303433256,
+                2.1243971051171036,
+                2.1331215346157895
+              ],
+              "mean": 2.1290192492740116,
+              "standard_error": 0.002433193653431146,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.1222636206649446,
+              "upper": 2.1357748778830787,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.010648914898328421,
+                0.0032545231966127908,
+                -0.0019466291212282272,
+                -0.0008098274373806724,
+                0.007914602061305231
+              ],
+              "mean": 0.003812316719527509,
+              "standard_error": 0.002433193653431146,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.002943311889539746,
+              "upper": 0.010567945328594763,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.40661797039533,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.6545275590551181,
+                0.6459461122047244,
+                0.6526205708661418,
+                0.6528666338582677,
+                0.6502829724409449
+              ],
+              "mean": 0.6512487696850393,
+              "standard_error": 0.0014882997575601383,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.6471165871080944,
+              "upper": 0.6553809522619842,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 2,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.1380732569618757,
+                2.1533168641922766,
+                2.1191334554837247,
+                2.131922165716716,
+                2.137153758788845
+              ],
+              "mean": 2.1359199002286875,
+              "standard_error": 0.00550717856856467,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.1206295212485458,
+              "upper": 2.1512102792088292,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.012866324407391438,
+                0.028109931637792407,
+                -0.006073477070759559,
+                0.006715233162231549,
+                0.011946826234360941
+              ],
+              "mean": 0.010712967674203355,
+              "standard_error": 0.00550717856856467,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.0045774113059382435,
+              "upper": 0.026003346654344953,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.464829725220554,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.6640009842519685,
+                0.6581569881889764,
+                0.659787155511811,
+                0.6670460137795275,
+                0.6539892962598425
+              ],
+              "mean": 0.6605960875984251,
+              "standard_error": 0.002274292613148968,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.6542816390048601,
+              "upper": 0.6669105361919901,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 3,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.1390387458269537,
+                2.1461283088818806,
+                2.1195118249953255,
+                2.1399620737597007,
+                2.123911568906314
+              ],
+              "mean": 2.1337105044740348,
+              "standard_error": 0.005095565611192788,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.119562946274624,
+              "upper": 2.1478580626734454,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.013831813272469518,
+                0.020921376327396324,
+                -0.005695107559158696,
+                0.014755141205216482,
+                -0.001295363648170067
+              ],
+              "mean": 0.008503571919550711,
+              "standard_error": 0.005095565611192788,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.0056439862798597345,
+              "upper": 0.02265113011896116,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.446148211389842,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.6666307824803149,
+                0.678949311023622,
+                0.6725055364173228,
+                0.6732129675196851,
+                0.6529742864173228
+              ],
+              "mean": 0.6688545767716535,
+              "standard_error": 0.0044235597580045034,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.6565728059339919,
+              "upper": 0.6811363476093151,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 4,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.143100969036729,
+                2.155409568045754,
+                2.1233765750323426,
+                2.1279980870052086,
+                2.128112079759582
+              ],
+              "mean": 2.1355994557759232,
+              "standard_error": 0.0059663794289989,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.1190341308145264,
+              "upper": 2.15216478073732,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.017894036482244857,
+                0.03020263549126989,
+                -0.001830357522141668,
+                0.00279115445072442,
+                0.0029051472050976024
+              ],
+              "mean": 0.01039252322143902,
+              "standard_error": 0.0059663794289989,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.006172801739957812,
+              "upper": 0.026957848182835854,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.462117652049123,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.6836398868110236,
+                0.6949280265748031,
+                0.6904681348425197,
+                0.6797643946850394,
+                0.6672920767716536
+              ],
+              "mean": 0.6832185039370079,
+              "standard_error": 0.004771947113996417,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.6699694547300897,
+              "upper": 0.696467553143926,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 5,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.1505362283990057,
+                2.168438876669494,
+                2.1316128654196667,
+                2.129625958230318,
+                2.1305233226662694
+              ],
+              "mean": 2.1421474502769504,
+              "standard_error": 0.007630518606340577,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.1209617342422553,
+              "upper": 2.1633331663116455,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.025329295844521482,
+                0.043231944115009746,
+                0.006405932865182429,
+                0.004419025675833854,
+                0.005316390111785196
+              ],
+              "mean": 0.01694051772246654,
+              "standard_error": 0.007630518606340577,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.004245198312228485,
+              "upper": 0.038126233757161565,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.517709360371878,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.7000338336614174,
+                0.7077079232283464,
+                0.7017562746062992,
+                0.7013102854330708,
+                0.6709522637795275
+              ],
+              "mean": 0.6963521161417322,
+              "standard_error": 0.006486332823470716,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.6783431691233232,
+              "upper": 0.7143610631601413,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          }
+        ],
+        "terminal_quality": {
+          "generation": 5,
+          "NLL": {
+            "n": 5,
+            "df": 4,
+            "values": [
+              2.1505362283990057,
+              2.168438876669494,
+              2.1316128654196667,
+              2.129625958230318,
+              2.1305233226662694
+            ],
+            "mean": 2.1421474502769504,
+            "standard_error": 0.007630518606340577,
+            "critical_value": 2.7764451051977987,
+            "lower": 2.1209617342422553,
+            "upper": 2.1633331663116455,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          },
+          "NLL_change_from_base": {
+            "n": 5,
+            "df": 4,
+            "values": [
+              0.025329295844521482,
+              0.043231944115009746,
+              0.006405932865182429,
+              0.004419025675833854,
+              0.005316390111785196
+            ],
+            "mean": 0.01694051772246654,
+            "standard_error": 0.007630518606340577,
+            "critical_value": 2.7764451051977987,
+            "lower": -0.004245198312228485,
+            "upper": 0.038126233757161565,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          },
+          "perplexity_of_token_weighted_seed_mean_NLL": 8.517709360371878,
+          "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+          "distinct_2": {
+            "n": 5,
+            "df": 4,
+            "values": [
+              0.7000338336614174,
+              0.7077079232283464,
+              0.7017562746062992,
+              0.7013102854330708,
+              0.6709522637795275
+            ],
+            "mean": 0.6963521161417322,
+            "standard_error": 0.006486332823470716,
+            "critical_value": 2.7764451051977987,
+            "lower": 0.6783431691233232,
+            "upper": 0.7143610631601413,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          }
+        }
+      },
+      "near_cool": {
+        "seed_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "trajectory_mean_D_H": {
+          "n": 5,
+          "df": 4,
+          "values": [
+            0.050858268930255225,
+            0.03762538481757879,
+            0.04023700279438737,
+            0.07619182035689775,
+            0.0684032441117301
+          ],
+          "mean": 0.05466314420216985,
+          "standard_error": 0.007632660476856127,
+          "critical_value": 2.7764451051977987,
+          "lower": 0.03347148138156596,
+          "upper": 0.07585480702277374,
+          "uncertainty_unit": "independent_complete_seed_trajectory"
+        },
+        "per_generation": [
+          {
+            "generation": 1,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.08620365959508126,
+                0.06683799299293072,
+                0.04730761147951414,
+                0.10577463034295954,
+                0.1137811884860411
+              ],
+              "mean": 0.08398101657930536,
+              "standard_error": 0.012261268058040134,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.04993827889604171,
+              "upper": 0.118023754262569,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.7139396102798683,
+                1.733305276882019,
+                1.7528356583954354,
+                1.6943686395319901,
+                1.6863620813889084
+              ],
+              "mean": 1.7161622532956442,
+              "standard_error": 0.01226126805804014,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.6821195156123805,
+              "upper": 1.750204990978908,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 2,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.05493442006938352,
+                0.08332051198112017,
+                0.03504693364636788,
+                0.032409145953461574,
+                0.033381548677263596
+              ],
+              "mean": 0.04781851206551935,
+              "standard_error": 0.009797999377149872,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.020614904654100503,
+              "upper": 0.0750221194769382,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.6590051902104848,
+                1.6499847649008987,
+                1.7177887247490675,
+                1.6619594935785285,
+                1.652980532711645
+              ],
+              "mean": 1.668343741230125,
+              "standard_error": 0.012541638123170407,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.6335225714518864,
+              "upper": 1.7031649110083635,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 3,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.06924461727793685,
+                0.08719817209103517,
+                0.07711543376416884,
+                0.10540635279419465,
+                0.04558772733697123
+              ],
+              "mean": 0.07691046065286135,
+              "standard_error": 0.009893870998171643,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.04944067094852923,
+              "upper": 0.10438025035719346,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.589760572932548,
+                1.5627865928098634,
+                1.6406732909848987,
+                1.5565531407843338,
+                1.6073928053746738
+              ],
+              "mean": 1.5914332805772635,
+              "standard_error": 0.01536121720370018,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.54878370426217,
+              "upper": 1.634082856892357,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 4,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.039408265381267946,
+                -0.020596867918398667,
+                -0.0012740427393997894,
+                0.0018596282097600263,
+                0.06038835158848428
+              ],
+              "mean": 0.01595706690434276,
+              "standard_error": 0.014757941653589079,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.025017547962559346,
+              "upper": 0.056931681771244864,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.55035230755128,
+                1.5833834607282622,
+                1.6419473337242985,
+                1.5546935125745738,
+                1.5470044537861893
+              ],
+              "mean": 1.5754762136729208,
+              "standard_error": 0.017825132245903274,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.5259857124992793,
+              "upper": 1.6249667148465623,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 5,
+            "D_H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.00450038232760655,
+                -0.02863288505879345,
+                0.04298907782128578,
+                0.135509344484113,
+                0.08887740446989029
+              ],
+              "mean": 0.048648664808820435,
+              "standard_error": 0.029254631162623584,
+              "critical_value": 2.7764451051977987,
+              "lower": -0.0325752126870128,
+              "upper": 0.12987254230465367,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                1.5458519252236735,
+                1.6120163457870555,
+                1.5989582559030127,
+                1.4191841680904609,
+                1.458127049316299
+              ],
+              "mean": 1.5268275488641003,
+              "standard_error": 0.03816330238428062,
+              "critical_value": 2.7764451051977987,
+              "lower": 1.420869234761081,
+              "upper": 1.6327858629671197,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          }
+        ],
+        "curves": {
+          "H_seed_mean": [
+            1.8001432698749495,
+            1.7161622532956442,
+            1.668343741230125,
+            1.5914332805772635,
+            1.5754762136729208,
+            1.5268275488641003
+          ],
+          "central": [
+            1.8001432698749498,
+            1.7594673853520384,
+            1.724263784777138,
+            1.6937384766088353,
+            1.667224583132112,
+            1.644159712500555
+          ],
+          "decision_lower": [
+            1.8001432698749498,
+            1.3556230443727462,
+            1.3236771716811537,
+            1.295966493784179,
+            1.2718896824789365,
+            1.2509390675820737
+          ],
+          "decision_upper": [
+            1.8001432698749498,
+            2.2056908965242736,
+            2.166704602092636,
+            2.1329129949309698,
+            2.1035723589644406,
+            2.078056260559754
+          ],
+          "inside_by_generation": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "covered_points_including_initial": 5,
+          "total_points_including_initial": 6,
+          "covered_postinitial_points": 5,
+          "total_postinitial_points": 5,
+          "complete_postinitial_agreement": true,
+          "max_absolute_central_error": 0.1173321636364546,
+          "coverage_guarantee": false
+        },
+        "quality": [
+          {
+            "generation": 1,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.134001817788216,
+                2.146455449215904,
+                2.1355034127194767,
+                2.1392535596677877,
+                2.13925121817286
+              ],
+              "mean": 2.1388930915128492,
+              "standard_error": 0.002154784525141848,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.132910450565263,
+              "upper": 2.1448757324604353,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.00879488523373162,
+                0.021248516661419803,
+                0.010296480164992516,
+                0.014046627113303511,
+                0.014044285618375785
+              ],
+              "mean": 0.013686158958364647,
+              "standard_error": 0.002154784525141848,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.0077035180107786,
+              "upper": 0.019668799905950694,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.490034734270699,
+            "NLL_direction": "NLL_INCREASE_RESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.6231083907480315,
+                0.6230776328740157,
+                0.6238927165354331,
+                0.6253229576771654,
+                0.6214782234251969
+              ],
+              "mean": 0.6233759842519685,
+              "standard_error": 0.0006252932813849026,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.6216398917815543,
+              "upper": 0.6251120767223827,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 2,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.149139518002872,
+                2.145900790632164,
+                2.1491157181197864,
+                2.1567643924190305,
+                2.1519132794861386
+              ],
+              "mean": 2.1505667397319983,
+              "standard_error": 0.0018184825366772098,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.145517822794153,
+              "upper": 2.1556156566698434,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.023932585448387833,
+                0.02069385807767965,
+                0.023908785565302182,
+                0.03155745986454628,
+                0.026706346931654412
+              ],
+              "mean": 0.02535980717751407,
+              "standard_error": 0.0018184825366772098,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.020310890239668956,
+              "upper": 0.030408724115359186,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.589725156487823,
+            "NLL_direction": "NLL_INCREASE_RESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.6122969980314961,
+                0.6174028051181102,
+                0.6244309793307087,
+                0.6158802903543307,
+                0.6172797736220472
+              ],
+              "mean": 0.6174581692913386,
+              "standard_error": 0.0019720846934768955,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.6119827843970992,
+              "upper": 0.6229335541855779,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 3,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.1613445802388163,
+                2.1585514599383435,
+                2.1551217604352138,
+                2.1671203116780564,
+                2.159355630768693
+              ],
+              "mean": 2.1602987486118246,
+              "standard_error": 0.0019795350718523654,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.154802678151013,
+              "upper": 2.1657948190726364,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.03613764768433203,
+                0.03334452738385929,
+                0.029914827880729522,
+                0.04191337912357218,
+                0.03414869821420874
+              ],
+              "mean": 0.03509181605734035,
+              "standard_error": 0.0019795350718523654,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.02959574559652848,
+              "upper": 0.040587886518152226,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.673728535793094,
+            "NLL_direction": "NLL_INCREASE_RESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.5965489665354331,
+                0.60814468503937,
+                0.6127429872047244,
+                0.5983483021653543,
+                0.6031311515748031
+              ],
+              "mean": 0.603783218503937,
+              "standard_error": 0.0030132852000978767,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.5954169975595603,
+              "upper": 0.6121494394483137,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 4,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.176273335159544,
+                2.1599879869126273,
+                2.1497936080375486,
+                2.15695733150916,
+                2.179066980028962
+              ],
+              "mean": 2.1644158483295683,
+              "standard_error": 0.005675830313890382,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.148657217036634,
+              "upper": 2.1801744796225027,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.05106640260505957,
+                0.03478105435814305,
+                0.02458667548306437,
+                0.031750398954675685,
+                0.05386004747447792
+              ],
+              "mean": 0.03920891577508412,
+              "standard_error": 0.005675830313890382,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.02345028448214988,
+              "upper": 0.05496754706801836,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.709512754150527,
+            "NLL_direction": "NLL_INCREASE_RESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.5862758366141733,
+                0.5986558809055118,
+                0.6003629429133859,
+                0.577878937007874,
+                0.5977331446850394
+              ],
+              "mean": 0.5921813484251969,
+              "standard_error": 0.004353817537627908,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.5800932130339256,
+              "upper": 0.6042694838164682,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 5,
+            "NLL": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                2.177591147379281,
+                2.15863299196636,
+                2.163896382390899,
+                2.188598329023427,
+                2.202257917096274
+              ],
+              "mean": 2.1781953535712484,
+              "standard_error": 0.007983547128794939,
+              "critical_value": 2.7764451051977987,
+              "lower": 2.1560294732233896,
+              "upper": 2.200361233919107,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.052384214824796604,
+                0.03342605941187582,
+                0.03868944983641498,
+                0.06339139646894276,
+                0.07705098454178971
+              ],
+              "mean": 0.05298842101676397,
+              "standard_error": 0.007983547128794939,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.030822540668905326,
+              "upper": 0.07515430136462262,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.830356200160326,
+            "NLL_direction": "NLL_INCREASE_RESOLVED",
+            "distinct_2": {
+              "n": 5,
+              "df": 4,
+              "values": [
+                0.5810469980314961,
+                0.604253813976378,
+                0.5989634596456693,
+                0.5800627460629921,
+                0.5962106299212598
+              ],
+              "mean": 0.5921075295275591,
+              "standard_error": 0.004892768144008698,
+              "critical_value": 2.7764451051977987,
+              "lower": 0.5785230273632584,
+              "upper": 0.6056920316918597,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          }
+        ],
+        "terminal_quality": {
+          "generation": 5,
+          "NLL": {
+            "n": 5,
+            "df": 4,
+            "values": [
+              2.177591147379281,
+              2.15863299196636,
+              2.163896382390899,
+              2.188598329023427,
+              2.202257917096274
+            ],
+            "mean": 2.1781953535712484,
+            "standard_error": 0.007983547128794939,
+            "critical_value": 2.7764451051977987,
+            "lower": 2.1560294732233896,
+            "upper": 2.200361233919107,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          },
+          "NLL_change_from_base": {
+            "n": 5,
+            "df": 4,
+            "values": [
+              0.052384214824796604,
+              0.03342605941187582,
+              0.03868944983641498,
+              0.06339139646894276,
+              0.07705098454178971
+            ],
+            "mean": 0.05298842101676397,
+            "standard_error": 0.007983547128794939,
+            "critical_value": 2.7764451051977987,
+            "lower": 0.030822540668905326,
+            "upper": 0.07515430136462262,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          },
+          "perplexity_of_token_weighted_seed_mean_NLL": 8.830356200160326,
+          "NLL_direction": "NLL_INCREASE_RESOLVED",
+          "distinct_2": {
+            "n": 5,
+            "df": 4,
+            "values": [
+              0.5810469980314961,
+              0.604253813976378,
+              0.5989634596456693,
+              0.5800627460629921,
+              0.5962106299212598
+            ],
+            "mean": 0.5921075295275591,
+            "standard_error": 0.004892768144008698,
+            "critical_value": 2.7764451051977987,
+            "lower": 0.5785230273632584,
+            "upper": 0.6056920316918597,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          }
+        }
+      },
+      "no_training": {
+        "seed_ids": [
+          1,
+          2,
+          3
+        ],
+        "trajectory_mean_D_H": {
+          "n": 3,
+          "df": 2,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "standard_error": 0.0,
+          "critical_value": 4.302652729696142,
+          "lower": 0.0,
+          "upper": 0.0,
+          "uncertainty_unit": "independent_complete_seed_trajectory"
+        },
+        "per_generation": [
+          {
+            "generation": 1,
+            "D_H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                1.8001432698749495,
+                1.8001432698749495,
+                1.8001432698749495
+              ],
+              "mean": 1.8001432698749495,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 1.8001432698749495,
+              "upper": 1.8001432698749495,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 2,
+            "D_H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                1.8001432698749495,
+                1.8001432698749495,
+                1.8001432698749495
+              ],
+              "mean": 1.8001432698749495,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 1.8001432698749495,
+              "upper": 1.8001432698749495,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 3,
+            "D_H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                1.8001432698749495,
+                1.8001432698749495,
+                1.8001432698749495
+              ],
+              "mean": 1.8001432698749495,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 1.8001432698749495,
+              "upper": 1.8001432698749495,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 4,
+            "D_H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                1.8001432698749495,
+                1.8001432698749495,
+                1.8001432698749495
+              ],
+              "mean": 1.8001432698749495,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 1.8001432698749495,
+              "upper": 1.8001432698749495,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 5,
+            "D_H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "H": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                1.8001432698749495,
+                1.8001432698749495,
+                1.8001432698749495
+              ],
+              "mean": 1.8001432698749495,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 1.8001432698749495,
+              "upper": 1.8001432698749495,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          }
+        ],
+        "curves": {
+          "H_seed_mean": [
+            1.8001432698749495,
+            1.8001432698749495,
+            1.8001432698749495,
+            1.8001432698749495,
+            1.8001432698749495,
+            1.8001432698749495
+          ],
+          "central": [
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498
+          ],
+          "decision_lower": [
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498
+          ],
+          "decision_upper": [
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498,
+            1.8001432698749498
+          ],
+          "inside_by_generation": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "covered_points_including_initial": 0,
+          "total_points_including_initial": 6,
+          "covered_postinitial_points": 0,
+          "total_postinitial_points": 5,
+          "complete_postinitial_agreement": false,
+          "max_absolute_central_error": 2.220446049250313e-16,
+          "coverage_guarantee": false
+        },
+        "quality": [
+          {
+            "generation": 1,
+            "NLL": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                2.1252069325544842,
+                2.1252069325544842,
+                2.1252069325544842
+              ],
+              "mean": 2.1252069325544842,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 2.1252069325544842,
+              "upper": 2.1252069325544842,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.37463029247355,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.6231083907480315,
+                0.6230776328740157,
+                0.6238927165354331
+              ],
+              "mean": 0.6233595800524935,
+              "standard_error": 0.000266716074871416,
+              "critical_value": 4.302652729696142,
+              "lower": 0.6222119934048942,
+              "upper": 0.6245071667000928,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 2,
+            "NLL": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                2.1252069325544842,
+                2.1252069325544842,
+                2.1252069325544842
+              ],
+              "mean": 2.1252069325544842,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 2.1252069325544842,
+              "upper": 2.1252069325544842,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.37463029247355,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.6221702755905512,
+                0.6225855068897638,
+                0.6314591535433071
+              ],
+              "mean": 0.6254049786745407,
+              "standard_error": 0.003029459757347472,
+              "critical_value": 4.302652729696142,
+              "lower": 0.612370265380085,
+              "upper": 0.6384396919689964,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 3,
+            "NLL": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                2.1252069325544842,
+                2.1252069325544842,
+                2.1252069325544842
+              ],
+              "mean": 2.1252069325544842,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 2.1252069325544842,
+              "upper": 2.1252069325544842,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.37463029247355,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.6243233267716536,
+                0.6250307578740157,
+                0.620355561023622
+              ],
+              "mean": 0.6232365485564304,
+              "standard_error": 0.0014548976555409446,
+              "critical_value": 4.302652729696142,
+              "lower": 0.6169766291873886,
+              "upper": 0.6294964679254722,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 4,
+            "NLL": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                2.1252069325544842,
+                2.1252069325544842,
+                2.1252069325544842
+              ],
+              "mean": 2.1252069325544842,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 2.1252069325544842,
+              "upper": 2.1252069325544842,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.37463029247355,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.6264302411417323,
+                0.6242156742125984,
+                0.6223394438976378
+              ],
+              "mean": 0.6243284530839895,
+              "standard_error": 0.0011822569980686477,
+              "critical_value": 4.302652729696142,
+              "lower": 0.6192416117840471,
+              "upper": 0.629415294383932,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          },
+          {
+            "generation": 5,
+            "NLL": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                2.1252069325544842,
+                2.1252069325544842,
+                2.1252069325544842
+              ],
+              "mean": 2.1252069325544842,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 2.1252069325544842,
+              "upper": 2.1252069325544842,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "NLL_change_from_base": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "mean": 0.0,
+              "standard_error": 0.0,
+              "critical_value": 4.302652729696142,
+              "lower": 0.0,
+              "upper": 0.0,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            },
+            "perplexity_of_token_weighted_seed_mean_NLL": 8.37463029247355,
+            "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+            "distinct_2": {
+              "n": 3,
+              "df": 2,
+              "values": [
+                0.6239388533464567,
+                0.6259534940944882,
+                0.6238619586614174
+              ],
+              "mean": 0.6245847687007874,
+              "standard_error": 0.0006847225960605812,
+              "critical_value": 4.302652729696142,
+              "lower": 0.6216386451537627,
+              "upper": 0.6275308922478121,
+              "uncertainty_unit": "independent_complete_seed_trajectory"
+            }
+          }
+        ],
+        "terminal_quality": {
+          "generation": 5,
+          "NLL": {
+            "n": 3,
+            "df": 2,
+            "values": [
+              2.1252069325544842,
+              2.1252069325544842,
+              2.1252069325544842
+            ],
+            "mean": 2.1252069325544842,
+            "standard_error": 0.0,
+            "critical_value": 4.302652729696142,
+            "lower": 2.1252069325544842,
+            "upper": 2.1252069325544842,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          },
+          "NLL_change_from_base": {
+            "n": 3,
+            "df": 2,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mean": 0.0,
+            "standard_error": 0.0,
+            "critical_value": 4.302652729696142,
+            "lower": 0.0,
+            "upper": 0.0,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          },
+          "perplexity_of_token_weighted_seed_mean_NLL": 8.37463029247355,
+          "NLL_direction": "NLL_CHANGE_UNRESOLVED",
+          "distinct_2": {
+            "n": 3,
+            "df": 2,
+            "values": [
+              0.6239388533464567,
+              0.6259534940944882,
+              0.6238619586614174
+            ],
+            "mean": 0.6245847687007874,
+            "standard_error": 0.0006847225960605812,
+            "critical_value": 4.302652729696142,
+            "lower": 0.6216386451537627,
+            "upper": 0.6275308922478121,
+            "uncertainty_unit": "independent_complete_seed_trajectory"
+          }
+        }
+      }
+    },
+    "primary": {
+      "warmer_upper_below_zero": true,
+      "cooler_lower_above_zero": true,
+      "both_directional_intervals": true
+    },
+    "complete_curve_transfer": true,
+    "control": {
+      "passed": true,
+      "tolerance": 1e-08,
+      "max_entropy_change": 0.0,
+      "max_NLL_change": 0.0,
+      "max_context_entropy_change": 0.0,
+      "max_per_example_NLL_change": 0.0,
+      "distinct_2_invariance_required": false
+    },
+    "quality_separate_from_entropy": true,
+    "quality_equivalence_authorized": false,
+    "actual_collapse_claim_authorized": false,
+    "exact_new_family_critical_beta_authorized": false,
+    "isolated_architecture_causality_authorized": false,
+    "public_claim_authorized": false,
+    "scope": "Finite combined model-family, context-length and prompt-label-policy transfer; no new-family interval-coverage guarantee."
+  },
+  "CUDA_initialized": false,
+  "quality_audit_scope": "Saved per-example loss arithmetic only; no independent model forward reevaluation.",
+  "public_claim_authorized": false,
+  "audit_revision": {
+    "plan_sha256": "d1b461c3572234c172a8c987bde4b38cdea73644ee743dd585a75281fee1bc85",
+    "source_commit": "622933d07dcbb4b85a2d6a563215a9969f4924f3",
+    "postrun_code_repair": true,
+    "frozen_analyzer_original_status": "FAIL_INSTRUMENT",
+    "original_failure_sha256": "1715b1a69157657995158a64c0994726c009311ff371617d46a1a9d45364f29b",
+    "frozen_analyzer_sha256": "012f2c0fef56b37cf4f4986530a3133866ee39d47e504e305ee01f08044f06eb",
+    "repair_analyzer_sha256": "ad465c7ab4d11aede97bafaf745eb2e7c5ca107c084257cf579ac1512495b128",
+    "frozen_statistics_sha256": "1db36cc4637a2eab9aef18175a205c4febfb8b41986ec0e11de4a993d3b11a99",
+    "old_predicate": "contexts.dtype == quality_examples.dtype == np.int64",
+    "new_predicate": "(contexts.dtype == quality_examples.dtype and contexts.dtype in (np.dtype(\"int32\"), np.dtype(\"int64\")))",
+    "statistical_rules_changed": false,
+    "raw_data_changed": false,
+    "predictions_changed": false,
+    "scope": "Exactly one signed-integer storage-width predicate. Original shape, range, provenance, probability, seed, interval and verdict checks remain in force."
+  },
+  "launch_commit_audit": {
+    "launch_commits": 2,
+    "files_per_commit": 61,
+    "scope": "Exact local Git bytes at recorded launch commits; no independent public timestamp claim."
+  },
+  "final_precommitment_check": {
+    "status": "PASS_PRECOMMITMENT_INTEGRITY",
+    "payload_sha256": "2ca814a205e5e94bdbaea8a8d25cf679f7acabde784af21c032e02ce6e98c452",
+    "precommitment_file_sha256": "a7bf777d07faba017420e550a66f87d671d3c30409663148e97c7103881aa997",
+    "committed_HEAD": "622933d07dcbb4b85a2d6a563215a9969f4924f3",
+    "arithmetic": {
+      "physical_trajectories": 13,
+      "required_generations": 65,
+      "conditions": 3,
+      "entropy_values": 54,
+      "cross_condition_seed_reuse": true,
+      "scope": "Arithmetic feasibility and declared grid only; no prediction accuracy or interval coverage certificate."
+    },
+    "scientific_verdict_authorized": false
+  },
+  "precommitment_sha256": "a7bf777d07faba017420e550a66f87d671d3c30409663148e97c7103881aa997",
+  "analyzer_sha256": "ad465c7ab4d11aede97bafaf745eb2e7c5ca107c084257cf579ac1512495b128",
+  "finished_utc": "2026-09-10T10:32:53Z"
+}

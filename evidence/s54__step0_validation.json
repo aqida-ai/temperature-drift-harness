@@ -1,0 +1,989 @@
+{
+  "status": "PASS_WITH_MODEL_CAVEATS",
+  "passed": 193,
+  "total": 193,
+  "checks": [
+    {
+      "name": "CPU_only_and_no_public_claim",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "coverage",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "current_generator",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:RESEARCH_NOTES/ModelCollapse/THEORY_BINDING_MAP_S54.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:Theory/AQiDA_Physics.docx",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:Theory/Assessment for Genenral AI.docx",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:Theory/Chess_Cybertron.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:Theory/CORE_LOGIC.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:Theory/e_i_relationships_graphs.docx",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:Theory/elm_eulerian.docx",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:Theory/n_s_u.docx",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:Theory/squaring_circle_euler.docx",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/n1n3_n2n4/environment_python311.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/n1n3_n2n4/n2n4_public_loop_v2.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/n1n3_n2n4/n2n4_transformer_measurements.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/n1n3_n2n4/public_loop_v2/public_loop_base_conditionals.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/n1n3_n2n4/public_loop_v2/public_loop_calibration.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/n1n3_n2n4/public_loop_v2/public_loop_contexts.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/n1n3_n2n4/public_loop_v2/public_loop_frozen_threshold.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/n1n3_n2n4/public_loop_v2/public_loop_negative.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/n1n3_n2n4/public_loop_v2/public_loop_positive.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/delivery_gate_final.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/s53c_temperature.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/temperature_precommitment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/temperature_validation_final.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/temperature_verdict.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/trajectory_near_cool_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/trajectory_near_cool_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/trajectory_near_cool_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/trajectory_near_warm_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/trajectory_near_warm_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/trajectory_near_warm_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/trajectory_wide_cool_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/trajectory_wide_cool_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/trajectory_wide_cool_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/trajectory_wide_warm_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/trajectory_wide_warm_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s53c/trajectory_wide_warm_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/s54/s54_saved_analysis.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/sprint51c_neural_bridge.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/sprint51f_beta_calibrate.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/sprint5_logs/sprint51c_neural_bridge_s51f_beta099.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools/band1_export/sprint5_logs/sprint51c_neural_bridge_s51f_beta103.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "raw_trajectory:near_warm_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "net_entropy:near_warm_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "raw_trajectory:near_cool_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "net_entropy:near_cool_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "raw_trajectory:wide_warm_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "net_entropy:wide_warm_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "raw_trajectory:wide_cool_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "net_entropy:wide_cool_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "raw_trajectory:near_warm_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "net_entropy:near_warm_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "raw_trajectory:near_cool_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "net_entropy:near_cool_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "raw_trajectory:wide_warm_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "net_entropy:wide_warm_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "raw_trajectory:wide_cool_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "net_entropy:wide_cool_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "raw_trajectory:near_warm_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "net_entropy:near_warm_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "raw_trajectory:near_cool_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "net_entropy:near_cool_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "raw_trajectory:wide_warm_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "net_entropy:wide_warm_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "raw_trajectory:wide_cool_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "net_entropy:wide_cool_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_warm:15",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:near_cool:15",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_warm:15",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seed_curve:wide_cool:15",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:near_warm:first3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:near_warm:last3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:near_warm:first5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:near_warm:middle5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:near_warm:last5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:near_warm:all15",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:near_cool:first3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:near_cool:last3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:near_cool:first5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:near_cool:middle5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:near_cool:last5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:near_cool:all15",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:wide_warm:first3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:wide_warm:last3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:wide_warm:first5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:wide_warm:middle5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:wide_warm:last5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:wide_warm:all15",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:wide_cool:first3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:wide_cool:last3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:wide_cool:first5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:wide_cool:middle5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:wide_cool:last5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "window:wide_cool:all15",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "constant_seed_holdout:near_warm",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "constant_time_holdout:near_warm",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_parameters:near_warm:constant",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_prefixes:near_warm:constant",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_parameters:near_warm:decay_plus_floor",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_prefixes:near_warm:decay_plus_floor",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "constant_seed_holdout:near_cool",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "constant_time_holdout:near_cool",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_parameters:near_cool:constant",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_prefixes:near_cool:constant",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_parameters:near_cool:decay_plus_floor",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_prefixes:near_cool:decay_plus_floor",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "constant_seed_holdout:wide_warm",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "constant_time_holdout:wide_warm",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_parameters:wide_warm:constant",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_prefixes:wide_warm:constant",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_parameters:wide_warm:decay_plus_floor",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_prefixes:wide_warm:decay_plus_floor",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "constant_seed_holdout:wide_cool",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "constant_time_holdout:wide_cool",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_parameters:wide_cool:constant",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_prefixes:wide_cool:constant",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_parameters:wide_cool:decay_plus_floor",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "curve_prefixes:wide_cool:decay_plus_floor",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "asymmetry:near:initial_source_forecast",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "asymmetry:near:first3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "asymmetry:near:last3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "asymmetry:near:first5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "asymmetry:near:middle5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "asymmetry:near:last5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "asymmetry:near:all15",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "asymmetry:wide:initial_source_forecast",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "asymmetry:wide:first3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "asymmetry:wide:last3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "asymmetry:wide:first5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "asymmetry:wide:middle5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "asymmetry:wide:last5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "asymmetry:wide:all15",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "constant_wide_cool_rejected_at_prefix12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "sign_convention_same",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "initial_price_matches_and_budget_accounts_for_error",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "wide_warm_unidentified_floor_flagged",
+      "pass_": true,
+      "detail": null
+    }
+  ],
+  "model_caveats": [
+    {
+      "arm": "wide_warm",
+      "issue": "rho at search upper boundary; amplitude and floor are not separately identified",
+      "rho": 0.9999,
+      "fitted_floor": 213.94254885375543,
+      "physical_floor_authorized": false
+    }
+  ],
+  "hypothesis_labels": "Unassigned pending exact user definitions; measured curve differences and model errors are available.",
+  "source_sha256": {
+    "step0_saved_analysis.json": "a16df0411135aea9cfb08bd4f3a904b31a97c65529fe26c0d959156f15de4d7f",
+    "s54_saved_analysis.py": "545463c62500c1d5ffe184d9e67977f14bd60baa898ad1b69e5f42692588d605"
+  },
+  "script_sha256": "4aa31e869c463491480c5c36d5d82d9e8530fd814435e3d66775e08ed53a0986",
+  "finished_utc": "2026-09-07T06:52:06Z",
+  "Sprint54_result_authorized": false
+}

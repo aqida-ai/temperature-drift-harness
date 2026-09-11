@@ -1,0 +1,54 @@
+{
+  "status": "PASS_PORTABLE_STORAGE_DTYPE_SELF_TEST",
+  "passed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "name": "signed int32 accepted",
+      "passed": true
+    },
+    {
+      "name": "signed int64 accepted",
+      "passed": true
+    },
+    {
+      "name": "mixed width rejected",
+      "passed": true
+    },
+    {
+      "name": "short prompt grid rejected",
+      "passed": true
+    },
+    {
+      "name": "float64 rejected",
+      "passed": true
+    },
+    {
+      "name": "float32 rejected",
+      "passed": true
+    },
+    {
+      "name": "bool rejected",
+      "passed": true
+    },
+    {
+      "name": "uint32 rejected",
+      "passed": true
+    },
+    {
+      "name": "int16 rejected",
+      "passed": true
+    },
+    {
+      "name": "CUDA remains uninitialized",
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "analyze.py": "af293a8127b2ba3f8cb6651d9e618d0fdb7c9f86ea0ba3207a4679611338fcbd",
+    "storage_dtype_self_test.py": "98bb5577a10b1946dcc296ed24e17db8d42fc8b44c2e283e5499462930c680bf"
+  },
+  "fixture_only": true,
+  "no_external_data_or_model": true,
+  "CUDA_initialized": false
+}

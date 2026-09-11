@@ -1,0 +1,1538 @@
+{
+  "status": "PASS_SELECTED_CORPUS_S56",
+  "started_utc": "2026-09-11T03:17:32Z",
+  "finished_utc": "2026-09-11T03:22:50Z",
+  "declarations": 132,
+  "groups": {
+    "prior_S54": 80,
+    "prior_S55": 8,
+    "S56": 44
+  },
+  "axiom_rows": [
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.collapse_master_theorem_final",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.trainer_drift_decomposition",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.effectiveDrift_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.effectiveDrift_bounds_of_separate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.driftS_G",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.G_extremeLaw",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.pinsker_crossover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.predictorSufficientState_fails",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.nonlinear_identification_residual_jacobian",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.nonlinear_identification_residual_fderiv",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.featureJacobianTransport_eq_integral",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.featureDrift_le_jacobianLipschitz",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.featureDrift_le_operatorJacobianLipschitz",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.outputLoRA_identification_exact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.outputLoRA_stationarity_is_derivative",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.outputLoRA_featureDrift_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.outputLoRA_featureDrift_frobenius",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.outputLoRA_featureDrift_pathEnergy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.weighted_context_featureDrift_L2_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.identification_error_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.identificationLeadingOrder",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.hasDerivAt_temperPrice",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.temperPrice_monotone_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.kl_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.projectionRadius_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.projectionRadius_eq_zero_of_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.dampedIProjection_radius_contracts",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.dampedIProjection_geometric",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.dampedIProjection_variable_geometric",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.approxProjection_radius_to_noiseFloor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.approxProjection_eventually_below_noiseFloor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.restorationBudget_sourceRadius_distinction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.restorationBudget_asymptotic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.hasDerivAt_tiltMean",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.affineSoftmax_quadraticSupport",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.affineSoftmax_gradientDescent_linear",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.affineSoftmax_predictionKL_eq_lossExcess",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.affineSoftmax_predictionKL_linear",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.convexSmooth_gradientDescent_sublinear",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.optimisationSteps_exponential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.optimisationSteps_exponential_to_floor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.optimisationSteps_sublinear",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.optimisationNoiseFloor_obstruction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.actualNoiseFloor_obstruction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.looseEnvelope_does_not_obstruct_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.affineRecurrence_to_floor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.sgd_noiseFloor_recurrence",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.N1N3.retiredSandwich_gauge_counterexample",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.critical_crossing",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.projectionRadius_singleton",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.projectionRadius_antitone_class",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.common_member_has_equal_zero_radii",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.membership_obstructs_strict_source_radius",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.selfTraining_next_source_radius_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.kl_eq_crossEntropy_minus_entropy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.singleton_expected_projection_KL",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.singleton_sampling_minus_projection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.interiorLoRA_identification_with_curvature",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.factor_endpoint_direction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.single_nonlinear_layer_curvature_counterexample",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.partitionKL_difference",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.partition_projection_global",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.partition_radius_exact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.partition_projection_entropy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.feature_rightInverse_realizes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.partition_expected_closure_projection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.entropy_decrements_telescope",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.mean_entropy_decrement_ceiling",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.oddsShift_normalize_logs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.oddsMinor_normalize_logs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.rankOne_logOdds_shift",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.rankOne_logOdds_minor_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.nonzero_minor_excludes_rankOne",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S53C.nonzero_minor_excludes_rankOne_outputLoRA",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S54.seven_lt_log_vocabulary",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S54.frozen_forecast_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S54.frozen_entropies_below_vocabulary",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S54.finite_entropy_telescoping",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S54.finite_prefix_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S54.fresh_sample_budget_arithmetic",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.certificate_ceiling_lt_log_vocabulary",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.frozen_forecast_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.frozen_entropies_below_vocabulary",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.declared_drifts_are_exactly_adjacent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.frozen_envelopes_ordered",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.finite_entropy_telescoping",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.finite_prefix_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.declared_sample_budget",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.decoded_pool_supported",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.support_nesting",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.support_conservation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.support_nonempty",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.entropy_ceiling",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.outside_coordinate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.temperature_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.entropy_mix_concave",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.entropy_prior_floor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.mixture_is_atom_average",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.entropy_smoothed_atom_floor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.smoothed_atom_attained",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.entropy_step_band",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.sharp_floor_exists",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.trajectory_isLaw",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.entropy_conservation_band",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.support_conservation_ae",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.forbidden_fit_mass_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.accumulated_anchor_conservation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.temperature_normalizer_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.temperatureLaw_normalized",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.temperatureLaw_zero_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.temperature_anchor_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.poolTransition_stochastic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.anchored_common_atom",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.two_pure_stationary_atoms",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.common_atom_l1_contraction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.advance_isLaw",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.l1Distance_eq_zero_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.stationary_unique",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.evolve_isLaw",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.stationary_geometric_rate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.ergodicity_of_stationary_existence",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.stationary_exists_of_common_atom",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.stationary_l1_converges",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.anchored_ergodicity_conditional",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.anchored_ergodicity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.advance_stationary_of_fitted_stationary",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.anchored_fitted_invariant_unique",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.fitted_expectation_difference_le_l1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.fitted_observable_converges",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.outside_coordinate_positive_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.smoothed_binary_atoms_equal_entropy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S56.full_prior_replacement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "new_theorems": [
+    "decoded_pool_supported",
+    "support_nesting",
+    "support_conservation",
+    "support_nonempty",
+    "entropy_ceiling",
+    "outside_coordinate",
+    "temperature_support",
+    "entropy_mix_concave",
+    "entropy_prior_floor",
+    "mixture_is_atom_average",
+    "entropy_smoothed_atom_floor",
+    "smoothed_atom_attained",
+    "entropy_step_band",
+    "sharp_floor_exists",
+    "trajectory_isLaw",
+    "entropy_conservation_band",
+    "support_conservation_ae",
+    "forbidden_fit_mass_zero",
+    "accumulated_anchor_conservation",
+    "temperature_normalizer_pos",
+    "temperatureLaw_normalized",
+    "temperatureLaw_zero_iff",
+    "temperature_anchor_lower",
+    "poolTransition_stochastic",
+    "anchored_common_atom",
+    "two_pure_stationary_atoms",
+    "common_atom_l1_contraction",
+    "advance_isLaw",
+    "l1Distance_eq_zero_iff",
+    "stationary_unique",
+    "evolve_isLaw",
+    "stationary_geometric_rate",
+    "ergodicity_of_stationary_existence",
+    "stationary_exists_of_common_atom",
+    "stationary_l1_converges",
+    "anchored_ergodicity_conditional",
+    "anchored_ergodicity",
+    "advance_stationary_of_fitted_stationary",
+    "anchored_fitted_invariant_unique",
+    "fitted_expectation_difference_le_l1",
+    "fitted_observable_converges",
+    "outside_coordinate_positive_iff",
+    "smoothed_binary_atoms_equal_entropy",
+    "full_prior_replacement"
+  ],
+  "source_sha256": "7cf894ecaeeb2e7a12a29e802516d3cf6bef15a409768b5b18e3acb5381a073e",
+  "imports": [
+    "AqidaLeanPhaseMath.ModelCollapse.AuditN1N3",
+    "AqidaLeanPhaseMath.ModelCollapse.CollapseMasterFinal",
+    "AqidaLeanPhaseMath.ModelCollapse.FisherN1N3",
+    "AqidaLeanPhaseMath.ModelCollapse.ForecastS54",
+    "AqidaLeanPhaseMath.ModelCollapse.ForecastS55",
+    "AqidaLeanPhaseMath.ModelCollapse.LoRABoundsN1N3",
+    "AqidaLeanPhaseMath.ModelCollapse.NeuralDriftBridgeS51C",
+    "AqidaLeanPhaseMath.ModelCollapse.NonAffineIdentificationN1N3",
+    "AqidaLeanPhaseMath.ModelCollapse.OptimizationN1N3",
+    "AqidaLeanPhaseMath.ModelCollapse.PartitionRateS53C",
+    "AqidaLeanPhaseMath.ModelCollapse.ProjectionRateN1N3",
+    "AqidaLeanPhaseMath.ModelCollapse.ProjectionSignS51F",
+    "AqidaLeanPhaseMath.ModelCollapse.RankOneSourceS53C",
+    "AqidaLeanPhaseMath.ModelCollapse.ResolutionS53C",
+    "AqidaLeanPhaseMath.ModelCollapse.SupportConservationS56",
+    "AqidaLeanPhaseMath.ModelCollapse.TemperatureN1N3"
+  ],
+  "local_dependency_closure": {
+    "AqidaLeanPhaseMath.Holonomy.SignalDensityLaw": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/Holonomy/SignalDensityLaw.lean",
+      "sha256": "f7da23dc2749a7b2d8b1d76c9b80e48019a8a30f517257b563d0890d0448c33e",
+      "imports": [
+        "Mathlib"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.AuditN1N3": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/AuditN1N3.lean",
+      "sha256": "fadaac933684244c4e3d60664bf15cefac36964016ceb5a85fb2bdd4169f7662",
+      "imports": [
+        "AqidaLeanPhaseMath.ModelCollapse.FisherN1N3",
+        "AqidaLeanPhaseMath.ModelCollapse.LoRABoundsN1N3",
+        "AqidaLeanPhaseMath.ModelCollapse.ProjectionSignS51F"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.BinomialTailBound": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/BinomialTailBound.lean",
+      "sha256": "08fe29c67ab1b25e4c4261ccf0316b2f28d50740f48178445a3fe59f42dee888",
+      "imports": [
+        "Mathlib",
+        "AqidaLeanPhaseMath.ModelCollapse.KLFloorReduction"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.BridgeTransfersS51C": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/BridgeTransfersS51C.lean",
+      "sha256": "e879829e0f05fb7e5bfce24ad94c727d94fe8b8500a3d97381df8c3cef73a635",
+      "imports": [
+        "Mathlib",
+        "AqidaLeanPhaseMath.ModelCollapse.NeuralDriftBridgeS51C"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.CollapseMasterFinal": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/CollapseMasterFinal.lean",
+      "sha256": "5336e2a19f90add04421a60dae2d68c5fad23d45365be939ab0669585492f41e",
+      "imports": [
+        "Mathlib",
+        "AqidaLeanPhaseMath.ModelCollapse.BinomialTailBound",
+        "AqidaLeanPhaseMath.ModelCollapse.EnvelopeVsDrift",
+        "AqidaLeanPhaseMath.ModelCollapse.SharpConstantInterfaces"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.CollapseMasterTheorem": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/CollapseMasterTheorem.lean",
+      "sha256": "370fb530c8d1290f7141b2cefd623486f32cc06bf7da53c2eb92540397bcf9a0",
+      "imports": [
+        "Mathlib",
+        "AqidaLeanPhaseMath.ModelCollapse.ModelCollapseFixedPoint"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.EnvelopeVsDrift": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/EnvelopeVsDrift.lean",
+      "sha256": "7da3314be3e5d24ef749dfc59e759375f5a50262009a1772f42a23bcc5f94941",
+      "imports": [
+        "Mathlib",
+        "AqidaLeanPhaseMath.ModelCollapse.KLFloorReduction"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.FisherN1N3": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/FisherN1N3.lean",
+      "sha256": "2bf6e200fe11e21fab564a4d46810ea76803f8452b35b91fe1414fe9df694dc8",
+      "imports": [
+        "AqidaLeanPhaseMath.ModelCollapse.TemperatureN1N3",
+        "AqidaLeanPhaseMath.ModelCollapse.OptimizationN1N3"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.ForecastS54": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/ForecastS54.lean",
+      "sha256": "57b3e1702e59f62dc8dbc2efb141d973645fce40ea18ce93da35163b0b6a1db0",
+      "imports": [
+        "Mathlib.Analysis.Complex.ExponentialBounds",
+        "Mathlib.Tactic"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.ForecastS55": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/ForecastS55.lean",
+      "sha256": "a9934fc239478b2422f6b1665090c7f5a4d83bf5a93218665706d70844c5b14f",
+      "imports": [
+        "Mathlib.Analysis.Complex.ExponentialBounds",
+        "Mathlib.Tactic"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.KLFloorReduction": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/KLFloorReduction.lean",
+      "sha256": "b7106e3cd7a9d68d266d0188199c0baff2d80d00b2d2b4334aa5b33753a0f9b0",
+      "imports": [
+        "Mathlib",
+        "AqidaLeanPhaseMath.ModelCollapse.CollapseMasterTheorem"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.LoRABoundsN1N3": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/LoRABoundsN1N3.lean",
+      "sha256": "921b8d1ba061e55d0390b997135227097194aca9198804a20ecb8fbeb49fa1d9",
+      "imports": [
+        "AqidaLeanPhaseMath.ModelCollapse.NonAffineIdentificationN1N3",
+        "Mathlib.Analysis.Normed.Operator.Basic"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.ModelCollapseFixedPoint": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/ModelCollapseFixedPoint.lean",
+      "sha256": "463d6c7e83667bdd49a91d431e3d689c19e534797db9190a005f8f1f0b6944a6",
+      "imports": [
+        "Mathlib",
+        "AqidaLeanPhaseMath.Holonomy.SignalDensityLaw"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.NeuralDriftBridgeS51C": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/NeuralDriftBridgeS51C.lean",
+      "sha256": "22c43c6635444beef2a5e9dd6269fade0949f26bd9266488f93f5e72edf898da",
+      "imports": [
+        "Mathlib",
+        "AqidaLeanPhaseMath.ModelCollapse.EnvelopeVsDrift"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.NonAffineIdentificationN1N3": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/NonAffineIdentificationN1N3.lean",
+      "sha256": "1f61363a68cb1f3c1975ab342aeb71cb5ef1566baf54cf8084dd2b5656275011",
+      "imports": [
+        "Mathlib.Analysis.SpecialFunctions.Integrals.Basic",
+        "Mathlib.Tactic"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.OptimizationN1N3": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/OptimizationN1N3.lean",
+      "sha256": "98c387093ab1fbc1182699f8beea85ac3553b5ce5916183f1634aef9b2910ad3",
+      "imports": [
+        "AqidaLeanPhaseMath.ModelCollapse.ProjectionRateN1N3"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.PartitionRateS53C": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/PartitionRateS53C.lean",
+      "sha256": "8b64d6bb23c45d6cb94edb2de19ae8621fa8a5e6dd25bd6a0caa5d201271a332",
+      "imports": [
+        "AqidaLeanPhaseMath.ModelCollapse.ResolutionS53C",
+        "Mathlib.Data.Matrix.Mul"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.ProjectionRateN1N3": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/ProjectionRateN1N3.lean",
+      "sha256": "8b1ca8ad0afa4c51e3c30e30d2f7fb3f29a6d4abe39463acacf272f1cb2cfbfe",
+      "imports": [
+        "AqidaLeanPhaseMath.ModelCollapse.NonAffineIdentificationN1N3",
+        "Mathlib.InformationTheory.KullbackLeibler.KLFun"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.ProjectionSignS51F": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/ProjectionSignS51F.lean",
+      "sha256": "f5fdfbae815d7d4a56c3c77c107e0a0647b2afea45a0134c82d787e24c559ec4",
+      "imports": [
+        "Mathlib",
+        "AqidaLeanPhaseMath.ModelCollapse.BridgeTransfersS51C",
+        "AqidaLeanPhaseMath.ModelCollapse.TemperatureN1N3"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.RankOneSourceS53C": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/RankOneSourceS53C.lean",
+      "sha256": "70d188319084906f782f7af5e87c3dd9a88aae19988651572d02907ce786d78d",
+      "imports": [
+        "AqidaLeanPhaseMath.ModelCollapse.NonAffineIdentificationN1N3"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.ResolutionS53C": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/ResolutionS53C.lean",
+      "sha256": "a2ff6dc768b61b2e2d5e5db5cb2b4fe1698faff248faa51e26e73ddaef4a58a2",
+      "imports": [
+        "AqidaLeanPhaseMath.ModelCollapse.ProjectionRateN1N3",
+        "Mathlib.Analysis.Calculus.FDeriv.Basic"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.SharpConstantInterfaces": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/SharpConstantInterfaces.lean",
+      "sha256": "ab1937ebbcafe24d7af3a069511ee44ea033c35627165b61bcd749babe002720",
+      "imports": [
+        "Mathlib",
+        "AqidaLeanPhaseMath.ModelCollapse.BinomialTailBound"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.SmallSampleRegimeS51D": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/SmallSampleRegimeS51D.lean",
+      "sha256": "98aba5535b8362625477b2946528dcee0a91caa19293d8dce1b4d76b170b224f",
+      "imports": [
+        "Mathlib",
+        "AqidaLeanPhaseMath.ModelCollapse.NeuralDriftBridgeS51C"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.SupportConservationS56": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/SupportConservationS56.lean",
+      "sha256": "7cf894ecaeeb2e7a12a29e802516d3cf6bef15a409768b5b18e3acb5381a073e",
+      "imports": [
+        "AqidaLeanPhaseMath.ModelCollapse.CollapseMasterFinal",
+        "AqidaLeanPhaseMath.ModelCollapse.SmallSampleRegimeS51D",
+        "AqidaLeanPhaseMath.ModelCollapse.PartitionRateS53C",
+        "AqidaLeanPhaseMath.ModelCollapse.TopKPenaltyS51C"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.TemperatureN1N3": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/TemperatureN1N3.lean",
+      "sha256": "4abbe17628d7b9050ddc44e20d14bdb1aac4fe612b750959394dac6d9e461060",
+      "imports": [
+        "AqidaLeanPhaseMath.ModelCollapse.NonAffineIdentificationN1N3"
+      ]
+    },
+    "AqidaLeanPhaseMath.ModelCollapse.TopKPenaltyS51C": {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/TopKPenaltyS51C.lean",
+      "sha256": "6a0449de6d2ebaca2c366eb20a29000b0c9144a128765448349f094283b4858e",
+      "imports": [
+        "Mathlib",
+        "AqidaLeanPhaseMath.ModelCollapse.NeuralDriftBridgeS51C"
+      ]
+    }
+  },
+  "external_imports": [
+    "Mathlib",
+    "Mathlib.Analysis.Calculus.FDeriv.Basic",
+    "Mathlib.Analysis.Complex.ExponentialBounds",
+    "Mathlib.Analysis.Normed.Operator.Basic",
+    "Mathlib.Analysis.SpecialFunctions.Integrals.Basic",
+    "Mathlib.Data.Matrix.Mul",
+    "Mathlib.InformationTheory.KullbackLeibler.KLFun",
+    "Mathlib.Tactic"
+  ],
+  "reference_HEAD": "68e00e7237912a1b3f2ef5a064be568ccbf57ec9",
+  "committed_source_checks": [
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/Holonomy/SignalDensityLaw.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "f7da23dc2749a7b2d8b1d76c9b80e48019a8a30f517257b563d0890d0448c33e"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/AuditN1N3.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "fadaac933684244c4e3d60664bf15cefac36964016ceb5a85fb2bdd4169f7662"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/BinomialTailBound.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "08fe29c67ab1b25e4c4261ccf0316b2f28d50740f48178445a3fe59f42dee888"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/BridgeTransfersS51C.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "e879829e0f05fb7e5bfce24ad94c727d94fe8b8500a3d97381df8c3cef73a635"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/CollapseMasterFinal.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "5336e2a19f90add04421a60dae2d68c5fad23d45365be939ab0669585492f41e"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/CollapseMasterTheorem.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "370fb530c8d1290f7141b2cefd623486f32cc06bf7da53c2eb92540397bcf9a0"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/EnvelopeVsDrift.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "7da3314be3e5d24ef749dfc59e759375f5a50262009a1772f42a23bcc5f94941"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/FisherN1N3.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "2bf6e200fe11e21fab564a4d46810ea76803f8452b35b91fe1414fe9df694dc8"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/ForecastS54.lean",
+      "exact_bytes": false,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "eb7f9c9959398054afe00d7f51f7d3cf6a0eec22724c3e386dca6f49b6d52a2c"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/ForecastS55.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "a9934fc239478b2422f6b1665090c7f5a4d83bf5a93218665706d70844c5b14f"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/KLFloorReduction.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "b7106e3cd7a9d68d266d0188199c0baff2d80d00b2d2b4334aa5b33753a0f9b0"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/LoRABoundsN1N3.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "921b8d1ba061e55d0390b997135227097194aca9198804a20ecb8fbeb49fa1d9"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/ModelCollapseFixedPoint.lean",
+      "exact_bytes": false,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "977cdd00d873f960ed433bb0399e3cbd259d16d962d43d054d635d15ae06083a"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/NeuralDriftBridgeS51C.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "22c43c6635444beef2a5e9dd6269fade0949f26bd9266488f93f5e72edf898da"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/NonAffineIdentificationN1N3.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "1f61363a68cb1f3c1975ab342aeb71cb5ef1566baf54cf8084dd2b5656275011"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/OptimizationN1N3.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "98c387093ab1fbc1182699f8beea85ac3553b5ce5916183f1634aef9b2910ad3"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/PartitionRateS53C.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "8b64d6bb23c45d6cb94edb2de19ae8621fa8a5e6dd25bd6a0caa5d201271a332"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/ProjectionRateN1N3.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "8b1ca8ad0afa4c51e3c30e30d2f7fb3f29a6d4abe39463acacf272f1cb2cfbfe"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/ProjectionSignS51F.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "f5fdfbae815d7d4a56c3c77c107e0a0647b2afea45a0134c82d787e24c559ec4"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/RankOneSourceS53C.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "70d188319084906f782f7af5e87c3dd9a88aae19988651572d02907ce786d78d"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/ResolutionS53C.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "a2ff6dc768b61b2e2d5e5db5cb2b4fe1698faff248faa51e26e73ddaef4a58a2"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/SharpConstantInterfaces.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "ab1937ebbcafe24d7af3a069511ee44ea033c35627165b61bcd749babe002720"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/SmallSampleRegimeS51D.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "98aba5535b8362625477b2946528dcee0a91caa19293d8dce1b4d76b170b224f"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/SupportConservationS56.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "7cf894ecaeeb2e7a12a29e802516d3cf6bef15a409768b5b18e3acb5381a073e"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/TemperatureN1N3.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "4abbe17628d7b9050ddc44e20d14bdb1aac4fe612b750959394dac6d9e461060"
+    },
+    {
+      "path": "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/TopKPenaltyS51C.lean",
+      "exact_bytes": true,
+      "LF_normalized_equal": true,
+      "git_blob_sha256": "6a0449de6d2ebaca2c366eb20a29000b0c9144a128765448349f094283b4858e"
+    }
+  ],
+  "package_pins_sha256": {
+    "lean-toolchain": "ce4c4e3d87434b9663f46de25ce34b48a0cf0d392e0a320a0787b4674a2d7b61",
+    "lakefile.toml": "db41fdf1ef1859e5e84286a44001f6f65c1ba754f2158bb70bfe127280c77e2d",
+    "lake-manifest.json": "3b1bc25ac3bb39925386abc841a91cdd8aa59a3187977d30fa186e531e3a9f42"
+  },
+  "prior_gate_sha256": {
+    "tools/band1_export/s54/corpus_kernel_gate.json": "0f450489ff44d8488eb946de0807602950c2cf3963e542efb9bf010c8f58bf14",
+    "tools/band1_export/s55/kernel/kernel_gate.json": "09b9f393c683d247a73fbe3b85c78c73ee0d76e33bd9502b2f17e81c05b1f09c"
+  },
+  "preproof_attack_sha256": "d7dc2c82b46345e97466bd72cd50adbf4ad276791e9f8be74958503c31707fa6",
+  "audit_source_sha256": "d5b3e8c02f2ce5f612b3365791182587a32f2b8c7545f59701f496495ad99562",
+  "log_sha256": "1ad9603589dcf5b70f6acc8adbe276d7547aa70b35dda0fb8dc032b20cb7272f",
+  "producer_sha256": "d438d841b21d316ffbeeb62a5c9f6c09ddc3503b3f96326dc31b57fcf50b357e",
+  "standard_axioms_only": true,
+  "zero_sorry": true,
+  "unchanged_during_audit": true,
+  "open_S56_interfaces": [],
+  "discharged_under_common_atom": [
+    "AqidaLeanPhaseMath.ModelCollapse.S56.FiniteStationaryExistence"
+  ],
+  "inherited_corpus_interfaces_unchanged": true,
+  "unrestricted_boundary_fluctuation_claim": "ERROR_FOUND",
+  "anchored_stationary_existence": "KERNEL_CHECKED_UNDER_EXPLICIT_POSITIVE_ANCHOR",
+  "physical_fitted_invariant_scope": "Finite-state event probabilities through all fitted-law observables; pool representations may be nonunique.",
+  "neural_instantiation_authorized": false,
+  "public_claim_authorized": false,
+  "boundary": "Selected declarations and source closure, not every theorem in the repository. Repaired ergodicity requires fixed n, finite positive beta, fixed positive final additive smoothing and iid saturated fitting. No universal entropy rebound, stagnation, neural instantiation, or public priority follows."
+}

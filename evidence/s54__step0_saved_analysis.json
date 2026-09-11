@@ -1,0 +1,5401 @@
+{
+  "status": "SAVED_DATA_ANALYSIS_COMPLETE_MODEL_LABELS_UNASSIGNED",
+  "created_utc": "2026-09-07T06:42:43Z",
+  "GPU_used": false,
+  "scope": "Retrospective analysis; no confirmatory H1/H2 test or Sprint 54 result. Three independent seeds; temporal rows are dependent.",
+  "convention": {
+    "D_H": "H(source) - H(production): positive is entropy loss, negative is entropy gain",
+    "delta_H": "H(production) - H(source) = -D_H",
+    "S51F": [
+      {
+        "file": "sprint51c_neural_bridge_s51f_beta099.json",
+        "model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "beta": 0.99,
+        "generation_means": [
+          -0.12114694452396145,
+          -0.08426847261317233,
+          0.015583483874797821
+        ],
+        "mean_D_H": -0.06327731108744532,
+        "raw_rows": 302,
+        "maximum_sign_identity_error": 0.0
+      },
+      {
+        "file": "sprint51c_neural_bridge_s51f_beta103.json",
+        "model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "beta": 1.03,
+        "generation_means": [
+          0.020594109045831782,
+          0.046485574693854795,
+          0.08854654962473577
+        ],
+        "mean_D_H": 0.05187541112147411,
+        "raw_rows": 324,
+        "maximum_sign_identity_error": 0.0
+      }
+    ],
+    "convention_changed_between_51F_and_53C": false
+  },
+  "hypothesis_labels": {
+    "status": "AWAITING_EXACT_USER_DEFINITIONS",
+    "candidate_models": [
+      "constant",
+      "decay_plus_floor"
+    ],
+    "validation": "Leave one of three independent seeds out; separately fit generations 1-10 and evaluate 11-15. Retrospective comparisons only."
+  },
+  "initial_entropy": 4.144332815332757,
+  "vocabulary": 152064,
+  "log_vocabulary": 11.932056763842207,
+  "trajectories": [
+    {
+      "name": "near_warm_seed1",
+      "setting": "near_warm",
+      "seed_index": 1,
+      "generations": [
+        {
+          "generation": 1,
+          "D_H": -0.04519049134142614,
+          "entropy_before": 4.144332815332757,
+          "entropy_after": 4.189523306674184,
+          "decoder_price": -0.17277446219020465,
+          "signed_budget": -0.12758397084877854
+        },
+        {
+          "generation": 2,
+          "D_H": -0.044584670990938276,
+          "entropy_before": 4.189523306674184,
+          "entropy_after": 4.234107977665122,
+          "decoder_price": -0.17281844075583963,
+          "signed_budget": -0.12823376976490136
+        },
+        {
+          "generation": 3,
+          "D_H": -0.034530053975523216,
+          "entropy_before": 4.234107977665122,
+          "entropy_after": 4.268638031640645,
+          "decoder_price": -0.17275688946091947,
+          "signed_budget": -0.13822683548539624
+        },
+        {
+          "generation": 4,
+          "D_H": -0.013303352346765121,
+          "entropy_before": 4.268638031640645,
+          "entropy_after": 4.2819413839874105,
+          "decoder_price": -0.17257907294781621,
+          "signed_budget": -0.1592757206010511
+        },
+        {
+          "generation": 5,
+          "D_H": -0.12750127233516378,
+          "entropy_before": 4.2819413839874105,
+          "entropy_after": 4.4094426563225735,
+          "decoder_price": -0.172710221642412,
+          "signed_budget": -0.04520894930724822
+        },
+        {
+          "generation": 6,
+          "D_H": -0.15658590422309324,
+          "entropy_before": 4.4094426563225735,
+          "entropy_after": 4.566028560545668,
+          "decoder_price": -0.17705600075937353,
+          "signed_budget": -0.020470096536280298
+        },
+        {
+          "generation": 7,
+          "D_H": -0.03689056343176139,
+          "entropy_before": 4.566028560545668,
+          "entropy_after": 4.602919123977429,
+          "decoder_price": -0.17730342453351788,
+          "signed_budget": -0.14041286110175646
+        },
+        {
+          "generation": 8,
+          "D_H": -0.031354969980906616,
+          "entropy_before": 4.602919123977429,
+          "entropy_after": 4.634274093958336,
+          "decoder_price": -0.18147429543037918,
+          "signed_budget": -0.1501193254494726
+        },
+        {
+          "generation": 9,
+          "D_H": -0.07652239126054432,
+          "entropy_before": 4.634274093958336,
+          "entropy_after": 4.71079648521888,
+          "decoder_price": -0.18276538219044053,
+          "signed_budget": -0.10624299092989617
+        },
+        {
+          "generation": 10,
+          "D_H": 0.023010334890797145,
+          "entropy_before": 4.71079648521888,
+          "entropy_after": 4.687786150328083,
+          "decoder_price": -0.18342101517152481,
+          "signed_budget": -0.206431350062322
+        },
+        {
+          "generation": 11,
+          "D_H": -0.04494643652742253,
+          "entropy_before": 4.687786150328083,
+          "entropy_after": 4.732732586855505,
+          "decoder_price": -0.180574255199271,
+          "signed_budget": -0.13562781867184845
+        },
+        {
+          "generation": 12,
+          "D_H": -0.04886769460213007,
+          "entropy_before": 4.732732586855505,
+          "entropy_after": 4.781600281457635,
+          "decoder_price": -0.18424953704084596,
+          "signed_budget": -0.13538184243871587
+        },
+        {
+          "generation": 13,
+          "D_H": -0.08271801971099071,
+          "entropy_before": 4.781600281457635,
+          "entropy_after": 4.864318301168627,
+          "decoder_price": -0.1825304726250713,
+          "signed_budget": -0.09981245291408058
+        },
+        {
+          "generation": 14,
+          "D_H": -0.010562790828812233,
+          "entropy_before": 4.864318301168627,
+          "entropy_after": 4.8748810919974375,
+          "decoder_price": -0.18309256569592772,
+          "signed_budget": -0.17252977486711546
+        },
+        {
+          "generation": 15,
+          "D_H": -0.053633984512536356,
+          "entropy_before": 4.8748810919974375,
+          "entropy_after": 4.928515076509975,
+          "decoder_price": -0.18180709399229003,
+          "signed_budget": -0.12817310947975366
+        }
+      ]
+    },
+    {
+      "name": "near_cool_seed1",
+      "setting": "near_cool",
+      "seed_index": 1,
+      "generations": [
+        {
+          "generation": 1,
+          "D_H": 0.06650561567081974,
+          "entropy_before": 4.144332815332757,
+          "entropy_after": 4.077827199661938,
+          "decoder_price": 0.12749895727358904,
+          "signed_budget": 0.06099334160276932
+        },
+        {
+          "generation": 2,
+          "D_H": 0.04114004006567293,
+          "entropy_before": 4.077827199661938,
+          "entropy_after": 4.036687159596265,
+          "decoder_price": 0.1250722952864245,
+          "signed_budget": 0.08393225522075157
+        },
+        {
+          "generation": 3,
+          "D_H": 0.04655726522611266,
+          "entropy_before": 4.036687159596265,
+          "entropy_after": 3.990129894370152,
+          "decoder_price": 0.1241740264935407,
+          "signed_budget": 0.07761676126742803
+        },
+        {
+          "generation": 4,
+          "D_H": 0.03623510358176671,
+          "entropy_before": 3.990129894370152,
+          "entropy_after": 3.9538947907883855,
+          "decoder_price": 0.12328458965584946,
+          "signed_budget": 0.08704948607408276
+        },
+        {
+          "generation": 5,
+          "D_H": 0.15050113339242438,
+          "entropy_before": 3.9538947907883855,
+          "entropy_after": 3.8033936573959615,
+          "decoder_price": 0.12245089357147487,
+          "signed_budget": -0.028050239820949487
+        },
+        {
+          "generation": 6,
+          "D_H": -0.006240832746568272,
+          "entropy_before": 3.8033936573959615,
+          "entropy_after": 3.809634490142529,
+          "decoder_price": 0.11849389852953868,
+          "signed_budget": 0.12473473127610697
+        },
+        {
+          "generation": 7,
+          "D_H": -0.01968052437959919,
+          "entropy_before": 3.809634490142529,
+          "entropy_after": 3.8293150145221286,
+          "decoder_price": 0.12068087756227165,
+          "signed_budget": 0.14036140194187086
+        },
+        {
+          "generation": 8,
+          "D_H": 0.040870973207549254,
+          "entropy_before": 3.8293150145221286,
+          "entropy_after": 3.788444041314579,
+          "decoder_price": 0.12144732239621897,
+          "signed_budget": 0.08057634918866972
+        },
+        {
+          "generation": 9,
+          "D_H": 0.05894489881880634,
+          "entropy_before": 3.788444041314579,
+          "entropy_after": 3.729499142495773,
+          "decoder_price": 0.1203332639325995,
+          "signed_budget": 0.06138836511379314
+        },
+        {
+          "generation": 10,
+          "D_H": -0.09224382696106528,
+          "entropy_before": 3.729499142495773,
+          "entropy_after": 3.821742969456839,
+          "decoder_price": 0.11805419450011155,
+          "signed_budget": 0.21029802146117688
+        },
+        {
+          "generation": 11,
+          "D_H": 0.058435946781770796,
+          "entropy_before": 3.821742969456839,
+          "entropy_after": 3.763307022675068,
+          "decoder_price": 0.12020382360218086,
+          "signed_budget": 0.06176787682041006
+        },
+        {
+          "generation": 12,
+          "D_H": 0.02973882623314057,
+          "entropy_before": 3.763307022675068,
+          "entropy_after": 3.733568196441927,
+          "decoder_price": 0.1176340266641155,
+          "signed_budget": 0.08789520043097493
+        },
+        {
+          "generation": 13,
+          "D_H": 0.11647126863473428,
+          "entropy_before": 3.733568196441927,
+          "entropy_after": 3.617096927807193,
+          "decoder_price": 0.11743628187401933,
+          "signed_budget": 0.0009650132392850369
+        },
+        {
+          "generation": 14,
+          "D_H": -0.021100319248227712,
+          "entropy_before": 3.617096927807193,
+          "entropy_after": 3.6381972470554205,
+          "decoder_price": 0.11550953079886785,
+          "signed_budget": 0.13660985004709553
+        },
+        {
+          "generation": 15,
+          "D_H": 0.03279568838078273,
+          "entropy_before": 3.6381972470554205,
+          "entropy_after": 3.6054015586746377,
+          "decoder_price": 0.1157890654284627,
+          "signed_budget": 0.08299337704767999
+        }
+      ]
+    },
+    {
+      "name": "wide_warm_seed1",
+      "setting": "wide_warm",
+      "seed_index": 1,
+      "generations": [
+        {
+          "generation": 1,
+          "D_H": -0.18631910885215905,
+          "entropy_before": 4.144332815332757,
+          "entropy_after": 4.330651924184917,
+          "decoder_price": -0.410526722354449,
+          "signed_budget": -0.2242076135022899
+        },
+        {
+          "generation": 2,
+          "D_H": -0.18488933367372373,
+          "entropy_before": 4.330651924184917,
+          "entropy_after": 4.515541257858641,
+          "decoder_price": -0.41841139449163317,
+          "signed_budget": -0.23352206081790944
+        },
+        {
+          "generation": 3,
+          "D_H": -0.13472170597584804,
+          "entropy_before": 4.515541257858641,
+          "entropy_after": 4.650262963834488,
+          "decoder_price": -0.43051824799618,
+          "signed_budget": -0.295796542020332
+        },
+        {
+          "generation": 4,
+          "D_H": -0.20786314356668162,
+          "entropy_before": 4.650262963834488,
+          "entropy_after": 4.85812610740117,
+          "decoder_price": -0.4366980491865391,
+          "signed_budget": -0.22883490561985742
+        },
+        {
+          "generation": 5,
+          "D_H": -0.09909280375981325,
+          "entropy_before": 4.85812610740117,
+          "entropy_after": 4.957218911160983,
+          "decoder_price": -0.44073230240787614,
+          "signed_budget": -0.34163949864806287
+        },
+        {
+          "generation": 6,
+          "D_H": -0.16269883923266043,
+          "entropy_before": 4.957218911160983,
+          "entropy_after": 5.119917750393643,
+          "decoder_price": -0.44225671062475297,
+          "signed_budget": -0.27955787139209254
+        },
+        {
+          "generation": 7,
+          "D_H": -0.14500780049903364,
+          "entropy_before": 5.119917750393643,
+          "entropy_after": 5.264925550892677,
+          "decoder_price": -0.4519729702928862,
+          "signed_budget": -0.3069651697938526
+        },
+        {
+          "generation": 8,
+          "D_H": -0.08490871052835708,
+          "entropy_before": 5.264925550892677,
+          "entropy_after": 5.349834261421034,
+          "decoder_price": -0.4582679372862769,
+          "signed_budget": -0.3733592267579199
+        },
+        {
+          "generation": 9,
+          "D_H": -0.006391326190013274,
+          "entropy_before": 5.349834261421034,
+          "entropy_after": 5.356225587611047,
+          "decoder_price": -0.45985183612531866,
+          "signed_budget": -0.4534605099353053
+        },
+        {
+          "generation": 10,
+          "D_H": -0.035841239391935745,
+          "entropy_before": 5.356225587611047,
+          "entropy_after": 5.392066827002983,
+          "decoder_price": -0.46113233287664956,
+          "signed_budget": -0.42529109348471383
+        },
+        {
+          "generation": 11,
+          "D_H": -0.03992223107402017,
+          "entropy_before": 5.392066827002983,
+          "entropy_after": 5.431989058077004,
+          "decoder_price": -0.4647411153425257,
+          "signed_budget": -0.4248188842685055
+        },
+        {
+          "generation": 12,
+          "D_H": 0.10408199381990998,
+          "entropy_before": 5.431989058077004,
+          "entropy_after": 5.327907064257094,
+          "decoder_price": -0.4704830572039349,
+          "signed_budget": -0.5745650510238449
+        },
+        {
+          "generation": 13,
+          "D_H": 0.008133800818294401,
+          "entropy_before": 5.327907064257094,
+          "entropy_after": 5.319773263438799,
+          "decoder_price": -0.4598110614782047,
+          "signed_budget": -0.4679448622964991
+        },
+        {
+          "generation": 14,
+          "D_H": -0.04886195030268799,
+          "entropy_before": 5.319773263438799,
+          "entropy_after": 5.368635213741488,
+          "decoder_price": -0.4613196653430833,
+          "signed_budget": -0.4124577150403953
+        },
+        {
+          "generation": 15,
+          "D_H": 0.12430616219832785,
+          "entropy_before": 5.368635213741488,
+          "entropy_after": 5.2443290515431595,
+          "decoder_price": -0.46244553704883595,
+          "signed_budget": -0.5867516992471637
+        }
+      ]
+    },
+    {
+      "name": "wide_cool_seed1",
+      "setting": "wide_cool",
+      "seed_index": 1,
+      "generations": [
+        {
+          "generation": 1,
+          "D_H": 0.12682035142303158,
+          "entropy_before": 4.144332815332757,
+          "entropy_after": 4.017512463909727,
+          "decoder_price": 0.3540738185544275,
+          "signed_budget": 0.22725346713139594
+        },
+        {
+          "generation": 2,
+          "D_H": 0.26119130572239396,
+          "entropy_before": 4.017512463909727,
+          "entropy_after": 3.7563211581873324,
+          "decoder_price": 0.34069944611287817,
+          "signed_budget": 0.07950814039048418
+        },
+        {
+          "generation": 3,
+          "D_H": 0.20403477073913806,
+          "entropy_before": 3.7563211581873324,
+          "entropy_after": 3.552286387448194,
+          "decoder_price": 0.32762251150658306,
+          "signed_budget": 0.12358774076744501
+        },
+        {
+          "generation": 4,
+          "D_H": 0.09967734071138536,
+          "entropy_before": 3.552286387448194,
+          "entropy_after": 3.4526090467368085,
+          "decoder_price": 0.3116028832228682,
+          "signed_budget": 0.21192554251148288
+        },
+        {
+          "generation": 5,
+          "D_H": 0.08377076053137995,
+          "entropy_before": 3.4526090467368085,
+          "entropy_after": 3.3688382862054285,
+          "decoder_price": 0.29860679724556877,
+          "signed_budget": 0.21483603671418888
+        },
+        {
+          "generation": 6,
+          "D_H": 0.07601599755534158,
+          "entropy_before": 3.3688382862054285,
+          "entropy_after": 3.292822288650087,
+          "decoder_price": 0.29266714885321576,
+          "signed_budget": 0.21665115129787416
+        },
+        {
+          "generation": 7,
+          "D_H": 0.12793467539678233,
+          "entropy_before": 3.292822288650087,
+          "entropy_after": 3.164887613253305,
+          "decoder_price": 0.28688390728444624,
+          "signed_budget": 0.15894923188766386
+        },
+        {
+          "generation": 8,
+          "D_H": -0.026231409071410826,
+          "entropy_before": 3.164887613253305,
+          "entropy_after": 3.191119022324716,
+          "decoder_price": 0.27191854883243294,
+          "signed_budget": 0.2981499579038438
+        },
+        {
+          "generation": 9,
+          "D_H": 0.03382318649523354,
+          "entropy_before": 3.191119022324716,
+          "entropy_after": 3.157295835829482,
+          "decoder_price": 0.27317996018833873,
+          "signed_budget": 0.2393567736931052
+        },
+        {
+          "generation": 10,
+          "D_H": 0.1122813921681241,
+          "entropy_before": 3.157295835829482,
+          "entropy_after": 3.045014443661358,
+          "decoder_price": 0.26591138133667913,
+          "signed_budget": 0.153629989168555
+        },
+        {
+          "generation": 11,
+          "D_H": 0.007368761066403131,
+          "entropy_before": 3.045014443661358,
+          "entropy_after": 3.0376456825949547,
+          "decoder_price": 0.26145864536778707,
+          "signed_budget": 0.2540898843013839
+        },
+        {
+          "generation": 12,
+          "D_H": 0.0923960210607073,
+          "entropy_before": 3.0376456825949547,
+          "entropy_after": 2.9452496615342474,
+          "decoder_price": 0.25511148832980113,
+          "signed_budget": 0.1627154672690938
+        },
+        {
+          "generation": 13,
+          "D_H": 0.17661789002586456,
+          "entropy_before": 2.9452496615342474,
+          "entropy_after": 2.7686317715083826,
+          "decoder_price": 0.24787751017449933,
+          "signed_budget": 0.07125962014863477
+        },
+        {
+          "generation": 14,
+          "D_H": 0.16603632404090632,
+          "entropy_before": 2.7686317715083826,
+          "entropy_after": 2.6025954474674764,
+          "decoder_price": 0.22608960230471062,
+          "signed_budget": 0.060053278263804265
+        },
+        {
+          "generation": 15,
+          "D_H": -0.02973559729765793,
+          "entropy_before": 2.6025954474674764,
+          "entropy_after": 2.632331044765135,
+          "decoder_price": 0.20785277483304448,
+          "signed_budget": 0.2375883721307024
+        }
+      ]
+    },
+    {
+      "name": "near_warm_seed2",
+      "setting": "near_warm",
+      "seed_index": 2,
+      "generations": [
+        {
+          "generation": 1,
+          "D_H": -0.00914905444319988,
+          "entropy_before": 4.144332815332757,
+          "entropy_after": 4.153481869775957,
+          "decoder_price": -0.17277446219020465,
+          "signed_budget": -0.1636254077470048
+        },
+        {
+          "generation": 2,
+          "D_H": -0.07538707781280905,
+          "entropy_before": 4.153481869775957,
+          "entropy_after": 4.228868947588767,
+          "decoder_price": -0.17274820727498907,
+          "signed_budget": -0.09736112946218001
+        },
+        {
+          "generation": 3,
+          "D_H": -0.04166335352950429,
+          "entropy_before": 4.228868947588767,
+          "entropy_after": 4.270532301118271,
+          "decoder_price": -0.17461731027182387,
+          "signed_budget": -0.13295395674231958
+        },
+        {
+          "generation": 4,
+          "D_H": -0.10301926017296445,
+          "entropy_before": 4.270532301118271,
+          "entropy_after": 4.373551561291236,
+          "decoder_price": -0.17091664753781508,
+          "signed_budget": -0.06789738736485061
+        },
+        {
+          "generation": 5,
+          "D_H": -0.04930029058524989,
+          "entropy_before": 4.373551561291236,
+          "entropy_after": 4.422851851876485,
+          "decoder_price": -0.17346647635753398,
+          "signed_budget": -0.12416618577228411
+        },
+        {
+          "generation": 6,
+          "D_H": -0.01733827229677236,
+          "entropy_before": 4.422851851876485,
+          "entropy_after": 4.440190124173257,
+          "decoder_price": -0.17169532364548756,
+          "signed_budget": -0.15435705134871525
+        },
+        {
+          "generation": 7,
+          "D_H": -0.13072944457929014,
+          "entropy_before": 4.440190124173257,
+          "entropy_after": 4.570919568752548,
+          "decoder_price": -0.17152715065012314,
+          "signed_budget": -0.04079770607083296
+        },
+        {
+          "generation": 8,
+          "D_H": -0.04312945871456285,
+          "entropy_before": 4.570919568752548,
+          "entropy_after": 4.61404902746711,
+          "decoder_price": -0.17613006573786705,
+          "signed_budget": -0.1330006070233042
+        },
+        {
+          "generation": 9,
+          "D_H": -0.04441968843210699,
+          "entropy_before": 4.61404902746711,
+          "entropy_after": 4.658468715899218,
+          "decoder_price": -0.17631609415147148,
+          "signed_budget": -0.1318964057193645
+        },
+        {
+          "generation": 10,
+          "D_H": -0.08557909434582908,
+          "entropy_before": 4.658468715899218,
+          "entropy_after": 4.744047810245046,
+          "decoder_price": -0.1765404330174225,
+          "signed_budget": -0.09096133867159342
+        },
+        {
+          "generation": 11,
+          "D_H": -0.10890440220819161,
+          "entropy_before": 4.744047810245046,
+          "entropy_after": 4.852952212453237,
+          "decoder_price": -0.17575655489463513,
+          "signed_budget": -0.06685215268644348
+        },
+        {
+          "generation": 12,
+          "D_H": -0.004893063067260687,
+          "entropy_before": 4.852952212453237,
+          "entropy_after": 4.857845275520499,
+          "decoder_price": -0.17984128924572546,
+          "signed_budget": -0.17494822617846478
+        },
+        {
+          "generation": 13,
+          "D_H": -0.016632795274533176,
+          "entropy_before": 4.857845275520499,
+          "entropy_after": 4.874478070795032,
+          "decoder_price": -0.1799861948038861,
+          "signed_budget": -0.1633533995293529
+        },
+        {
+          "generation": 14,
+          "D_H": -0.10184113381871339,
+          "entropy_before": 4.874478070795032,
+          "entropy_after": 4.976319204613745,
+          "decoder_price": -0.18142582439106036,
+          "signed_budget": -0.07958469057234696
+        },
+        {
+          "generation": 15,
+          "D_H": -0.06822453127916824,
+          "entropy_before": 4.976319204613745,
+          "entropy_after": 5.044543735892914,
+          "decoder_price": -0.1826911312783263,
+          "signed_budget": -0.11446659999915809
+        }
+      ]
+    },
+    {
+      "name": "near_cool_seed2",
+      "setting": "near_cool",
+      "seed_index": 2,
+      "generations": [
+        {
+          "generation": 1,
+          "D_H": 0.05694642492197982,
+          "entropy_before": 4.144332815332757,
+          "entropy_after": 4.087386390410778,
+          "decoder_price": 0.12749895727358904,
+          "signed_budget": 0.07055253235160924
+        },
+        {
+          "generation": 2,
+          "D_H": -0.0099255614035646,
+          "entropy_before": 4.087386390410778,
+          "entropy_after": 4.097311951814342,
+          "decoder_price": 0.12712385451190159,
+          "signed_budget": 0.1370494159154662
+        },
+        {
+          "generation": 3,
+          "D_H": 0.037896809759946255,
+          "entropy_before": 4.097311951814342,
+          "entropy_after": 4.059415142054396,
+          "decoder_price": 0.12711287041386513,
+          "signed_budget": 0.08921606065391886
+        },
+        {
+          "generation": 4,
+          "D_H": 0.08896721102348157,
+          "entropy_before": 4.059415142054396,
+          "entropy_after": 3.9704479310309146,
+          "decoder_price": 0.12609648055407818,
+          "signed_budget": 0.0371292695305966
+        },
+        {
+          "generation": 5,
+          "D_H": 0.05086025950988261,
+          "entropy_before": 3.9704479310309146,
+          "entropy_after": 3.9195876715210316,
+          "decoder_price": 0.12382468299292218,
+          "signed_budget": 0.07296442348303958
+        },
+        {
+          "generation": 6,
+          "D_H": 0.04520257183680719,
+          "entropy_before": 3.9195876715210316,
+          "entropy_after": 3.8743850996842246,
+          "decoder_price": 0.12110375757340272,
+          "signed_budget": 0.07590118573659552
+        },
+        {
+          "generation": 7,
+          "D_H": 0.0304206776476992,
+          "entropy_before": 3.8743850996842246,
+          "entropy_after": 3.8439644220365254,
+          "decoder_price": 0.12137751873951444,
+          "signed_budget": 0.09095684109181525
+        },
+        {
+          "generation": 8,
+          "D_H": 0.09596932841991791,
+          "entropy_before": 3.8439644220365254,
+          "entropy_after": 3.7479950936166073,
+          "decoder_price": 0.11850775543313319,
+          "signed_budget": 0.022538427013215297
+        },
+        {
+          "generation": 9,
+          "D_H": 0.04509006182707265,
+          "entropy_before": 3.7479950936166073,
+          "entropy_after": 3.702905031789535,
+          "decoder_price": 0.11538073057817338,
+          "signed_budget": 0.07029066875110074
+        },
+        {
+          "generation": 10,
+          "D_H": -0.05968801986679623,
+          "entropy_before": 3.702905031789535,
+          "entropy_after": 3.7625930516563306,
+          "decoder_price": 0.1135509273797286,
+          "signed_budget": 0.17323894724652483
+        },
+        {
+          "generation": 11,
+          "D_H": -0.008799759522341109,
+          "entropy_before": 3.7625930516563306,
+          "entropy_after": 3.7713928111786723,
+          "decoder_price": 0.11649770328035995,
+          "signed_budget": 0.12529746280270104
+        },
+        {
+          "generation": 12,
+          "D_H": -0.0170996622971089,
+          "entropy_before": 3.7713928111786723,
+          "entropy_after": 3.788492473475781,
+          "decoder_price": 0.1173227823110382,
+          "signed_budget": 0.1344224446081471
+        },
+        {
+          "generation": 13,
+          "D_H": 0.029790840827767836,
+          "entropy_before": 3.788492473475781,
+          "entropy_after": 3.7587016326480134,
+          "decoder_price": 0.11765717371277387,
+          "signed_budget": 0.08786633288500603
+        },
+        {
+          "generation": 14,
+          "D_H": 0.011556215027944097,
+          "entropy_before": 3.7587016326480134,
+          "entropy_after": 3.74714541762007,
+          "decoder_price": 0.1195015058775524,
+          "signed_budget": 0.1079452908496083
+        },
+        {
+          "generation": 15,
+          "D_H": 0.07248458443590917,
+          "entropy_before": 3.74714541762007,
+          "entropy_after": 3.67466083318416,
+          "decoder_price": 0.11974595470938837,
+          "signed_budget": 0.047261370273479195
+        }
+      ]
+    },
+    {
+      "name": "wide_warm_seed2",
+      "setting": "wide_warm",
+      "seed_index": 2,
+      "generations": [
+        {
+          "generation": 1,
+          "D_H": -0.1391711483367587,
+          "entropy_before": 4.144332815332757,
+          "entropy_after": 4.283503963669516,
+          "decoder_price": -0.410526722354449,
+          "signed_budget": -0.2713555740176903
+        },
+        {
+          "generation": 2,
+          "D_H": -0.20506305404757877,
+          "entropy_before": 4.283503963669516,
+          "entropy_after": 4.488567017717095,
+          "decoder_price": -0.4173181311306987,
+          "signed_budget": -0.21225507708311991
+        },
+        {
+          "generation": 3,
+          "D_H": -0.27931261260840046,
+          "entropy_before": 4.488567017717095,
+          "entropy_after": 4.7678796303254956,
+          "decoder_price": -0.42851756025996846,
+          "signed_budget": -0.14920494765156794
+        },
+        {
+          "generation": 4,
+          "D_H": -0.1530398655303059,
+          "entropy_before": 4.7678796303254956,
+          "entropy_after": 4.9209194958558005,
+          "decoder_price": -0.4420575391812134,
+          "signed_budget": -0.28901767365090747
+        },
+        {
+          "generation": 5,
+          "D_H": -0.21883956540222824,
+          "entropy_before": 4.9209194958558005,
+          "entropy_after": 5.1397590612580295,
+          "decoder_price": -0.44577769206236617,
+          "signed_budget": -0.22693812666013785
+        },
+        {
+          "generation": 6,
+          "D_H": -0.09020085226733424,
+          "entropy_before": 5.1397590612580295,
+          "entropy_after": 5.229959913525365,
+          "decoder_price": -0.45491749360305855,
+          "signed_budget": -0.3647166413357243
+        },
+        {
+          "generation": 7,
+          "D_H": -0.12774543864327254,
+          "entropy_before": 5.229959913525365,
+          "entropy_after": 5.357705352168637,
+          "decoder_price": -0.4596111768432195,
+          "signed_budget": -0.33186573819994697
+        },
+        {
+          "generation": 8,
+          "D_H": -0.06169099166703877,
+          "entropy_before": 5.357705352168637,
+          "entropy_after": 5.419396343835675,
+          "decoder_price": -0.4585909028579275,
+          "signed_budget": -0.39689991119088874
+        },
+        {
+          "generation": 9,
+          "D_H": -0.025315880309747157,
+          "entropy_before": 5.419396343835675,
+          "entropy_after": 5.444712224145421,
+          "decoder_price": -0.4661696384231713,
+          "signed_budget": -0.4408537581134242
+        },
+        {
+          "generation": 10,
+          "D_H": 0.0580052978583767,
+          "entropy_before": 5.444712224145421,
+          "entropy_after": 5.3867069262870455,
+          "decoder_price": -0.46554541077785805,
+          "signed_budget": -0.5235507086362348
+        },
+        {
+          "generation": 11,
+          "D_H": 0.02251849105830772,
+          "entropy_before": 5.3867069262870455,
+          "entropy_after": 5.364188435228737,
+          "decoder_price": -0.4659668055688285,
+          "signed_budget": -0.48848529662713625
+        },
+        {
+          "generation": 12,
+          "D_H": 0.0945081598057404,
+          "entropy_before": 5.364188435228737,
+          "entropy_after": 5.269680275422997,
+          "decoder_price": -0.4647938692332684,
+          "signed_budget": -0.5593020290390087
+        },
+        {
+          "generation": 13,
+          "D_H": 0.020400672911854913,
+          "entropy_before": 5.269680275422997,
+          "entropy_after": 5.249279602511143,
+          "decoder_price": -0.45717510757662133,
+          "signed_budget": -0.47757578048847626
+        },
+        {
+          "generation": 14,
+          "D_H": 0.012014603770915986,
+          "entropy_before": 5.249279602511143,
+          "entropy_after": 5.237264998740226,
+          "decoder_price": -0.45822608562829215,
+          "signed_budget": -0.4702406893992081
+        },
+        {
+          "generation": 15,
+          "D_H": 0.025873243235889347,
+          "entropy_before": 5.237264998740226,
+          "entropy_after": 5.211391755504338,
+          "decoder_price": -0.4602647250543752,
+          "signed_budget": -0.48613796829026457
+        }
+      ]
+    },
+    {
+      "name": "wide_cool_seed2",
+      "setting": "wide_cool",
+      "seed_index": 2,
+      "generations": [
+        {
+          "generation": 1,
+          "D_H": 0.14264749212629124,
+          "entropy_before": 4.144332815332757,
+          "entropy_after": 4.001685323206466,
+          "decoder_price": 0.3540738185544275,
+          "signed_budget": 0.21142632642813625
+        },
+        {
+          "generation": 2,
+          "D_H": 0.1602453220648936,
+          "entropy_before": 4.001685323206466,
+          "entropy_after": 3.8414400011415726,
+          "decoder_price": 0.34635365819988145,
+          "signed_budget": 0.18610833613498784
+        },
+        {
+          "generation": 3,
+          "D_H": 0.17971606192632816,
+          "entropy_before": 3.8414400011415726,
+          "entropy_after": 3.661723939215245,
+          "decoder_price": 0.3335166802187568,
+          "signed_budget": 0.15380061829242864
+        },
+        {
+          "generation": 4,
+          "D_H": 0.07867437183509639,
+          "entropy_before": 3.661723939215245,
+          "entropy_after": 3.583049567380148,
+          "decoder_price": 0.32324424838838905,
+          "signed_budget": 0.24456987655329263
+        },
+        {
+          "generation": 5,
+          "D_H": 0.11337771051627223,
+          "entropy_before": 3.583049567380148,
+          "entropy_after": 3.469671856863876,
+          "decoder_price": 0.3205296678973898,
+          "signed_budget": 0.20715195738111758
+        },
+        {
+          "generation": 6,
+          "D_H": 0.21159133259389074,
+          "entropy_before": 3.469671856863876,
+          "entropy_after": 3.2580805242699853,
+          "decoder_price": 0.30722803063678006,
+          "signed_budget": 0.0956366980428893
+        },
+        {
+          "generation": 7,
+          "D_H": 0.05799236823962382,
+          "entropy_before": 3.2580805242699853,
+          "entropy_after": 3.200088156030361,
+          "decoder_price": 0.287032383216595,
+          "signed_budget": 0.22904001497697118
+        },
+        {
+          "generation": 8,
+          "D_H": -0.07121061945651073,
+          "entropy_before": 3.200088156030361,
+          "entropy_after": 3.271298775486872,
+          "decoder_price": 0.282564474286617,
+          "signed_budget": 0.35377509374312777
+        },
+        {
+          "generation": 9,
+          "D_H": 0.1450066125019721,
+          "entropy_before": 3.271298775486872,
+          "entropy_after": 3.1262921629849005,
+          "decoder_price": 0.2859136358269794,
+          "signed_budget": 0.14090702332500726
+        },
+        {
+          "generation": 10,
+          "D_H": 0.03188935767625206,
+          "entropy_before": 3.1262921629849005,
+          "entropy_after": 3.094402805308648,
+          "decoder_price": 0.2659156349879026,
+          "signed_budget": 0.23402627731165052
+        },
+        {
+          "generation": 11,
+          "D_H": 0.05692785716373123,
+          "entropy_before": 3.094402805308648,
+          "entropy_after": 3.037474948144917,
+          "decoder_price": 0.2675516347869647,
+          "signed_budget": 0.2106237776232335
+        },
+        {
+          "generation": 12,
+          "D_H": 0.04900197066232655,
+          "entropy_before": 3.037474948144917,
+          "entropy_after": 2.98847297748259,
+          "decoder_price": 0.26568718536514224,
+          "signed_budget": 0.2166852147028157
+        },
+        {
+          "generation": 13,
+          "D_H": 0.010122564738202729,
+          "entropy_before": 2.98847297748259,
+          "entropy_after": 2.978350412744388,
+          "decoder_price": 0.2608835951114203,
+          "signed_budget": 0.25076103037321756
+        },
+        {
+          "generation": 14,
+          "D_H": 0.1767708910286298,
+          "entropy_before": 2.978350412744388,
+          "entropy_after": 2.801579521715758,
+          "decoder_price": 0.26138324295853577,
+          "signed_budget": 0.084612351929906
+        },
+        {
+          "generation": 15,
+          "D_H": 0.08308152090893668,
+          "entropy_before": 2.801579521715758,
+          "entropy_after": 2.7184980008068207,
+          "decoder_price": 0.23990639472488484,
+          "signed_budget": 0.15682487381594817
+        }
+      ]
+    },
+    {
+      "name": "near_warm_seed3",
+      "setting": "near_warm",
+      "seed_index": 3,
+      "generations": [
+        {
+          "generation": 1,
+          "D_H": 0.006645539916778555,
+          "entropy_before": 4.144332815332757,
+          "entropy_after": 4.1376872754159795,
+          "decoder_price": -0.17277446219020465,
+          "signed_budget": -0.17942000210698322
+        },
+        {
+          "generation": 2,
+          "D_H": -0.11120526458826749,
+          "entropy_before": 4.1376872754159795,
+          "entropy_after": 4.248892540004246,
+          "decoder_price": -0.1705392464909863,
+          "signed_budget": -0.05933398190271883
+        },
+        {
+          "generation": 3,
+          "D_H": -0.044734500578443484,
+          "entropy_before": 4.248892540004246,
+          "entropy_after": 4.29362704058269,
+          "decoder_price": -0.17319890834684684,
+          "signed_budget": -0.12846440776840334
+        },
+        {
+          "generation": 4,
+          "D_H": -0.05460338243430492,
+          "entropy_before": 4.29362704058269,
+          "entropy_after": 4.348230423016995,
+          "decoder_price": -0.17477146955533668,
+          "signed_budget": -0.1201680871210318
+        },
+        {
+          "generation": 5,
+          "D_H": -0.16943403715352542,
+          "entropy_before": 4.348230423016995,
+          "entropy_after": 4.51766446017052,
+          "decoder_price": -0.1751553499062245,
+          "signed_budget": -0.005721312752699076
+        },
+        {
+          "generation": 6,
+          "D_H": -0.08890756578734202,
+          "entropy_before": 4.51766446017052,
+          "entropy_after": 4.6065720259578615,
+          "decoder_price": -0.1801181805217002,
+          "signed_budget": -0.09121061473435818
+        },
+        {
+          "generation": 7,
+          "D_H": -0.08149941940641114,
+          "entropy_before": 4.6065720259578615,
+          "entropy_after": 4.688071445364273,
+          "decoder_price": -0.1778544811564623,
+          "signed_budget": -0.09635506175005112
+        },
+        {
+          "generation": 8,
+          "D_H": -0.01879083316283276,
+          "entropy_before": 4.688071445364273,
+          "entropy_after": 4.706862278527106,
+          "decoder_price": -0.1807387583860164,
+          "signed_budget": -0.16194792522318363
+        },
+        {
+          "generation": 9,
+          "D_H": 0.025468506024477137,
+          "entropy_before": 4.706862278527106,
+          "entropy_after": 4.681393772502629,
+          "decoder_price": -0.18076159138891515,
+          "signed_budget": -0.2062300974133923
+        },
+        {
+          "generation": 10,
+          "D_H": -0.09378134267820668,
+          "entropy_before": 4.681393772502629,
+          "entropy_after": 4.775175115180836,
+          "decoder_price": -0.17989611087689847,
+          "signed_budget": -0.0861147681986918
+        },
+        {
+          "generation": 11,
+          "D_H": 8.359867321621611e-05,
+          "entropy_before": 4.775175115180836,
+          "entropy_after": 4.77509151650762,
+          "decoder_price": -0.17758458931207094,
+          "signed_budget": -0.17766818798528716
+        },
+        {
+          "generation": 12,
+          "D_H": -0.10430845691407076,
+          "entropy_before": 4.77509151650762,
+          "entropy_after": 4.87939997342169,
+          "decoder_price": -0.17904155466432237,
+          "signed_budget": -0.0747330977502516
+        },
+        {
+          "generation": 13,
+          "D_H": -0.08216089028936062,
+          "entropy_before": 4.87939997342169,
+          "entropy_after": 4.9615608637110515,
+          "decoder_price": -0.18090786653979013,
+          "signed_budget": -0.09874697625042952
+        },
+        {
+          "generation": 14,
+          "D_H": 0.015509465438204337,
+          "entropy_before": 4.9615608637110515,
+          "entropy_after": 4.9460513982728465,
+          "decoder_price": -0.1835221038501204,
+          "signed_budget": -0.19903156928832477
+        },
+        {
+          "generation": 15,
+          "D_H": -0.008750532987236444,
+          "entropy_before": 4.9460513982728465,
+          "entropy_after": 4.954801931260084,
+          "decoder_price": -0.18340005430813944,
+          "signed_budget": -0.174649521320903
+        }
+      ]
+    },
+    {
+      "name": "near_cool_seed3",
+      "setting": "near_cool",
+      "seed_index": 3,
+      "generations": [
+        {
+          "generation": 1,
+          "D_H": 0.08236097258361866,
+          "entropy_before": 4.144332815332757,
+          "entropy_after": 4.061971842749139,
+          "decoder_price": 0.12749895727358904,
+          "signed_budget": 0.045137984689970406
+        },
+        {
+          "generation": 2,
+          "D_H": -0.005866508693356678,
+          "entropy_before": 4.061971842749139,
+          "entropy_after": 4.0678383514424965,
+          "decoder_price": 0.12514780178023896,
+          "signed_budget": 0.13101431047359566
+        },
+        {
+          "generation": 3,
+          "D_H": 0.09282151617739155,
+          "entropy_before": 4.0678383514424965,
+          "entropy_after": 3.9750168352651043,
+          "decoder_price": 0.12476694731084872,
+          "signed_budget": 0.03194543113345719
+        },
+        {
+          "generation": 4,
+          "D_H": 0.04999024369085155,
+          "entropy_before": 3.9750168352651043,
+          "entropy_after": 3.9250265915742526,
+          "decoder_price": 0.1236957200975136,
+          "signed_budget": 0.07370547640666204
+        },
+        {
+          "generation": 5,
+          "D_H": 0.09331260850827738,
+          "entropy_before": 3.9250265915742526,
+          "entropy_after": 3.831713983065975,
+          "decoder_price": 0.12090450670792882,
+          "signed_budget": 0.02759189819965145
+        },
+        {
+          "generation": 6,
+          "D_H": 0.04535491751841721,
+          "entropy_before": 3.831713983065975,
+          "entropy_after": 3.786359065547558,
+          "decoder_price": 0.11960045606682829,
+          "signed_budget": 0.07424553854841107
+        },
+        {
+          "generation": 7,
+          "D_H": -0.060501960895164075,
+          "entropy_before": 3.786359065547558,
+          "entropy_after": 3.8468610264427223,
+          "decoder_price": 0.1182102655220082,
+          "signed_budget": 0.17871222641717227
+        },
+        {
+          "generation": 8,
+          "D_H": 0.029640156887718743,
+          "entropy_before": 3.8468610264427223,
+          "entropy_after": 3.817220869555004,
+          "decoder_price": 0.1174799221956267,
+          "signed_budget": 0.08783976530790794
+        },
+        {
+          "generation": 9,
+          "D_H": -0.003884308988581854,
+          "entropy_before": 3.817220869555004,
+          "entropy_after": 3.821105178543585,
+          "decoder_price": 0.11838983126346646,
+          "signed_budget": 0.1222741402520483
+        },
+        {
+          "generation": 10,
+          "D_H": -0.054762073636809974,
+          "entropy_before": 3.821105178543585,
+          "entropy_after": 3.875867252180395,
+          "decoder_price": 0.11904411942616025,
+          "signed_budget": 0.17380619306297024
+        },
+        {
+          "generation": 11,
+          "D_H": 0.01110073552373645,
+          "entropy_before": 3.875867252180395,
+          "entropy_after": 3.8647665166566583,
+          "decoder_price": 0.11995008292134943,
+          "signed_budget": 0.10884934739761298
+        },
+        {
+          "generation": 12,
+          "D_H": 0.06030886628750905,
+          "entropy_before": 3.8647665166566583,
+          "entropy_after": 3.80445765036915,
+          "decoder_price": 0.12003829797047758,
+          "signed_budget": 0.059729431682968535
+        },
+        {
+          "generation": 13,
+          "D_H": 0.03555158813761034,
+          "entropy_before": 3.80445765036915,
+          "entropy_after": 3.7689060622315393,
+          "decoder_price": 0.11787169935163272,
+          "signed_budget": 0.08232011121402238
+        },
+        {
+          "generation": 14,
+          "D_H": 0.10351946302871406,
+          "entropy_before": 3.7689060622315393,
+          "entropy_after": 3.6653865992028254,
+          "decoder_price": 0.1182174814361642,
+          "signed_budget": 0.014698018407450136
+        },
+        {
+          "generation": 15,
+          "D_H": 0.023973567616624437,
+          "entropy_before": 3.6653865992028254,
+          "entropy_after": 3.6414130315862003,
+          "decoder_price": 0.1143674249117467,
+          "signed_budget": 0.09039385729512225
+        }
+      ]
+    },
+    {
+      "name": "wide_warm_seed3",
+      "setting": "wide_warm",
+      "seed_index": 3,
+      "generations": [
+        {
+          "generation": 1,
+          "D_H": -0.13244100064307462,
+          "entropy_before": 4.144332815332757,
+          "entropy_after": 4.276773815975831,
+          "decoder_price": -0.410526722354449,
+          "signed_budget": -0.27808572171137436
+        },
+        {
+          "generation": 2,
+          "D_H": -0.1812347084339826,
+          "entropy_before": 4.276773815975831,
+          "entropy_after": 4.458008524409815,
+          "decoder_price": -0.4188106926495933,
+          "signed_budget": -0.23757598421561069
+        },
+        {
+          "generation": 3,
+          "D_H": -0.19844527964633848,
+          "entropy_before": 4.458008524409815,
+          "entropy_after": 4.656453804056153,
+          "decoder_price": -0.42709762577304594,
+          "signed_budget": -0.22865234612670746
+        },
+        {
+          "generation": 4,
+          "D_H": -0.1552089469192744,
+          "entropy_before": 4.656453804056153,
+          "entropy_after": 4.811662750975428,
+          "decoder_price": -0.4288491557270503,
+          "signed_budget": -0.2736402088077759
+        },
+        {
+          "generation": 5,
+          "D_H": -0.24941121039095837,
+          "entropy_before": 4.811662750975428,
+          "entropy_after": 5.061073961366386,
+          "decoder_price": -0.43823366508548633,
+          "signed_budget": -0.18882245469452802
+        },
+        {
+          "generation": 6,
+          "D_H": -0.07907995718468486,
+          "entropy_before": 5.061073961366386,
+          "entropy_after": 5.1401539185510705,
+          "decoder_price": -0.45163825428751314,
+          "signed_budget": -0.3725582971028283
+        },
+        {
+          "generation": 7,
+          "D_H": -0.21679711406991264,
+          "entropy_before": 5.1401539185510705,
+          "entropy_after": 5.356951032620984,
+          "decoder_price": -0.45214106460316983,
+          "signed_budget": -0.23534395053325718
+        },
+        {
+          "generation": 8,
+          "D_H": -0.033450771099239426,
+          "entropy_before": 5.356951032620984,
+          "entropy_after": 5.390401803720222,
+          "decoder_price": -0.46897013203000393,
+          "signed_budget": -0.4355193609307645
+        },
+        {
+          "generation": 9,
+          "D_H": -0.008140037122032661,
+          "entropy_before": 5.390401803720222,
+          "entropy_after": 5.398541840842256,
+          "decoder_price": -0.46984818222913544,
+          "signed_budget": -0.4617081451071028
+        },
+        {
+          "generation": 10,
+          "D_H": -0.05149178819059187,
+          "entropy_before": 5.398541840842256,
+          "entropy_after": 5.4500336290328475,
+          "decoder_price": -0.4704380544467364,
+          "signed_budget": -0.4189462662561446
+        },
+        {
+          "generation": 11,
+          "D_H": -0.036031028641627716,
+          "entropy_before": 5.4500336290328475,
+          "entropy_after": 5.486064657674476,
+          "decoder_price": -0.4735883343518585,
+          "signed_budget": -0.43755730571023077
+        },
+        {
+          "generation": 12,
+          "D_H": 0.09240636665936666,
+          "entropy_before": 5.486064657674476,
+          "entropy_after": 5.393658291015108,
+          "decoder_price": -0.47823005625489057,
+          "signed_budget": -0.5706364229142572
+        },
+        {
+          "generation": 13,
+          "D_H": 0.07046973734197662,
+          "entropy_before": 5.393658291015108,
+          "entropy_after": 5.323188553673132,
+          "decoder_price": -0.47477963820102376,
+          "signed_budget": -0.5452493755430003
+        },
+        {
+          "generation": 14,
+          "D_H": 0.1223236842923983,
+          "entropy_before": 5.323188553673132,
+          "entropy_after": 5.200864869380734,
+          "decoder_price": -0.47333343673821904,
+          "signed_budget": -0.5956571210306173
+        },
+        {
+          "generation": 15,
+          "D_H": 0.056987052731189626,
+          "entropy_before": 5.200864869380734,
+          "entropy_after": 5.143877816649544,
+          "decoder_price": -0.4634148622178863,
+          "signed_budget": -0.520401914949076
+        }
+      ]
+    },
+    {
+      "name": "wide_cool_seed3",
+      "setting": "wide_cool",
+      "seed_index": 3,
+      "generations": [
+        {
+          "generation": 1,
+          "D_H": 0.2143840846226126,
+          "entropy_before": 4.144332815332757,
+          "entropy_after": 3.9299487307101453,
+          "decoder_price": 0.3540738185544275,
+          "signed_budget": 0.1396897339318149
+        },
+        {
+          "generation": 2,
+          "D_H": 0.16074676441418495,
+          "entropy_before": 3.9299487307101453,
+          "entropy_after": 3.7692019662959604,
+          "decoder_price": 0.3379817296229548,
+          "signed_budget": 0.17723496520876986
+        },
+        {
+          "generation": 3,
+          "D_H": 0.18335081834367206,
+          "entropy_before": 3.7692019662959604,
+          "entropy_after": 3.5858511479522877,
+          "decoder_price": 0.32130686222721205,
+          "signed_budget": 0.13795604388354
+        },
+        {
+          "generation": 4,
+          "D_H": 0.0615944993565781,
+          "entropy_before": 3.5858511479522877,
+          "entropy_after": 3.52425664859571,
+          "decoder_price": 0.30719810088678606,
+          "signed_budget": 0.24560360153020797
+        },
+        {
+          "generation": 5,
+          "D_H": 0.07498772332798363,
+          "entropy_before": 3.52425664859571,
+          "entropy_after": 3.4492689252677264,
+          "decoder_price": 0.307484060712926,
+          "signed_budget": 0.23249633738494235
+        },
+        {
+          "generation": 6,
+          "D_H": 0.03596413579056222,
+          "entropy_before": 3.4492689252677264,
+          "entropy_after": 3.4133047894771638,
+          "decoder_price": 0.2994181968027888,
+          "signed_budget": 0.26345406101222657
+        },
+        {
+          "generation": 7,
+          "D_H": 0.14361388724108137,
+          "entropy_before": 3.4133047894771638,
+          "entropy_after": 3.269690902236083,
+          "decoder_price": 0.298820556603256,
+          "signed_budget": 0.1552066693621746
+        },
+        {
+          "generation": 8,
+          "D_H": 0.24086587007096028,
+          "entropy_before": 3.269690902236083,
+          "entropy_after": 3.0288250321651224,
+          "decoder_price": 0.2839371021397161,
+          "signed_budget": 0.04307123206875589
+        },
+        {
+          "generation": 9,
+          "D_H": 0.025451417345083775,
+          "entropy_before": 3.0288250321651224,
+          "entropy_after": 3.0033736148200383,
+          "decoder_price": 0.25222976044761625,
+          "signed_budget": 0.22677834310253248
+        },
+        {
+          "generation": 10,
+          "D_H": 0.05907433146901907,
+          "entropy_before": 3.0033736148200383,
+          "entropy_after": 2.944299283351019,
+          "decoder_price": 0.25246790763896976,
+          "signed_budget": 0.19339357616995073
+        },
+        {
+          "generation": 11,
+          "D_H": 0.11468543618164981,
+          "entropy_before": 2.944299283351019,
+          "entropy_after": 2.82961384716937,
+          "decoder_price": 0.23773795590882155,
+          "signed_budget": 0.12305251972717174
+        },
+        {
+          "generation": 12,
+          "D_H": 0.15406294043560798,
+          "entropy_before": 2.82961384716937,
+          "entropy_after": 2.6755509067337617,
+          "decoder_price": 0.226853968283054,
+          "signed_budget": 0.07279102784744604
+        },
+        {
+          "generation": 13,
+          "D_H": -0.12534577969402874,
+          "entropy_before": 2.6755509067337617,
+          "entropy_after": 2.800896686427791,
+          "decoder_price": 0.21335025492638438,
+          "signed_budget": 0.33869603462041314
+        },
+        {
+          "generation": 14,
+          "D_H": 0.14823274231475345,
+          "entropy_before": 2.800896686427791,
+          "entropy_after": 2.652663944113037,
+          "decoder_price": 0.22659617493844686,
+          "signed_budget": 0.07836343262369341
+        },
+        {
+          "generation": 15,
+          "D_H": -0.17097983231994934,
+          "entropy_before": 2.652663944113037,
+          "entropy_after": 2.823643776432986,
+          "decoder_price": 0.21027365023829292,
+          "signed_budget": 0.3812534825582423
+        }
+      ]
+    }
+  ],
+  "curves": [
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 1,
+      "seed_drifts": [
+        -0.04519049134142614,
+        -0.00914905444319988,
+        0.006645539916778555
+      ],
+      "mean_D_H": -0.015898001955949155,
+      "between_seed_SE": 0.015339543165163873,
+      "mean_entropy_before": 4.144332815332757,
+      "mean_entropy_after": 4.160230817288707,
+      "mean_decoder_price": -0.17277446219020465,
+      "mean_signed_budget": -0.15687646023425553,
+      "forecast_error": 0.13711473300735508,
+      "price_change": 5.273559366969494e-16,
+      "budget_change_contribution": 0.13711473300735458
+    },
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 2,
+      "seed_drifts": [
+        -0.044584670990938276,
+        -0.07538707781280905,
+        -0.11120526458826749
+      ],
+      "mean_D_H": -0.07705900446400493,
+      "between_seed_SE": 0.01924986906328075,
+      "mean_entropy_before": 4.160230817288707,
+      "mean_entropy_after": 4.237289821752712,
+      "mean_decoder_price": -0.17203529817393834,
+      "mean_signed_budget": -0.09497629370993341,
+      "forecast_error": 0.0759537304992993,
+      "price_change": 0.0007391640162668356,
+      "budget_change_contribution": 0.07521456648303247
+    },
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 3,
+      "seed_drifts": [
+        -0.034530053975523216,
+        -0.04166335352950429,
+        -0.044734500578443484
+      ],
+      "mean_D_H": -0.04030930269449033,
+      "between_seed_SE": 0.0030225691536513687,
+      "mean_entropy_before": 4.237289821752712,
+      "mean_entropy_after": 4.277599124447202,
+      "mean_decoder_price": -0.1735243693598634,
+      "mean_signed_budget": -0.13321506666537306,
+      "forecast_error": 0.1127034322688139,
+      "price_change": -0.000749907169658226,
+      "budget_change_contribution": 0.11345333943847212
+    },
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 4,
+      "seed_drifts": [
+        -0.013303352346765121,
+        -0.10301926017296445,
+        -0.05460338243430492
+      ],
+      "mean_D_H": -0.05697533165134483,
+      "between_seed_SE": 0.025925892055279,
+      "mean_entropy_before": 4.277599124447202,
+      "mean_entropy_after": 4.334574456098547,
+      "mean_decoder_price": -0.172755730013656,
+      "mean_signed_budget": -0.11578039836231117,
+      "forecast_error": 0.0960374033119594,
+      "price_change": 1.8732176549185464e-05,
+      "budget_change_contribution": 0.09601867113541024
+    },
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 5,
+      "seed_drifts": [
+        -0.12750127233516378,
+        -0.04930029058524989,
+        -0.16943403715352542
+      ],
+      "mean_D_H": -0.11541186669131304,
+      "between_seed_SE": 0.035202483637516456,
+      "mean_entropy_before": 4.334574456098547,
+      "mean_entropy_after": 4.44998632278986,
+      "mean_decoder_price": -0.17377734930205682,
+      "mean_signed_budget": -0.0583654826107438,
+      "forecast_error": 0.03760086827199119,
+      "price_change": -0.001002887111851647,
+      "budget_change_contribution": 0.038603755383842864
+    },
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 6,
+      "seed_drifts": [
+        -0.15658590422309324,
+        -0.01733827229677236,
+        -0.08890756578734202
+      ],
+      "mean_D_H": -0.0876105807690692,
+      "between_seed_SE": 0.040202559524136657,
+      "mean_entropy_before": 4.44998632278986,
+      "mean_entropy_after": 4.537596903558929,
+      "mean_decoder_price": -0.17628983497552042,
+      "mean_signed_budget": -0.08867925420645124,
+      "forecast_error": 0.06540215419423502,
+      "price_change": -0.003515372785315246,
+      "budget_change_contribution": 0.06891752697955031
+    },
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 7,
+      "seed_drifts": [
+        -0.03689056343176139,
+        -0.13072944457929014,
+        -0.08149941940641114
+      ],
+      "mean_D_H": -0.08303980913915422,
+      "between_seed_SE": 0.02709989854932771,
+      "mean_entropy_before": 4.537596903558929,
+      "mean_entropy_after": 4.620636712698084,
+      "mean_decoder_price": -0.17556168544670112,
+      "mean_signed_budget": -0.09252187630754685,
+      "forecast_error": 0.06997292582415,
+      "price_change": -0.002787223256495941,
+      "budget_change_contribution": 0.07276014908064592
+    },
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 8,
+      "seed_drifts": [
+        -0.031354969980906616,
+        -0.04312945871456285,
+        -0.01879083316283276
+      ],
+      "mean_D_H": -0.03109175395276741,
+      "between_seed_SE": 0.007027188519005644,
+      "mean_entropy_before": 4.620636712698084,
+      "mean_entropy_after": 4.651728466650851,
+      "mean_decoder_price": -0.17944770651808756,
+      "mean_signed_budget": -0.14835595256532014,
+      "forecast_error": 0.12192098101053682,
+      "price_change": -0.006673244327882383,
+      "budget_change_contribution": 0.1285942253384192
+    },
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 9,
+      "seed_drifts": [
+        -0.07652239126054432,
+        -0.04441968843210699,
+        0.025468506024477137
+      ],
+      "mean_D_H": -0.031824524556058054,
+      "between_seed_SE": 0.030108218130876635,
+      "mean_entropy_before": 4.651728466650851,
+      "mean_entropy_after": 4.683552991206909,
+      "mean_decoder_price": -0.17994768924360904,
+      "mean_signed_budget": -0.148123164687551,
+      "forecast_error": 0.12118821040724617,
+      "price_change": -0.007173227053403869,
+      "budget_change_contribution": 0.12836143746065004
+    },
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 10,
+      "seed_drifts": [
+        0.023010334890797145,
+        -0.08557909434582908,
+        -0.09378134267820668
+      ],
+      "mean_D_H": -0.05211670071107954,
+      "between_seed_SE": 0.037638069504916306,
+      "mean_entropy_before": 4.683552991206909,
+      "mean_entropy_after": 4.735669691917988,
+      "mean_decoder_price": -0.17995251968861525,
+      "mean_signed_budget": -0.12783581897753574,
+      "forecast_error": 0.10089603425222468,
+      "price_change": -0.007178057498410079,
+      "budget_change_contribution": 0.1080740917506348
+    },
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 11,
+      "seed_drifts": [
+        -0.04494643652742253,
+        -0.10890440220819161,
+        8.359867321621611e-05
+      ],
+      "mean_D_H": -0.05125574668746598,
+      "between_seed_SE": 0.03161988630621116,
+      "mean_entropy_before": 4.735669691917988,
+      "mean_entropy_after": 4.786925438605454,
+      "mean_decoder_price": -0.17797179980199235,
+      "mean_signed_budget": -0.12671605311452636,
+      "forecast_error": 0.10175698827583825,
+      "price_change": -0.005197337611787173,
+      "budget_change_contribution": 0.10695432588762542
+    },
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 12,
+      "seed_drifts": [
+        -0.04886769460213007,
+        -0.004893063067260687,
+        -0.10430845691407076
+      ],
+      "mean_D_H": -0.05268973819448717,
+      "between_seed_SE": 0.028762308358599564,
+      "mean_entropy_before": 4.786925438605454,
+      "mean_entropy_after": 4.839615176799941,
+      "mean_decoder_price": -0.18104412698363126,
+      "mean_signed_budget": -0.12835438878914407,
+      "forecast_error": 0.10032299676881706,
+      "price_change": -0.008269664793426085,
+      "budget_change_contribution": 0.10859266156224313
+    },
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 13,
+      "seed_drifts": [
+        -0.08271801971099071,
+        -0.016632795274533176,
+        -0.08216089028936062
+      ],
+      "mean_D_H": -0.060503901758294835,
+      "between_seed_SE": 0.02193614282700491,
+      "mean_entropy_before": 4.839615176799941,
+      "mean_entropy_after": 4.9001190785582365,
+      "mean_decoder_price": -0.18114151132291584,
+      "mean_signed_budget": -0.12063760956462101,
+      "forecast_error": 0.09250883320500938,
+      "price_change": -0.008367049132710663,
+      "budget_change_contribution": 0.10087588233772007
+    },
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 14,
+      "seed_drifts": [
+        -0.010562790828812233,
+        -0.10184113381871339,
+        0.015509465438204337
+      ],
+      "mean_D_H": -0.03229815306977376,
+      "between_seed_SE": 0.03557672584381905,
+      "mean_entropy_before": 4.9001190785582365,
+      "mean_entropy_after": 4.932417231628009,
+      "mean_decoder_price": -0.18268016464570283,
+      "mean_signed_budget": -0.15038201157592906,
+      "forecast_error": 0.12071458189353046,
+      "price_change": -0.009905702455497656,
+      "budget_change_contribution": 0.13062028434902812
+    },
+    {
+      "setting": "near_warm",
+      "beta": 0.9780462409775849,
+      "generation": 15,
+      "seed_drifts": [
+        -0.053633984512536356,
+        -0.06822453127916824,
+        -0.008750532987236444
+      ],
+      "mean_D_H": -0.04353634959298035,
+      "between_seed_SE": 0.017895630671886122,
+      "mean_entropy_before": 4.932417231628009,
+      "mean_entropy_after": 4.975953581220991,
+      "mean_decoder_price": -0.18263275985958527,
+      "mean_signed_budget": -0.1390964102666049,
+      "forecast_error": 0.10947638537032388,
+      "price_change": -0.009858297669380095,
+      "budget_change_contribution": 0.11933468303970397
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 1,
+      "seed_drifts": [
+        0.06650561567081974,
+        0.05694642492197982,
+        0.08236097258361866
+      ],
+      "mean_D_H": 0.06860433772547274,
+      "between_seed_SE": 0.007411214113500414,
+      "mean_entropy_before": 4.144332815332757,
+      "mean_entropy_after": 4.075728477607285,
+      "mean_decoder_price": 0.12749895727358904,
+      "mean_signed_budget": 0.058894619548116325,
+      "forecast_error": -0.0786563467750186,
+      "price_change": -1.3600232051658168e-15,
+      "budget_change_contribution": -0.07865634677501726
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 2,
+      "seed_drifts": [
+        0.04114004006567293,
+        -0.0099255614035646,
+        -0.005866508693356678
+      ],
+      "mean_D_H": 0.008449323322917217,
+      "between_seed_SE": 0.01638730400942935,
+      "mean_entropy_before": 4.075728477607285,
+      "mean_entropy_after": 4.067279154284368,
+      "mean_decoder_price": 0.125781317192855,
+      "mean_signed_budget": 0.11733199386993781,
+      "forecast_error": -0.13881136117757412,
+      "price_change": -0.001717640080735383,
+      "budget_change_contribution": -0.13709372109683876
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 3,
+      "seed_drifts": [
+        0.04655726522611266,
+        0.037896809759946255,
+        0.09282151617739155
+      ],
+      "mean_D_H": 0.059091863721150155,
+      "between_seed_SE": 0.017049124741312347,
+      "mean_entropy_before": 4.067279154284368,
+      "mean_entropy_after": 4.008187290563217,
+      "mean_decoder_price": 0.12535128140608484,
+      "mean_signed_budget": 0.0662594176849347,
+      "forecast_error": -0.08816882077934118,
+      "price_change": -0.002147675867505555,
+      "budget_change_contribution": -0.08602114491183563
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 4,
+      "seed_drifts": [
+        0.03623510358176671,
+        0.08896721102348157,
+        0.04999024369085155
+      ],
+      "mean_D_H": 0.05839751943203328,
+      "between_seed_SE": 0.015792197470611207,
+      "mean_entropy_before": 4.008187290563217,
+      "mean_entropy_after": 3.9497897711311842,
+      "mean_decoder_price": 0.12435893010248042,
+      "mean_signed_budget": 0.06596141067044714,
+      "forecast_error": -0.08886316506845807,
+      "price_change": -0.003140027171109977,
+      "budget_change_contribution": -0.08572313789734808
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 5,
+      "seed_drifts": [
+        0.15050113339242438,
+        0.05086025950988261,
+        0.09331260850827738
+      ],
+      "mean_D_H": 0.09822466713686145,
+      "between_seed_SE": 0.028868507506722815,
+      "mean_entropy_before": 3.9497897711311842,
+      "mean_entropy_after": 3.851565103994323,
+      "mean_decoder_price": 0.1223933610907753,
+      "mean_signed_budget": 0.02416869395391385,
+      "forecast_error": -0.04903601736362989,
+      "price_change": -0.0051055961828151,
+      "budget_change_contribution": -0.04393042118081479
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 6,
+      "seed_drifts": [
+        -0.006240832746568272,
+        0.04520257183680719,
+        0.04535491751841721
+      ],
+      "mean_D_H": 0.028105552202885374,
+      "between_seed_SE": 0.017173248786253953,
+      "mean_entropy_before": 3.851565103994323,
+      "mean_entropy_after": 3.823459551791437,
+      "mean_decoder_price": 0.1197327040565899,
+      "mean_signed_budget": 0.09162715185370451,
+      "forecast_error": -0.11915513229760596,
+      "price_change": -0.007766253217000502,
+      "budget_change_contribution": -0.11138887908060545
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 7,
+      "seed_drifts": [
+        -0.01968052437959919,
+        0.0304206776476992,
+        -0.060501960895164075
+      ],
+      "mean_D_H": -0.016587269209021354,
+      "between_seed_SE": 0.026292633445902498,
+      "mean_entropy_before": 3.823459551791437,
+      "mean_entropy_after": 3.840046821000459,
+      "mean_decoder_price": 0.12008955394126476,
+      "mean_signed_budget": 0.13667682315028612,
+      "forecast_error": -0.1638479537095127,
+      "price_change": -0.007409403332325634,
+      "budget_change_contribution": -0.15643855037718707
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 8,
+      "seed_drifts": [
+        0.040870973207549254,
+        0.09596932841991791,
+        0.029640156887718743
+      ],
+      "mean_D_H": 0.05549348617172864,
+      "between_seed_SE": 0.02049596027739508,
+      "mean_entropy_before": 3.840046821000459,
+      "mean_entropy_after": 3.78455333482873,
+      "mean_decoder_price": 0.11914500000832629,
+      "mean_signed_budget": 0.06365151383659765,
+      "forecast_error": -0.0917671983287627,
+      "price_change": -0.008353957265264111,
+      "budget_change_contribution": -0.08341324106349858
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 9,
+      "seed_drifts": [
+        0.05894489881880634,
+        0.04509006182707265,
+        -0.003884308988581854
+      ],
+      "mean_D_H": 0.033383550552432376,
+      "between_seed_SE": 0.019058324017722127,
+      "mean_entropy_before": 3.78455333482873,
+      "mean_entropy_after": 3.7511697842762977,
+      "mean_decoder_price": 0.11803460859141311,
+      "mean_signed_budget": 0.08465105803898072,
+      "forecast_error": -0.11387713394805897,
+      "price_change": -0.009464348682177284,
+      "budget_change_contribution": -0.10441278526588166
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 10,
+      "seed_drifts": [
+        -0.09224382696106528,
+        -0.05968801986679623,
+        -0.054762073636809974
+      ],
+      "mean_D_H": -0.06889797348822382,
+      "between_seed_SE": 0.011759221804562816,
+      "mean_entropy_before": 3.7511697842762977,
+      "mean_entropy_after": 3.8200677577645217,
+      "mean_decoder_price": 0.11688308043533346,
+      "mean_signed_budget": 0.18578105392355732,
+      "forecast_error": -0.21615865798871517,
+      "price_change": -0.010615876838256932,
+      "budget_change_contribution": -0.20554278115045826
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 11,
+      "seed_drifts": [
+        0.058435946781770796,
+        -0.008799759522341109,
+        0.01110073552373645
+      ],
+      "mean_D_H": 0.020245640927722047,
+      "between_seed_SE": 0.019940595291089668,
+      "mean_entropy_before": 3.8200677577645217,
+      "mean_entropy_after": 3.7998221168367996,
+      "mean_decoder_price": 0.11888386993463008,
+      "mean_signed_budget": 0.09863822900690802,
+      "forecast_error": -0.1270150435727693,
+      "price_change": -0.008615087338960312,
+      "budget_change_contribution": -0.11839995623380896
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 12,
+      "seed_drifts": [
+        0.02973882623314057,
+        -0.0170996622971089,
+        0.06030886628750905
+      ],
+      "mean_D_H": 0.02431601007451357,
+      "between_seed_SE": 0.022509814716597167,
+      "mean_entropy_before": 3.7998221168367996,
+      "mean_entropy_after": 3.775506106762286,
+      "mean_decoder_price": 0.11833170231521042,
+      "mean_signed_budget": 0.09401569224069685,
+      "forecast_error": -0.12294467442597777,
+      "price_change": -0.009167254958379972,
+      "budget_change_contribution": -0.11377741946759778
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 13,
+      "seed_drifts": [
+        0.11647126863473428,
+        0.029790840827767836,
+        0.03555158813761034
+      ],
+      "mean_D_H": 0.06060456586670415,
+      "between_seed_SE": 0.0279828096696319,
+      "mean_entropy_before": 3.775506106762286,
+      "mean_entropy_after": 3.714901540895582,
+      "mean_decoder_price": 0.11765505164614197,
+      "mean_signed_budget": 0.05705048577943782,
+      "forecast_error": -0.0866561186337872,
+      "price_change": -0.009843905627448427,
+      "budget_change_contribution": -0.07681221300633875
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 14,
+      "seed_drifts": [
+        -0.021100319248227712,
+        0.011556215027944097,
+        0.10351946302871406
+      ],
+      "mean_D_H": 0.03132511960281015,
+      "between_seed_SE": 0.03730786210597668,
+      "mean_entropy_before": 3.714901540895582,
+      "mean_entropy_after": 3.6835764212927717,
+      "mean_decoder_price": 0.11774283937086148,
+      "mean_signed_budget": 0.08641771976805132,
+      "forecast_error": -0.1159355648976812,
+      "price_change": -0.009756117902728914,
+      "budget_change_contribution": -0.10617944699495226
+    },
+    {
+      "setting": "near_cool",
+      "beta": 1.0171680906166884,
+      "generation": 15,
+      "seed_drifts": [
+        0.03279568838078273,
+        0.07248458443590917,
+        0.023973567616624437
+      ],
+      "mean_D_H": 0.043084613477772114,
+      "between_seed_SE": 0.014918960787633358,
+      "mean_entropy_before": 3.6835764212927717,
+      "mean_entropy_after": 3.6404918078149993,
+      "mean_decoder_price": 0.11663414834986592,
+      "mean_signed_budget": 0.07354953487209381,
+      "forecast_error": -0.10417607102271922,
+      "price_change": -0.010864808923724475,
+      "budget_change_contribution": -0.09331126209899475
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 1,
+      "seed_drifts": [
+        -0.18631910885215905,
+        -0.1391711483367587,
+        -0.13244100064307462
+      ],
+      "mean_D_H": -0.15264375261066412,
+      "between_seed_SE": 0.01694939463509335,
+      "mean_entropy_before": 4.144332815332757,
+      "mean_entropy_after": 4.296976567943421,
+      "mean_decoder_price": -0.410526722354449,
+      "mean_signed_budget": -0.25788296974378483,
+      "forecast_error": 0.2381212425168833,
+      "price_change": -6.106226635438361e-16,
+      "budget_change_contribution": 0.23812124251688388
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 2,
+      "seed_drifts": [
+        -0.18488933367372373,
+        -0.20506305404757877,
+        -0.1812347084339826
+      ],
+      "mean_D_H": -0.19039569871842837,
+      "between_seed_SE": 0.007409173495840721,
+      "mean_entropy_before": 4.296976567943421,
+      "mean_entropy_after": 4.4873722666618505,
+      "mean_decoder_price": -0.4181800727573084,
+      "mean_signed_budget": -0.22778437403888002,
+      "forecast_error": 0.20036929640911905,
+      "price_change": -0.007653350402860026,
+      "budget_change_contribution": 0.20802264681197907
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 3,
+      "seed_drifts": [
+        -0.13472170597584804,
+        -0.27931261260840046,
+        -0.19844527964633848
+      ],
+      "mean_D_H": -0.20415986607686232,
+      "between_seed_SE": 0.04183748296985937,
+      "mean_entropy_before": 4.4873722666618505,
+      "mean_entropy_after": 4.691532132738712,
+      "mean_decoder_price": -0.42871114467639815,
+      "mean_signed_budget": -0.2245512785995358,
+      "forecast_error": 0.1866051290506851,
+      "price_change": -0.018184422321949778,
+      "budget_change_contribution": 0.20478955137263485
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 4,
+      "seed_drifts": [
+        -0.20786314356668162,
+        -0.1530398655303059,
+        -0.1552089469192744
+      ],
+      "mean_D_H": -0.1720373186720873,
+      "between_seed_SE": 0.01792385306002026,
+      "mean_entropy_before": 4.691532132738712,
+      "mean_entropy_after": 4.863569451410799,
+      "mean_decoder_price": -0.4358682480316009,
+      "mean_signed_budget": -0.2638309293595136,
+      "forecast_error": 0.21872767645546012,
+      "price_change": -0.025341525677152532,
+      "budget_change_contribution": 0.24406920213261263
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 5,
+      "seed_drifts": [
+        -0.09909280375981325,
+        -0.21883956540222824,
+        -0.24941121039095837
+      ],
+      "mean_D_H": -0.1891145265176666,
+      "between_seed_SE": 0.045867887443352275,
+      "mean_entropy_before": 4.863569451410799,
+      "mean_entropy_after": 5.052683977928466,
+      "mean_decoder_price": -0.44158121985190957,
+      "mean_signed_budget": -0.25246669333424293,
+      "forecast_error": 0.2016504686098808,
+      "price_change": -0.031054497497461198,
+      "budget_change_contribution": 0.23270496610734198
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 6,
+      "seed_drifts": [
+        -0.16269883923266043,
+        -0.09020085226733424,
+        -0.07907995718468486
+      ],
+      "mean_D_H": -0.11065988289489317,
+      "between_seed_SE": 0.026216777766682537,
+      "mean_entropy_before": 5.052683977928466,
+      "mean_entropy_after": 5.1633438608233595,
+      "mean_decoder_price": -0.4496041528384416,
+      "mean_signed_budget": -0.33894426994354837,
+      "forecast_error": 0.2801051122326542,
+      "price_change": -0.0390774304839932,
+      "budget_change_contribution": 0.3191825427166474
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 7,
+      "seed_drifts": [
+        -0.14500780049903364,
+        -0.12774543864327254,
+        -0.21679711406991264
+      ],
+      "mean_D_H": -0.16318345107073962,
+      "between_seed_SE": 0.027266071281304174,
+      "mean_entropy_before": 5.1633438608233595,
+      "mean_entropy_after": 5.3265273118940994,
+      "mean_decoder_price": -0.4545750705797585,
+      "mean_signed_budget": -0.29139161950901893,
+      "forecast_error": 0.2275815440568078,
+      "price_change": -0.04404834822531012,
+      "budget_change_contribution": 0.271629892282118
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 8,
+      "seed_drifts": [
+        -0.08490871052835708,
+        -0.06169099166703877,
+        -0.033450771099239426
+      ],
+      "mean_D_H": -0.060016824431545095,
+      "between_seed_SE": 0.014878194441553113,
+      "mean_entropy_before": 5.3265273118940994,
+      "mean_entropy_after": 5.386544136325644,
+      "mean_decoder_price": -0.4619429907247361,
+      "mean_signed_budget": -0.40192616629319106,
+      "forecast_error": 0.3307481706960023,
+      "price_change": -0.05141626837028773,
+      "budget_change_contribution": 0.3821644390662901
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 9,
+      "seed_drifts": [
+        -0.006391326190013274,
+        -0.025315880309747157,
+        -0.008140037122032661
+      ],
+      "mean_D_H": -0.013282414540597698,
+      "between_seed_SE": 0.006037872729527343,
+      "mean_entropy_before": 5.386544136325644,
+      "mean_entropy_after": 5.3998265508662415,
+      "mean_decoder_price": -0.4652898855925418,
+      "mean_signed_budget": -0.4520074710519441,
+      "forecast_error": 0.3774825805869497,
+      "price_change": -0.05476316323809344,
+      "budget_change_contribution": 0.43224574382504316
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 10,
+      "seed_drifts": [
+        -0.035841239391935745,
+        0.0580052978583767,
+        -0.05149178819059187
+      ],
+      "mean_D_H": -0.009775909908050306,
+      "between_seed_SE": 0.03419041782981229,
+      "mean_entropy_before": 5.3998265508662415,
+      "mean_entropy_after": 5.409602460774292,
+      "mean_decoder_price": -0.465705266033748,
+      "mean_signed_budget": -0.45592935612569774,
+      "forecast_error": 0.3809890852194971,
+      "price_change": -0.05517854367929964,
+      "budget_change_contribution": 0.4361676288987968
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 11,
+      "seed_drifts": [
+        -0.03992223107402017,
+        0.02251849105830772,
+        -0.036031028641627716
+      ],
+      "mean_D_H": -0.01781158955244672,
+      "between_seed_SE": 0.02019630259597804,
+      "mean_entropy_before": 5.409602460774292,
+      "mean_entropy_after": 5.427414050326739,
+      "mean_decoder_price": -0.46809875175440424,
+      "mean_signed_budget": -0.4502871622019575,
+      "forecast_error": 0.3729534055751007,
+      "price_change": -0.05757202939995587,
+      "budget_change_contribution": 0.4305254349750566
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 12,
+      "seed_drifts": [
+        0.10408199381990998,
+        0.0945081598057404,
+        0.09240636665936666
+      ],
+      "mean_D_H": 0.09699884009500569,
+      "between_seed_SE": 0.003593173324769494,
+      "mean_entropy_before": 5.427414050326739,
+      "mean_entropy_after": 5.330415210231733,
+      "mean_decoder_price": -0.47116899423069797,
+      "mean_signed_budget": -0.5681678343257036,
+      "forecast_error": 0.4877638352225531,
+      "price_change": -0.0606422718762496,
+      "budget_change_contribution": 0.5484061070988027
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 13,
+      "seed_drifts": [
+        0.008133800818294401,
+        0.020400672911854913,
+        0.07046973734197662
+      ],
+      "mean_D_H": 0.03300140369070864,
+      "between_seed_SE": 0.019065903752440716,
+      "mean_entropy_before": 5.330415210231733,
+      "mean_entropy_after": 5.297413806541025,
+      "mean_decoder_price": -0.46392193575194995,
+      "mean_signed_budget": -0.4969233394426586,
+      "forecast_error": 0.42376639881825606,
+      "price_change": -0.053395213397501584,
+      "budget_change_contribution": 0.47716161221575765
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 14,
+      "seed_drifts": [
+        -0.04886195030268799,
+        0.012014603770915986,
+        0.1223236842923983
+      ],
+      "mean_D_H": 0.028492112586875434,
+      "between_seed_SE": 0.05009910709622018,
+      "mean_entropy_before": 5.297413806541025,
+      "mean_entropy_after": 5.268921693954149,
+      "mean_decoder_price": -0.4642930625698648,
+      "mean_signed_budget": -0.49278517515674025,
+      "forecast_error": 0.41925710771442287,
+      "price_change": -0.05376634021541643,
+      "budget_change_contribution": 0.4730234479298393
+    },
+    {
+      "setting": "wide_warm",
+      "beta": 0.95,
+      "generation": 15,
+      "seed_drifts": [
+        0.12430616219832785,
+        0.025873243235889347,
+        0.056987052731189626
+      ],
+      "mean_D_H": 0.0690554860551356,
+      "between_seed_SE": 0.029048781936812165,
+      "mean_entropy_before": 5.268921693954149,
+      "mean_entropy_after": 5.199866207899014,
+      "mean_decoder_price": -0.4620417081070325,
+      "mean_signed_budget": -0.531097194162168,
+      "forecast_error": 0.45982048118268304,
+      "price_change": -0.05151498575258412,
+      "budget_change_contribution": 0.5113354669352671
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 1,
+      "seed_drifts": [
+        0.12682035142303158,
+        0.14264749212629124,
+        0.2143840846226126
+      ],
+      "mean_D_H": 0.16128397605731182,
+      "between_seed_SE": 0.02694030897462786,
+      "mean_entropy_before": 4.144332815332757,
+      "mean_entropy_after": 3.983048839275446,
+      "mean_decoder_price": 0.3540738185544275,
+      "mean_signed_budget": 0.1927898424971157,
+      "forecast_error": -0.21255156972401668,
+      "price_change": -5.551115123125783e-17,
+      "budget_change_contribution": -0.21255156972401665
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 2,
+      "seed_drifts": [
+        0.26119130572239396,
+        0.1602453220648936,
+        0.16074676441418495
+      ],
+      "mean_D_H": 0.19406113073382417,
+      "between_seed_SE": 0.03356539962821048,
+      "mean_entropy_before": 3.983048839275446,
+      "mean_entropy_after": 3.788987708541622,
+      "mean_decoder_price": 0.3416782779785715,
+      "mean_signed_budget": 0.14761714724474728,
+      "forecast_error": -0.17977441504750433,
+      "price_change": -0.012395540575856068,
+      "budget_change_contribution": -0.16737887447164823
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 3,
+      "seed_drifts": [
+        0.20403477073913806,
+        0.17971606192632816,
+        0.18335081834367206
+      ],
+      "mean_D_H": 0.18903388366971277,
+      "between_seed_SE": 0.007573480556203865,
+      "mean_entropy_before": 3.788987708541622,
+      "mean_entropy_after": 3.5999538248719087,
+      "mean_decoder_price": 0.32748201798418397,
+      "mean_signed_budget": 0.13844813431447123,
+      "forecast_error": -0.18480166211161572,
+      "price_change": -0.026591800570243573,
+      "budget_change_contribution": -0.15820986154137218
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 4,
+      "seed_drifts": [
+        0.09967734071138536,
+        0.07867437183509639,
+        0.0615944993565781
+      ],
+      "mean_D_H": 0.07998207063435328,
+      "between_seed_SE": 0.011012996239686363,
+      "mean_entropy_before": 3.5999538248719087,
+      "mean_entropy_after": 3.5199717542375555,
+      "mean_decoder_price": 0.31401507749934776,
+      "mean_signed_budget": 0.23403300686499448,
+      "forecast_error": -0.29385347514697524,
+      "price_change": -0.04005874105507978,
+      "budget_change_contribution": -0.2537947340918954
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 5,
+      "seed_drifts": [
+        0.08377076053137995,
+        0.11337771051627223,
+        0.07498772332798363
+      ],
+      "mean_D_H": 0.0907120647918786,
+      "between_seed_SE": 0.011612982070465409,
+      "mean_entropy_before": 3.5199717542375555,
+      "mean_entropy_after": 3.429259689445677,
+      "mean_decoder_price": 0.30887350861862817,
+      "mean_signed_budget": 0.2181614438267496,
+      "forecast_error": -0.2831234809894499,
+      "price_change": -0.045200309935799377,
+      "budget_change_contribution": -0.23792317105365055
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 6,
+      "seed_drifts": [
+        0.07601599755534158,
+        0.21159133259389074,
+        0.03596413579056222
+      ],
+      "mean_D_H": 0.10785715531326484,
+      "between_seed_SE": 0.053140137246631476,
+      "mean_entropy_before": 3.429259689445677,
+      "mean_entropy_after": 3.321402534132412,
+      "mean_decoder_price": 0.2997711254309282,
+      "mean_signed_budget": 0.19191397011766334,
+      "forecast_error": -0.26597839046806365,
+      "price_change": -0.054302693123499335,
+      "budget_change_contribution": -0.2116756973445643
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 7,
+      "seed_drifts": [
+        0.12793467539678233,
+        0.05799236823962382,
+        0.14361388724108137
+      ],
+      "mean_D_H": 0.10984697695916251,
+      "between_seed_SE": 0.026319414602829758,
+      "mean_entropy_before": 3.321402534132412,
+      "mean_entropy_after": 3.2115555571732495,
+      "mean_decoder_price": 0.2909122823680991,
+      "mean_signed_budget": 0.18106530540893653,
+      "forecast_error": -0.263988568822166,
+      "price_change": -0.06316153618632847,
+      "budget_change_contribution": -0.20082703263583748
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 8,
+      "seed_drifts": [
+        -0.026231409071410826,
+        -0.07121061945651073,
+        0.24086587007096028
+      ],
+      "mean_D_H": 0.0478079471810129,
+      "between_seed_SE": 0.09739832910040504,
+      "mean_entropy_before": 3.2115555571732495,
+      "mean_entropy_after": 3.1637476099922366,
+      "mean_decoder_price": 0.27947337508625536,
+      "mean_signed_budget": 0.23166542790524247,
+      "forecast_error": -0.3260275986003156,
+      "price_change": -0.07460044346817218,
+      "budget_change_contribution": -0.2514271551321434
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 9,
+      "seed_drifts": [
+        0.03382318649523354,
+        0.1450066125019721,
+        0.025451417345083775
+      ],
+      "mean_D_H": 0.06809373878076314,
+      "between_seed_SE": 0.03853229916886537,
+      "mean_entropy_before": 3.1637476099922366,
+      "mean_entropy_after": 3.0956538712114736,
+      "mean_decoder_price": 0.2704411188209781,
+      "mean_signed_budget": 0.202347380040215,
+      "forecast_error": -0.30574180700056536,
+      "price_change": -0.08363269973344944,
+      "budget_change_contribution": -0.22210910726711594
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 10,
+      "seed_drifts": [
+        0.1122813921681241,
+        0.03188935767625206,
+        0.05907433146901907
+      ],
+      "mean_D_H": 0.06774836043779842,
+      "between_seed_SE": 0.023608959361147933,
+      "mean_entropy_before": 3.0956538712114736,
+      "mean_entropy_after": 3.027905510773675,
+      "mean_decoder_price": 0.26143164132118385,
+      "mean_signed_budget": 0.1936832808833854,
+      "forecast_error": -0.3060871853435301,
+      "price_change": -0.0926421772332437,
+      "budget_change_contribution": -0.21344500811028636
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 11,
+      "seed_drifts": [
+        0.007368761066403131,
+        0.05692785716373123,
+        0.11468543618164981
+      ],
+      "mean_D_H": 0.059660684803928055,
+      "between_seed_SE": 0.031009775069758886,
+      "mean_entropy_before": 3.027905510773675,
+      "mean_entropy_after": 2.968244825969747,
+      "mean_decoder_price": 0.2555827453545244,
+      "mean_signed_budget": 0.19592206055059638,
+      "forecast_error": -0.31417486097740044,
+      "price_change": -0.09849107319990313,
+      "budget_change_contribution": -0.21568378777749733
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 12,
+      "seed_drifts": [
+        0.0923960210607073,
+        0.04900197066232655,
+        0.15406294043560798
+      ],
+      "mean_D_H": 0.09848697738621394,
+      "between_seed_SE": 0.030481014058727395,
+      "mean_entropy_before": 2.968244825969747,
+      "mean_entropy_after": 2.869757848583533,
+      "mean_decoder_price": 0.24921754732599913,
+      "mean_signed_budget": 0.15073056993978518,
+      "forecast_error": -0.27534856839511457,
+      "price_change": -0.10485627122842842,
+      "budget_change_contribution": -0.17049229716668612
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 13,
+      "seed_drifts": [
+        0.17661789002586456,
+        0.010122564738202729,
+        -0.12534577969402874
+      ],
+      "mean_D_H": 0.020464891690012848,
+      "between_seed_SE": 0.08732265313720108,
+      "mean_entropy_before": 2.869757848583533,
+      "mean_entropy_after": 2.8492929568935206,
+      "mean_decoder_price": 0.24070378673743467,
+      "mean_signed_budget": 0.22023889504742183,
+      "forecast_error": -0.35337065409131563,
+      "price_change": -0.11337003181699287,
+      "budget_change_contribution": -0.24000062227432278
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 14,
+      "seed_drifts": [
+        0.16603632404090632,
+        0.1767708910286298,
+        0.14823274231475345
+      ],
+      "mean_D_H": 0.1636799857947632,
+      "between_seed_SE": 0.008322073668894238,
+      "mean_entropy_before": 2.8492929568935206,
+      "mean_entropy_after": 2.6856129710987573,
+      "mean_decoder_price": 0.23802300673389776,
+      "mean_signed_budget": 0.07434302093913456,
+      "forecast_error": -0.2101555599865653,
+      "price_change": -0.11605081182052979,
+      "budget_change_contribution": -0.09410474816603549
+    },
+    {
+      "setting": "wide_cool",
+      "beta": 1.05,
+      "generation": 15,
+      "seed_drifts": [
+        -0.02973559729765793,
+        0.08308152090893668,
+        -0.17097983231994934
+      ],
+      "mean_D_H": -0.0392113029028902,
+      "between_seed_SE": 0.07349406903204497,
+      "mean_entropy_before": 2.6856129710987573,
+      "mean_entropy_after": 2.724824274001647,
+      "mean_decoder_price": 0.21934427326540742,
+      "mean_signed_budget": 0.2585555761682976,
+      "forecast_error": -0.4130468486842187,
+      "price_change": -0.13472954528902012,
+      "budget_change_contribution": -0.27831730339519856
+    }
+  ],
+  "window_rows": [
+    {
+      "setting": "near_warm",
+      "window": "first3",
+      "first_generation": 1,
+      "last_generation": 3,
+      "seed_means": [
+        -0.04143507210262921,
+        -0.042066495261837734,
+        -0.04976474174997747
+      ],
+      "mean_D_H": -0.044422103038148135,
+      "between_seed_SE": 0.0026775308965132573
+    },
+    {
+      "setting": "near_warm",
+      "window": "last3",
+      "first_generation": 13,
+      "last_generation": 15,
+      "seed_means": [
+        -0.048971598350779764,
+        -0.06223282012413827,
+        -0.02513398594613091
+      ],
+      "mean_D_H": -0.045446134807016314,
+      "between_seed_SE": 0.010853609910081002
+    },
+    {
+      "setting": "near_warm",
+      "window": "first5",
+      "first_generation": 1,
+      "last_generation": 5,
+      "seed_means": [
+        -0.05302196819796331,
+        -0.05570380730874551,
+        -0.07466632896755254
+      ],
+      "mean_D_H": -0.061130701491420456,
+      "between_seed_SE": 0.0068119496385273025
+    },
+    {
+      "setting": "near_warm",
+      "window": "middle5",
+      "first_generation": 6,
+      "last_generation": 10,
+      "seed_means": [
+        -0.05566869880110169,
+        -0.06423919167371228,
+        -0.05150213100206309
+      ],
+      "mean_D_H": -0.057136673825625685,
+      "between_seed_SE": 0.003749417361083711
+    },
+    {
+      "setting": "near_warm",
+      "window": "last5",
+      "first_generation": 11,
+      "last_generation": 15,
+      "seed_means": [
+        -0.04814578523637838,
+        -0.06009918512957342,
+        -0.03592536321584945
+      ],
+      "mean_D_H": -0.04805677786060042,
+      "between_seed_SE": 0.006978523201313621
+    },
+    {
+      "setting": "near_warm",
+      "window": "all15",
+      "first_generation": 1,
+      "last_generation": 15,
+      "seed_means": [
+        -0.05227881741181444,
+        -0.06001406137067709,
+        -0.054031274395155045
+      ],
+      "mean_D_H": -0.05544138439254886,
+      "between_seed_SE": 0.0023416381324009583
+    },
+    {
+      "setting": "near_cool",
+      "window": "first3",
+      "first_generation": 1,
+      "last_generation": 3,
+      "seed_means": [
+        0.05140097365420177,
+        0.028305891092787156,
+        0.05643866002255118
+      ],
+      "mean_D_H": 0.045381841589846705,
+      "between_seed_SE": 0.008660939806972153
+    },
+    {
+      "setting": "near_cool",
+      "window": "last3",
+      "first_generation": 13,
+      "last_generation": 15,
+      "seed_means": [
+        0.04272221258909644,
+        0.03794388009720703,
+        0.05434820626098295
+      ],
+      "mean_D_H": 0.04500476631576214,
+      "between_seed_SE": 0.004871105892855076
+    },
+    {
+      "setting": "near_cool",
+      "window": "first5",
+      "first_generation": 1,
+      "last_generation": 5,
+      "seed_means": [
+        0.06818783158735928,
+        0.04494902876234513,
+        0.06252376645335649
+      ],
+      "mean_D_H": 0.05855354226768696,
+      "between_seed_SE": 0.006996010750142488
+    },
+    {
+      "setting": "near_cool",
+      "window": "middle5",
+      "first_generation": 6,
+      "last_generation": 10,
+      "seed_means": [
+        -0.0036698624121754312,
+        0.03139892397294014,
+        -0.008830653822883991
+      ],
+      "mean_D_H": 0.006299469245960239,
+      "between_seed_SE": 0.012637845447833742
+    },
+    {
+      "setting": "near_cool",
+      "window": "last5",
+      "first_generation": 11,
+      "last_generation": 15,
+      "seed_means": [
+        0.04326828215644013,
+        0.01758644369443422,
+        0.04689084411883887
+      ],
+      "mean_D_H": 0.03591518998990441,
+      "between_seed_SE": 0.009223844902671892
+    },
+    {
+      "setting": "near_cool",
+      "window": "all15",
+      "first_generation": 1,
+      "last_generation": 15,
+      "seed_means": [
+        0.035928750443874655,
+        0.03131146547657316,
+        0.03352798558310379
+      ],
+      "mean_D_H": 0.03358940050118387,
+      "between_seed_SE": 0.0013332490341816839
+    },
+    {
+      "setting": "wide_warm",
+      "window": "first3",
+      "first_generation": 1,
+      "last_generation": 3,
+      "seed_means": [
+        -0.1686433828339103,
+        -0.20784893833091264,
+        -0.17070699624113192
+      ],
+      "mean_D_H": -0.18239977246865163,
+      "between_seed_SE": 0.012738519764704087
+    },
+    {
+      "setting": "wide_warm",
+      "window": "last3",
+      "first_generation": 13,
+      "last_generation": 15,
+      "seed_means": [
+        0.027859337571311423,
+        0.019429506639553416,
+        0.08326015812185485
+      ],
+      "mean_D_H": 0.043516334110906565,
+      "between_seed_SE": 0.02002035774442628
+    },
+    {
+      "setting": "wide_warm",
+      "window": "first5",
+      "first_generation": 1,
+      "last_generation": 5,
+      "seed_means": [
+        -0.16257721916564513,
+        -0.1990852491850544,
+        -0.1833482292067257
+      ],
+      "mean_D_H": -0.18167023251914174,
+      "between_seed_SE": 0.010572303732507551
+    },
+    {
+      "setting": "wide_warm",
+      "window": "middle5",
+      "first_generation": 6,
+      "last_generation": 10,
+      "seed_means": [
+        -0.08696958316840003,
+        -0.0493895730058032,
+        -0.07779193353329229
+      ],
+      "mean_D_H": -0.07138369656916517,
+      "between_seed_SE": 0.01131169625795242
+    },
+    {
+      "setting": "wide_warm",
+      "window": "last5",
+      "first_generation": 11,
+      "last_generation": 15,
+      "seed_means": [
+        0.029547555091964817,
+        0.035063034156541675,
+        0.0612311624766607
+      ],
+      "mean_D_H": 0.04194725057505573,
+      "between_seed_SE": 0.00977253073670604
+    },
+    {
+      "setting": "wide_warm",
+      "window": "all15",
+      "first_generation": 1,
+      "last_generation": 15,
+      "seed_means": [
+        -0.07333308241402678,
+        -0.07113726267810531,
+        -0.06663633342111909
+      ],
+      "mean_D_H": -0.0703688928377504,
+      "between_seed_SE": 0.001970990100362237
+    },
+    {
+      "setting": "wide_cool",
+      "window": "first3",
+      "first_generation": 1,
+      "last_generation": 3,
+      "seed_means": [
+        0.19734880929485454,
+        0.16086962537250435,
+        0.18616055579348986
+      ],
+      "mean_D_H": 0.18145966348694959,
+      "between_seed_SE": 0.010789756040931147
+    },
+    {
+      "setting": "wide_cool",
+      "window": "last3",
+      "first_generation": 13,
+      "last_generation": 15,
+      "seed_means": [
+        0.10430620558970431,
+        0.08999165889192307,
+        -0.049364289899741544
+      ],
+      "mean_D_H": 0.04831119152729528,
+      "between_seed_SE": 0.049012247842735876
+    },
+    {
+      "setting": "wide_cool",
+      "window": "first5",
+      "first_generation": 1,
+      "last_generation": 5,
+      "seed_means": [
+        0.1550989058254658,
+        0.13493219169377632,
+        0.13901277801300627
+      ],
+      "mean_D_H": 0.14301462517741612,
+      "between_seed_SE": 0.006155896232144494
+    },
+    {
+      "setting": "wide_cool",
+      "window": "middle5",
+      "first_generation": 6,
+      "last_generation": 10,
+      "seed_means": [
+        0.06476476850881414,
+        0.0750538103110456,
+        0.10099392838334134
+      ],
+      "mean_D_H": 0.08027083573440036,
+      "between_seed_SE": 0.010778853093046903
+    },
+    {
+      "setting": "wide_cool",
+      "window": "last5",
+      "first_generation": 11,
+      "last_generation": 15,
+      "seed_means": [
+        0.08253667977924466,
+        0.0751809609003654,
+        0.024131101383606635
+      ],
+      "mean_D_H": 0.060616247354405565,
+      "between_seed_SE": 0.018365738549802946
+    },
+    {
+      "setting": "wide_cool",
+      "window": "all15",
+      "first_generation": 1,
+      "last_generation": 15,
+      "seed_means": [
+        0.10080011803784154,
+        0.09505565430172912,
+        0.0880459359266514
+      ],
+      "mean_D_H": 0.09463390275540735,
+      "between_seed_SE": 0.0036878492425111084
+    }
+  ],
+  "asymmetry": [
+    {
+      "pair": "near",
+      "window": "initial_source_forecast",
+      "warm_mean": -0.15301273496330423,
+      "cool_mean": 0.14726068450049135,
+      "cool_over_warm_absolute_ratio": 0.9624080279057011,
+      "cool_minus_warm_absolute_magnitude": -0.00575205046281288,
+      "even_signed_component": -0.00287602523140644,
+      "response_slope": 7.675338007629945,
+      "opposite_predicted_signs": true
+    },
+    {
+      "pair": "near",
+      "window": "first3",
+      "warm_mean": -0.044422103038148135,
+      "cool_mean": 0.045381841589846705,
+      "cool_over_warm_absolute_ratio": 1.021604977838946,
+      "cool_minus_warm_absolute_magnitude": 0.0009597385516985704,
+      "even_signed_component": 0.0004798692758492852,
+      "response_slope": 2.295493322949455,
+      "opposite_predicted_signs": true
+    },
+    {
+      "pair": "near",
+      "window": "last3",
+      "warm_mean": -0.045446134807016314,
+      "cool_mean": 0.04500476631576214,
+      "cool_over_warm_absolute_ratio": 0.9902880961576069,
+      "cool_minus_warm_absolute_magnitude": -0.00044136849125417377,
+      "even_signed_component": -0.00022068424562708688,
+      "response_slope": 2.3120302837719047,
+      "opposite_predicted_signs": true
+    },
+    {
+      "pair": "near",
+      "window": "first5",
+      "warm_mean": -0.061130701491420456,
+      "cool_mean": 0.05855354226768696,
+      "cool_over_warm_absolute_ratio": 0.9578418182540374,
+      "cool_minus_warm_absolute_magnitude": -0.0025771592237334925,
+      "even_signed_component": -0.0012885796118667463,
+      "response_slope": 3.0592685382512954,
+      "opposite_predicted_signs": true
+    },
+    {
+      "pair": "near",
+      "window": "middle5",
+      "warm_mean": -0.057136673825625685,
+      "cool_mean": 0.006299469245960239,
+      "cool_over_warm_absolute_ratio": 0.11025264202787632,
+      "cool_minus_warm_absolute_magnitude": -0.050837204579665445,
+      "even_signed_component": -0.025418602289832722,
+      "response_slope": 1.6215016328926173,
+      "opposite_predicted_signs": true
+    },
+    {
+      "pair": "near",
+      "window": "last5",
+      "warm_mean": -0.04805677786060042,
+      "cool_mean": 0.03591518998990441,
+      "cool_over_warm_absolute_ratio": 0.7473491063858788,
+      "cool_minus_warm_absolute_magnitude": -0.01214158787069601,
+      "even_signed_component": -0.006070793935348005,
+      "response_slope": 2.1464212102735565,
+      "opposite_predicted_signs": true
+    },
+    {
+      "pair": "near",
+      "window": "all15",
+      "warm_mean": -0.05544138439254886,
+      "cool_mean": 0.03358940050118387,
+      "cool_over_warm_absolute_ratio": 0.6058542886187052,
+      "cool_minus_warm_absolute_magnitude": -0.021851983891364987,
+      "even_signed_component": -0.010925991945682494,
+      "response_slope": 2.27573046047249,
+      "opposite_predicted_signs": true
+    },
+    {
+      "pair": "wide",
+      "window": "initial_source_forecast",
+      "warm_mean": -0.3907649951275474,
+      "cool_mean": 0.3738355457813285,
+      "cool_over_warm_absolute_ratio": 0.9566761364059924,
+      "cool_minus_warm_absolute_magnitude": -0.016929449346218928,
+      "even_signed_component": -0.008464724673109464,
+      "response_slope": 7.646005409088752,
+      "opposite_predicted_signs": true
+    },
+    {
+      "pair": "wide",
+      "window": "first3",
+      "warm_mean": -0.18239977246865163,
+      "cool_mean": 0.18145966348694959,
+      "cool_over_warm_absolute_ratio": 0.9948458873112705,
+      "cool_minus_warm_absolute_magnitude": -0.000940108981702048,
+      "even_signed_component": -0.000470054490851024,
+      "response_slope": 3.638594359556009,
+      "opposite_predicted_signs": true
+    },
+    {
+      "pair": "wide",
+      "window": "last3",
+      "warm_mean": 0.043516334110906565,
+      "cool_mean": 0.04831119152729528,
+      "cool_over_warm_absolute_ratio": 1.1101852330706086,
+      "cool_minus_warm_absolute_magnitude": 0.004794857416388715,
+      "even_signed_component": 0.04591376281910092,
+      "response_slope": 0.047948574163887106,
+      "opposite_predicted_signs": false
+    },
+    {
+      "pair": "wide",
+      "window": "first5",
+      "warm_mean": -0.18167023251914174,
+      "cool_mean": 0.14301462517741612,
+      "cool_over_warm_absolute_ratio": 0.7872210168627782,
+      "cool_minus_warm_absolute_magnitude": -0.03865560734172563,
+      "even_signed_component": -0.019327803670862814,
+      "response_slope": 3.2468485769655757,
+      "opposite_predicted_signs": true
+    },
+    {
+      "pair": "wide",
+      "window": "middle5",
+      "warm_mean": -0.07138369656916517,
+      "cool_mean": 0.08027083573440036,
+      "cool_over_warm_absolute_ratio": 1.1244981640397993,
+      "cool_minus_warm_absolute_magnitude": 0.008887139165235189,
+      "even_signed_component": 0.0044435695826175944,
+      "response_slope": 1.5165453230356538,
+      "opposite_predicted_signs": true
+    },
+    {
+      "pair": "wide",
+      "window": "last5",
+      "warm_mean": 0.04194725057505573,
+      "cool_mean": 0.060616247354405565,
+      "cool_over_warm_absolute_ratio": 1.44505888999675,
+      "cool_minus_warm_absolute_magnitude": 0.018668996779349835,
+      "even_signed_component": 0.051281748964730645,
+      "response_slope": 0.1866899677934982,
+      "opposite_predicted_signs": false
+    },
+    {
+      "pair": "wide",
+      "window": "all15",
+      "warm_mean": -0.0703688928377504,
+      "cool_mean": 0.09463390275540735,
+      "cool_over_warm_absolute_ratio": 1.34482580212829,
+      "cool_minus_warm_absolute_magnitude": 0.024265009917656954,
+      "even_signed_component": 0.012132504958828477,
+      "response_slope": 1.650027955931576,
+      "opposite_predicted_signs": true
+    }
+  ],
+  "models": {
+    "near_warm": {
+      "constant": {
+        "parameters": {
+          "kind": "constant",
+          "c": -0.05544138439254885,
+          "a": 0.0,
+          "rho": 0.0
+        },
+        "seed_holdout_MSEs": [
+          0.0018989545743464278,
+          0.0015307615976201826,
+          0.0029779320707407383
+        ],
+        "mean_seed_holdout_MSE": 0.0021358827475691164,
+        "early10_late5_MSE": 0.0017714729486106855,
+        "retrospective_fitted_drift": [
+          -0.05544138439254885,
+          -0.05544138439254885,
+          -0.05544138439254885,
+          -0.05544138439254885,
+          -0.05544138439254885,
+          -0.05544138439254885,
+          -0.05544138439254885,
+          -0.05544138439254885,
+          -0.05544138439254885,
+          -0.05544138439254885,
+          -0.05544138439254885,
+          -0.05544138439254885,
+          -0.05544138439254885,
+          -0.05544138439254885,
+          -0.05544138439254885
+        ],
+        "implied_entropy": [
+          4.199774199725306,
+          4.255215584117855,
+          4.310656968510404,
+          4.366098352902952,
+          4.421539737295501,
+          4.47698112168805,
+          4.532422506080599,
+          4.587863890473148,
+          4.643305274865697,
+          4.698746659258246,
+          4.754188043650794,
+          4.809629428043343,
+          4.865070812435892,
+          4.920512196828441,
+          4.97595358122099
+        ],
+        "finite15_prefix_feasible": true
+      },
+      "decay_plus_floor": {
+        "parameters": {
+          "kind": "decay_plus_floor",
+          "c": -0.05826591170944885,
+          "a": 0.04236790975349962,
+          "rho": 0.0
+        },
+        "seed_holdout_MSEs": [
+          0.00206465097948366,
+          0.0016977568360115197,
+          0.002786733754763683
+        ],
+        "mean_seed_holdout_MSE": 0.0021830471900862874,
+        "early10_late5_MSE": 0.001900977204766108,
+        "retrospective_fitted_drift": [
+          -0.01589800195594923,
+          -0.05826591170944885,
+          -0.05826591170944885,
+          -0.05826591170944885,
+          -0.05826591170944885,
+          -0.05826591170944885,
+          -0.05826591170944885,
+          -0.05826591170944885,
+          -0.05826591170944885,
+          -0.05826591170944885,
+          -0.05826591170944885,
+          -0.05826591170944885,
+          -0.05826591170944885,
+          -0.05826591170944885,
+          -0.05826591170944885
+        ],
+        "implied_entropy": [
+          4.160230817288706,
+          4.218496728998155,
+          4.276762640707604,
+          4.335028552417053,
+          4.393294464126502,
+          4.4515603758359505,
+          4.509826287545399,
+          4.568092199254848,
+          4.626358110964297,
+          4.684624022673746,
+          4.742889934383195,
+          4.801155846092644,
+          4.859421757802092,
+          4.917687669511541,
+          4.97595358122099
+        ],
+        "finite15_prefix_feasible": true
+      }
+    },
+    "near_cool": {
+      "constant": {
+        "parameters": {
+          "kind": "constant",
+          "c": 0.03358940050118387,
+          "a": 0.0,
+          "rho": 0.0
+        },
+        "seed_holdout_MSEs": [
+          0.00310225678493305,
+          0.0016778657476692771,
+          0.0023802311037797183
+        ],
+        "mean_seed_holdout_MSE": 0.0023867845454606817,
+        "early10_late5_MSE": 0.0015453164790998175,
+        "retrospective_fitted_drift": [
+          0.03358940050118387,
+          0.03358940050118387,
+          0.03358940050118387,
+          0.03358940050118387,
+          0.03358940050118387,
+          0.03358940050118387,
+          0.03358940050118387,
+          0.03358940050118387,
+          0.03358940050118387,
+          0.03358940050118387,
+          0.03358940050118387,
+          0.03358940050118387,
+          0.03358940050118387,
+          0.03358940050118387,
+          0.03358940050118387
+        ],
+        "implied_entropy": [
+          4.110743414831573,
+          4.0771540143303895,
+          4.043564613829205,
+          4.009975213328022,
+          3.976385812826838,
+          3.942796412325654,
+          3.90920701182447,
+          3.8756176113232863,
+          3.8420282108221024,
+          3.8084388103209186,
+          3.7748494098197347,
+          3.741260009318551,
+          3.707670608817367,
+          3.674081208316183,
+          3.6404918078149993
+        ],
+        "finite15_prefix_feasible": true
+      },
+      "decay_plus_floor": {
+        "parameters": {
+          "kind": "decay_plus_floor",
+          "c": 0.021747871363846705,
+          "a": 0.037672864606149915,
+          "rho": 0.7946537764297346
+        },
+        "seed_holdout_MSEs": [
+          0.0029586447311276643,
+          0.0016655754675490306,
+          0.0022751300369970996
+        ],
+        "mean_seed_holdout_MSE": 0.0022997834118912647,
+        "early10_late5_MSE": 0.0062048658144456224,
+        "retrospective_fitted_drift": [
+          0.05942073596999662,
+          0.051684755492049816,
+          0.04553732939086269,
+          0.04065225402423162,
+          0.03677031043599437,
+          0.033685509303714445,
+          0.03123416043441348,
+          0.02928618679807671,
+          0.027738222191576133,
+          0.026508126271240884,
+          0.025530625902775664,
+          0.02475385154351332,
+          0.024136584865491712,
+          0.023646071568737607,
+          0.023256283325082956
+        ],
+        "implied_entropy": [
+          4.084912079362761,
+          4.033227323870711,
+          3.9876899944798483,
+          3.9470377404556163,
+          3.9102674300196223,
+          3.876581920715908,
+          3.845347760281494,
+          3.8160615734834176,
+          3.7883233512918415,
+          3.7618152250206007,
+          3.736284599117825,
+          3.7115307475743116,
+          3.68739416270882,
+          3.663748091140082,
+          3.6404918078149993
+        ],
+        "finite15_prefix_feasible": true
+      }
+    },
+    "wide_warm": {
+      "constant": {
+        "parameters": {
+          "kind": "constant",
+          "c": -0.0703688928377504,
+          "a": 0.0,
+          "rho": 0.0
+        },
+        "seed_holdout_MSEs": [
+          0.009738089017954612,
+          0.011852962995145612,
+          0.013335475837193612
+        ],
+        "mean_seed_holdout_MSE": 0.011642175950097946,
+        "early10_late5_MSE": 0.03155833051870098,
+        "retrospective_fitted_drift": [
+          -0.0703688928377504,
+          -0.0703688928377504,
+          -0.0703688928377504,
+          -0.0703688928377504,
+          -0.0703688928377504,
+          -0.0703688928377504,
+          -0.0703688928377504,
+          -0.0703688928377504,
+          -0.0703688928377504,
+          -0.0703688928377504,
+          -0.0703688928377504,
+          -0.0703688928377504,
+          -0.0703688928377504,
+          -0.0703688928377504,
+          -0.0703688928377504
+        ],
+        "implied_entropy": [
+          4.214701708170508,
+          4.285070601008258,
+          4.355439493846008,
+          4.425808386683759,
+          4.496177279521509,
+          4.56654617235926,
+          4.63691506519701,
+          4.70728395803476,
+          4.777652850872511,
+          4.8480217437102615,
+          4.918390636548011,
+          4.988759529385762,
+          5.0591284222235124,
+          5.129497315061263,
+          5.199866207899014
+        ],
+        "finite15_prefix_feasible": true
+      },
+      "decay_plus_floor": {
+        "parameters": {
+          "kind": "decay_plus_floor",
+          "c": 213.94254885375543,
+          "a": -214.16276674008975,
+          "rho": 0.9999
+        },
+        "seed_holdout_MSEs": [
+          0.0025955818511839025,
+          0.003084826738020651,
+          0.0037083601038949044
+        ],
+        "mean_seed_holdout_MSE": 0.0031295895643664857,
+        "early10_late5_MSE": 0.0034067416147410064,
+        "retrospective_fitted_drift": [
+          -0.22021788633432493,
+          -0.19880160966030758,
+          -0.17738747461399385,
+          -0.1559754809811409,
+          -0.1345656285476764,
+          -0.11315791709944278,
+          -0.09175234642236774,
+          -0.07034891630235052,
+          -0.04894762652534723,
+          -0.027548476877313988,
+          -0.006151467144263734,
+          0.015243402887847424,
+          0.03663613343292127,
+          0.058026724704944854,
+          0.07941517691784838
+        ],
+        "implied_entropy": [
+          4.364550701667082,
+          4.56335231132739,
+          4.740739785941384,
+          4.8967152669225245,
+          5.031280895470201,
+          5.144438812569644,
+          5.236191158992011,
+          5.306540075294362,
+          5.355487701819709,
+          5.383036178697023,
+          5.389187645841287,
+          5.373944242953439,
+          5.337308109520518,
+          5.279281384815573,
+          5.199866207897725
+        ],
+        "finite15_prefix_feasible": true
+      }
+    },
+    "wide_cool": {
+      "constant": {
+        "parameters": {
+          "kind": "constant",
+          "c": 0.09463390275540738,
+          "a": 0.0,
+          "rho": 0.0
+        },
+        "seed_holdout_MSEs": [
+          0.006438885370186484,
+          0.005398998170633556,
+          0.012526476790516963
+        ],
+        "mean_seed_holdout_MSE": 0.008121453443779,
+        "early10_late5_MSE": 0.013325315787719842,
+        "retrospective_fitted_drift": [
+          0.09463390275540738,
+          0.09463390275540738,
+          0.09463390275540738,
+          0.09463390275540738,
+          0.09463390275540738,
+          0.09463390275540738,
+          0.09463390275540738,
+          0.09463390275540738,
+          0.09463390275540738,
+          0.09463390275540738,
+          0.09463390275540738,
+          0.09463390275540738,
+          0.09463390275540738,
+          0.09463390275540738,
+          0.09463390275540738
+        ],
+        "implied_entropy": [
+          4.04969891257735,
+          3.9550650098219426,
+          3.860431107066535,
+          3.7657972043111276,
+          3.6711633015557203,
+          3.576529398800313,
+          3.4818954960449053,
+          3.387261593289498,
+          3.2926276905340908,
+          3.1979937877786835,
+          3.103359885023276,
+          3.008725982267869,
+          2.9140920795124616,
+          2.8194581767570543,
+          2.724824274001647
+        ],
+        "finite15_prefix_feasible": true
+      },
+      "decay_plus_floor": {
+        "parameters": {
+          "kind": "decay_plus_floor",
+          "c": 0.03689170558781716,
+          "a": 0.15031333214386455,
+          "rho": 0.838902187730946
+        },
+        "seed_holdout_MSEs": [
+          0.00527992932147561,
+          0.004718057377218238,
+          0.010072905262452907
+        ],
+        "mean_seed_holdout_MSE": 0.0066902973203822515,
+        "early10_late5_MSE": 0.010958411806929613,
+        "retrospective_fitted_drift": [
+          0.1872050377316817,
+          0.16298988876843346,
+          0.14267574732693378,
+          0.1256341696297838,
+          0.11133795281725778,
+          0.09934482525695378,
+          0.08928376430887844,
+          0.08084351826864367,
+          0.07376297740050325,
+          0.06782309617590189,
+          0.06284011682172183,
+          0.058659884540082044,
+          0.05515307853379091,
+          0.05221121130316524,
+          0.0497432724473794
+        ],
+        "implied_entropy": [
+          3.9571277776010754,
+          3.7941378888326422,
+          3.651462141505708,
+          3.5258279718759242,
+          3.4144900190586664,
+          3.3151451938017127,
+          3.2258614294928343,
+          3.145017911224191,
+          3.0712549338236874,
+          3.0034318376477858,
+          2.940591720826064,
+          2.8819318362859816,
+          2.826778757752191,
+          2.774567546449026,
+          2.724824274001646
+        ],
+        "finite15_prefix_feasible": true
+      }
+    }
+  },
+  "constant_forecast_horizon_checks": [
+    {
+      "setting": "near_warm",
+      "initial_source_forecast": -0.15301273496330423,
+      "constant15_implied_entropy": [
+        4.297345550296061,
+        4.450358285259366,
+        4.60337102022267,
+        4.756383755185974,
+        4.909396490149279,
+        5.0624092251125825,
+        5.215421960075886,
+        5.368434695039191,
+        5.521447430002495,
+        5.674460164965799,
+        5.827472899929104,
+        5.980485634892408,
+        6.133498369855712,
+        6.2865111048190165,
+        6.4395238397823205
+      ],
+      "first_infeasible_prefix": null,
+      "constant15_feasible": true
+    },
+    {
+      "setting": "near_cool",
+      "initial_source_forecast": 0.14726068450049135,
+      "constant15_implied_entropy": [
+        3.997072130832266,
+        3.8498114463317745,
+        3.702550761831283,
+        3.555290077330792,
+        3.4080293928303007,
+        3.260768708329809,
+        3.1135080238293176,
+        2.9662473393288264,
+        2.8189866548283353,
+        2.6717259703278438,
+        2.524465285827352,
+        2.377204601326861,
+        2.22994391682637,
+        2.0826832323258784,
+        1.9354225478253868
+      ],
+      "first_infeasible_prefix": null,
+      "constant15_feasible": true
+    },
+    {
+      "setting": "wide_warm",
+      "initial_source_forecast": -0.3907649951275474,
+      "constant15_implied_entropy": [
+        4.535097810460305,
+        4.925862805587852,
+        5.316627800715399,
+        5.707392795842947,
+        6.098157790970494,
+        6.488922786098042,
+        6.87968778122559,
+        7.270452776353137,
+        7.661217771480684,
+        8.051982766608232,
+        8.44274776173578,
+        8.833512756863326,
+        9.224277751990874,
+        9.615042747118421,
+        10.005807742245969
+      ],
+      "first_infeasible_prefix": null,
+      "constant15_feasible": true
+    },
+    {
+      "setting": "wide_cool",
+      "initial_source_forecast": 0.3738355457813285,
+      "constant15_implied_entropy": [
+        3.770497269551429,
+        3.3966617237701002,
+        3.0228261779887715,
+        2.6489906322074432,
+        2.275155086426115,
+        1.9013195406447863,
+        1.5274839948634575,
+        1.1536484490821293,
+        0.779812903300801,
+        0.4059773575194723,
+        0.032141811738143566,
+        -0.3416937340431847,
+        -0.715529279824513,
+        -1.0893648256058421,
+        -1.4632003713871704
+      ],
+      "first_infeasible_prefix": 12,
+      "constant15_feasible": false
+    }
+  ],
+  "forecast_provenance": {
+    "kind": "base conditional entropy-price curve minus signed calibration budget; no fitted temporal response model",
+    "calibration_generations": [
+      0.032197059987407906,
+      0.055343695379350306,
+      -0.028255573686055396
+    ],
+    "calibration_mean": 0.01976172722690094,
+    "signed_budget": -0.01976172722690094,
+    "beta_c": 0.9974153735881554,
+    "threshold_created_utc": "2026-09-05T00:23:48Z",
+    "s53c_frozen_utc": "2026-09-05T02:39:15Z",
+    "prearm_commit": "7de2927f3916fa24c878179a881fe167ef54b182",
+    "independent_prices": [
+      {
+        "setting": "near_warm",
+        "price": -0.17277446219020517,
+        "forecast": -0.15301273496330423
+      },
+      {
+        "setting": "near_cool",
+        "price": 0.1274989572735904,
+        "forecast": 0.14726068450049135
+      },
+      {
+        "setting": "wide_warm",
+        "price": -0.41052672235444837,
+        "forecast": -0.3907649951275474
+      },
+      {
+        "setting": "wide_cool",
+        "price": 0.35407381855442754,
+        "forecast": 0.3738355457813285
+      }
+    ],
+    "prior_N2N4_arms": [
+      {
+        "name": "negative",
+        "mean_D_H": -0.028327133378738444,
+        "generations": 3
+      },
+      {
+        "name": "positive",
+        "mean_D_H": 0.07829127232083893,
+        "generations": 3
+      }
+    ]
+  },
+  "timing": {
+    "recorded_generation_count": 180,
+    "sum_recorded_generation_hours": 35.13447694444444,
+    "median_generation_seconds": 698.7029999999941,
+    "p75_generation_seconds": 714.8397499999846,
+    "p90_generation_seconds": 727.4169000000169,
+    "scope": "Saved per-generation wall times, including their recorded work; not pure CUDA kernel time. Earlier goal-accounting elapsed time is separate."
+  },
+  "checks": [
+    {
+      "name": "governing:CORE_LOGIC.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "governing:Chess_Cybertron.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "governing:e_i_relationships_graphs.docx",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "governing:elm_eulerian.docx",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "governing:n_s_u.docx",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "governing:squaring_circle_euler.docx",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "governing:AQiDA_Physics.docx",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "governing:Assessment for Genenral AI.docx",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_53C",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "twelve_trajectory_hashes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_script:s53c/s53c_temperature.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_script:n1n3_n2n4/n2n4_public_loop_v2.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_script:n1n3_n2n4/n2n4_transformer_measurements.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_prior:public_loop_v2/public_loop_frozen_threshold.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_prior:public_loop_v2/public_loop_calibration.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_prior:public_loop_v2/public_loop_contexts.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_prior:public_loop_v2/public_loop_base_conditionals.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_hash:near_warm_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "complete:near_warm_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed1:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "telescope:near_warm_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_hash:near_cool_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "complete:near_cool_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed1:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "telescope:near_cool_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_hash:wide_warm_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "complete:wide_warm_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed1:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "telescope:wide_warm_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_hash:wide_cool_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "complete:wide_cool_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed1:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "telescope:wide_cool_seed1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_hash:near_warm_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "complete:near_warm_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed2:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "telescope:near_warm_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_hash:near_cool_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "complete:near_cool_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed2:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "telescope:near_cool_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_hash:wide_warm_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "complete:wide_warm_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed2:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "telescope:wide_warm_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_hash:wide_cool_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "complete:wide_cool_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed2:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "telescope:wide_cool_seed2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_hash:near_warm_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "complete:near_warm_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_warm_seed3:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "telescope:near_warm_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_hash:near_cool_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "complete:near_cool_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:near_cool_seed3:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "telescope:near_cool_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_hash:wide_warm_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "complete:wide_warm_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_warm_seed3:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "telescope:wide_warm_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_hash:wide_cool_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "complete:wide_cool_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "context_grid:wide_cool_seed3:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "telescope:wide_cool_seed3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "raw_drift_reconstruction",
+      "pass_": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_error_ledger",
+      "pass_": true,
+      "detail": 1.1102230246251565e-16
+    },
+    {
+      "name": "saved_entropy_chain",
+      "pass_": true,
+      "detail": 0.0
+    },
+    {
+      "name": "three_seeds:near_warm",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_warm:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seeds:near_cool",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:near_cool:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seeds:wide_warm",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_warm:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "three_seeds:wide_cool",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:3",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:5",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:6",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:7",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:8",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:9",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:10",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:11",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:13",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "forecast_error_accounting:wide_cool:14",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "51F_raw_sign:099",
+      "pass_": true,
+      "detail": 0.0
+    },
+    {
+      "name": "51F_raw_sign:103",
+      "pass_": true,
+      "detail": 0.0
+    },
+    {
+      "name": "base_entropy_matches",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "independent_frozen_price:near_warm",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "independent_frozen_price:near_cool",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "independent_frozen_price:wide_warm",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "independent_frozen_price:wide_cool",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "budget_provenance",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_commit_bytes:trajectory_near_cool_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_commit_bytes:trajectory_near_cool_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_commit_bytes:trajectory_near_cool_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_commit_bytes:trajectory_near_warm_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_commit_bytes:trajectory_near_warm_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_commit_bytes:trajectory_near_warm_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_commit_bytes:trajectory_wide_cool_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_commit_bytes:trajectory_wide_cool_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_commit_bytes:trajectory_wide_cool_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_commit_bytes:trajectory_wide_warm_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_commit_bytes:trajectory_wide_warm_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_commit_bytes:trajectory_wide_warm_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_commit_bytes:temperature_precommitment.json",
+      "pass_": true,
+      "detail": null
+    }
+  ],
+  "passed": 321,
+  "total": 321,
+  "source_sha256": {
+    "RESEARCH_NOTES/ModelCollapse/THEORY_BINDING_MAP_S54.md": "10cc158f1470ec4a6cea6ab02b5a04b622f57024f429b0cad750fd07652296f7",
+    "Theory/AQiDA_Physics.docx": "463a82c94b1f2fc1d1c579432da61121a4268652b77fbe6d74605273d0132887",
+    "Theory/Assessment for Genenral AI.docx": "5a63d784b625dbbf7336d6994b866c38d8ad5b81e8f666d2094f2bb5d6e523ad",
+    "Theory/Chess_Cybertron.py": "c63c7c865e115976b7aba1124bdda5299558ad6475553da7a16705d4917c1da4",
+    "Theory/CORE_LOGIC.md": "6390cfc590add97ed4eb3210d3cfe1530350118ad2eff2c7f735ca6d479913c0",
+    "Theory/e_i_relationships_graphs.docx": "1a92450e5dcdcad52fc48be70768444f8a1573deb66b1e2f586f3e9ecbb377c7",
+    "Theory/elm_eulerian.docx": "9520fee8aba92140ad8435bf60d18e114e7b365ee589f8c6b317b572c23ae0f2",
+    "Theory/n_s_u.docx": "7dee1c6855a8befdb84a9da9814253423e56ed1fe4b94636782c5cbb311a81c2",
+    "Theory/squaring_circle_euler.docx": "0fd749c624d6563ee784fd3b7cc6c90e88c8bf439f8ceb79bfe94b3612338c57",
+    "tools/band1_export/n1n3_n2n4/environment_python311.json": "a84c3d161e52f8743b99c0bfe45e544f7ae2fb1f9c47f1c705fea195305dc3db",
+    "tools/band1_export/n1n3_n2n4/n2n4_public_loop_v2.py": "b000376a23bd5018a65c62626768e20961a5500ef2af3a18da1983272789dd03",
+    "tools/band1_export/n1n3_n2n4/n2n4_transformer_measurements.py": "d17689a0dd20857d872a59350d2e640f9efa6933c1770db0a7ddcf4cf3ce1b18",
+    "tools/band1_export/n1n3_n2n4/public_loop_v2/public_loop_base_conditionals.npz": "13f1c5bcf458a9493b85abb36cbad2518b75528ee451178d4f210dbaaf7f1264",
+    "tools/band1_export/n1n3_n2n4/public_loop_v2/public_loop_calibration.json": "667adab1b6b41a650d02fc55115ea463205a5ac628e235526bd45ac76e82ec8f",
+    "tools/band1_export/n1n3_n2n4/public_loop_v2/public_loop_contexts.json": "aec1a12cdbcaf2f20b9321039ec950dc3a7c882aa6694e9b88d418576100d8cd",
+    "tools/band1_export/n1n3_n2n4/public_loop_v2/public_loop_frozen_threshold.json": "1a99f18e90ef75793d9526ba2dd15925b12b68bb88dfbcc6b6e39d360ade0de4",
+    "tools/band1_export/n1n3_n2n4/public_loop_v2/public_loop_negative.json": "e3b5db74a545f0afa0bb7328ae1db6426fcbb7b251fa81950b66f9924e80423a",
+    "tools/band1_export/n1n3_n2n4/public_loop_v2/public_loop_positive.json": "c474739d3aafe11af4a927da5536f3b67a281b595e62e29f393fac1176d40bfb",
+    "tools/band1_export/s53c/delivery_gate_final.json": "4411b0827f4e869090ef3457e5a761bbe1e0b3c9e3c169802009f43b7a464181",
+    "tools/band1_export/s53c/s53c_temperature.py": "5012e9ac656268fd8bddad3b543ca4053adf3c7b36660c241620af49acd2e390",
+    "tools/band1_export/s53c/temperature_precommitment.json": "5e6d53c9cb34dfca1a3fb5cb4e3753be5058598d34141f0703aa192fc445c515",
+    "tools/band1_export/s53c/temperature_validation_final.json": "873a29fda13dcbaf683422aa58ec9338619e357d206a203e30b0d4127eca1222",
+    "tools/band1_export/s53c/temperature_verdict.json": "d09c7b8565efa510fe5736a0c22f91e265a0992c5022e7fad0459de925f9f626",
+    "tools/band1_export/s53c/trajectory_near_cool_seed1.json": "37cb739c01d7e1987d0e416ed43c098497386d5c31e8ac59f3bb568512295602",
+    "tools/band1_export/s53c/trajectory_near_cool_seed2.json": "6df4e10a51e2152da7a5c5f2244f036fd80f80db8e8961e5845f6643362c649c",
+    "tools/band1_export/s53c/trajectory_near_cool_seed3.json": "43148739a94f0ed453fcb14ca713cd37416951c8e17dce9c44779c53dd48daf6",
+    "tools/band1_export/s53c/trajectory_near_warm_seed1.json": "ba92cbe3682aae8cd6661c12df13ed107acfea04485f7de49146f160a2d96ad3",
+    "tools/band1_export/s53c/trajectory_near_warm_seed2.json": "2fcb44bdf15845c5b32f5eff961243c5a29a3f8f9cab96212bac64ed1d536e1d",
+    "tools/band1_export/s53c/trajectory_near_warm_seed3.json": "31e6193a1ccb2edc9a14a62790b33bc020e1d9bb3c607d60df47e88c1bf56304",
+    "tools/band1_export/s53c/trajectory_wide_cool_seed1.json": "281a88025bbfdece9ab34f9ab14a5195c69b08ed6f930721e342091fb70045c7",
+    "tools/band1_export/s53c/trajectory_wide_cool_seed2.json": "c93e8d9fb3f0ed7d36a7e1f0300eedad1c4dd5995d3f666973ed1c24fbf16526",
+    "tools/band1_export/s53c/trajectory_wide_cool_seed3.json": "0929c18cc589c80dbe6f233f185bee9f9e36077c8de4ada4f606df8a5afefc72",
+    "tools/band1_export/s53c/trajectory_wide_warm_seed1.json": "b88f58eea632e56b6c40c5631b8aff2e49b4a44c7d6b703a50199b944ad3cdac",
+    "tools/band1_export/s53c/trajectory_wide_warm_seed2.json": "d0c50dca78e436a6a2906693c1c7ac6732f8300e7b41392ab6e989490761d37a",
+    "tools/band1_export/s53c/trajectory_wide_warm_seed3.json": "9bcf2d8512480c0ddc1fed7a2be3d2a2ab576f582dd4a236f374b7c8fc8c1ee3",
+    "tools/band1_export/s54/s54_saved_analysis.py": "545463c62500c1d5ffe184d9e67977f14bd60baa898ad1b69e5f42692588d605",
+    "tools/band1_export/sprint51c_neural_bridge.py": "3a8f7073ec45a27bb4937394e43a965212a1482774859812d37c8e09ae1a17e5",
+    "tools/band1_export/sprint51f_beta_calibrate.py": "aa4695102fd6b50666f375ef12cd6495fa732157dc7c7beba24ef1b306c717e8",
+    "tools/band1_export/sprint5_logs/sprint51c_neural_bridge_s51f_beta099.json": "e5e261e2b3109443ab14ca95bd532b9a90d81c2517a1ba1485c03dffda2a013b",
+    "tools/band1_export/sprint5_logs/sprint51c_neural_bridge_s51f_beta103.json": "a85b4f7f39e41d45d65098281457391caf5a9b983af767a6849421fa07c89965"
+  },
+  "script_sha256": "545463c62500c1d5ffe184d9e67977f14bd60baa898ad1b69e5f42692588d605",
+  "public_claim_authorized": false
+}

@@ -1,0 +1,2152 @@
+{
+  "status": "PASS_FINAL_DELIVERY",
+  "final_mode": true,
+  "complete_temperature_generations": 180,
+  "complete_interior_fits": 18,
+  "integrity_checks_passed": 262,
+  "integrity_checks_total": 262,
+  "requirements_passed": 132,
+  "requirements_total": 132,
+  "checks": [
+    {
+      "name": "source_rate_precommitment.json:frozen_script",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_precommitment.json:frozen_script",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_gpu_precommitment.json:frozen_script",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_gpu_cache_precommitment.json:frozen_script",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_temperature_script:s53c/s53c_temperature.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_temperature_script:n1n3_n2n4/n2n4_public_loop_v2.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_temperature_script:n1n3_n2n4/n2n4_transformer_measurements.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "temperature_precommitment.json:premeasurement_commit_bytes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source_rate_precommitment.json:premeasurement_commit_bytes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_precommitment.json:premeasurement_commit_bytes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_gpu_precommitment.json:premeasurement_commit_bytes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_gpu_cache_precommitment.json:premeasurement_commit_bytes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "temperature_precommit_precedes_all_starts",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "cache_precommit_precedes_cached_launch",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "CPU_GPU_cache_commits_precede_completed_fit_starts",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source_precommit_precedes_measurement_start",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source_exact_frozen_protocol",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "restricted_rate_gate",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source_validation.json:status",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source_validation.json:current_validator",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\source_rate_measurements.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\source_rate_precommitment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\source_feature_certificate.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "broader_rank_one_frozen_source",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "broader_rank_one_precommitment",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "broader_rank_one_no_projection_transfer",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "rank_one_source_validation.json:status",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "rank_one_source_validation.json:current_validator",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\rank_one_source_precommitment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\rank_one_source_measurements.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\source_rate_measurements.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "temperature_validation_final.json:status",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "temperature_validation_final.json:current_validator",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "temperature_validation_final.json:complete_count",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_cool_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_cool_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_cool_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_warm_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_warm_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_warm_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_cool_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_cool_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_cool_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_warm_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_warm_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_warm_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_gpu_validation_final.json:status",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_gpu_validation_final.json:current_validator",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_gpu_validation_final.json:complete_count",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed1_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed1_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed1_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed2_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed2_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed2_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed3_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed3_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed3_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed1_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed1_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed1_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed2_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed2_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed2_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed3_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed3_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed3_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_replay_gate.json:status",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_replay_gate.json:current_validator",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_replay_gate.json:complete_count",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed1_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed1_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed1_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed2_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed2_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed2_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed3_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed3_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed3_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed1_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed1_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed1_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed2_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed2_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed2_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed3_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed3_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed3_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\s53c_interior_gpu_probe.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_precommitment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\s53c_interior_gpu_cache.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_cache_precommitment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\s53c_run_interior_gpu.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\s53c_replay_interior.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_cached_launch_20260905T051213Z\\launch.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_cached_launch_20260905T051213Z\\run.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_cached_launch_20260905T051213Z\\resources.jsonl",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_completion_before_replay\\interior_gpu_measurements.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_completion_before_replay\\interior_gpu_linear_qa.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_completion_before_replay\\interior_gpu_cache_manifest.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_completion_before_replay\\interior_gpu_progress.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_cached_launch_20260905T074601Z\\launch.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_cached_launch_20260905T074601Z\\run.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_cached_launch_20260905T074601Z\\resources.jsonl",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_measurements.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_linear_qa.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_cache_manifest.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_progress.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_completion_before_replay\\replay_inputs.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_completion_before_replay\\wrapper.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_replay_no_retraining",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_replay_frozen_tolerance",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/multiple_seed1_g0.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/multiple_seed1_g1.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/multiple_seed1_g2.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/multiple_seed2_g0.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/multiple_seed2_g1.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/multiple_seed2_g2.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/multiple_seed3_g0.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/multiple_seed3_g1.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/multiple_seed3_g2.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/single_seed1_g0.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/single_seed1_g1.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/single_seed1_g2.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/single_seed2_g0.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/single_seed2_g1.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/single_seed2_g2.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/single_seed3_g0.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/single_seed3_g1.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "replay_checkpoint:runtime/interior_gpu/single_seed3_g2.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "precision_audit_current",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\source_chart_contract.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\source_rate_measurements.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\source_precision_audit.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source_rate_figure_manifest.json:current_source",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source_rate_figure_manifest.json:visual_QA",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "figure_hash:source_rate_figure.png",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "figure_hash:source_rate_figure.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed1_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed1_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed1_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed2_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed2_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed2_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed3_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed3_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed3_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed1_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed1_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed1_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed2_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed2_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed2_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed3_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed3_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed3_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_measurements.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_gpu_validation_final.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\interior_chart_contract.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_figure_manifest.json:current_source",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_figure_manifest.json:visual_QA",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "figure_hash:interior_residual_figure.png",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "figure_hash:interior_residual_figure.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_cool_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_cool_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_cool_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_warm_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_warm_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_warm_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_cool_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_cool_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_cool_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_warm_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_warm_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_warm_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\temperature_precommitment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\temperature_verdict.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\temperature_validation_final.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\temperature_chart_contract.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "temperature_trajectory_diagnostics.json:current_source",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "temperature_trajectory_diagnostics.json:visual_QA",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "figure_hash:temperature_trajectory_figure.png",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "figure_hash:temperature_trajectory_figure.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_cool_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_cool_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_cool_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_warm_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_warm_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_near_warm_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_cool_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_cool_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_cool_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_warm_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_warm_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\trajectory_wide_warm_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "temperature_verdict_frozen_protocol",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "temperature_priority_gate_closed",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_grid",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_source_grid",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_single_seed1_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_single_seed1_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_single_seed1_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_single_seed2_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_single_seed2_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_single_seed2_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_single_seed3_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_single_seed3_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_single_seed3_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_multiple_seed1_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_multiple_seed1_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_multiple_seed1_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_multiple_seed2_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_multiple_seed2_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_multiple_seed2_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_multiple_seed3_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_multiple_seed3_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_hash:interior_gpu_fit_multiple_seed3_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_summary_frozen_protocol",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "interior_public_claim_closed",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:aqida_lean_phase_math\\AqidaLeanPhaseMath\\ModelCollapse\\AuditResolutionS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:aqida_lean_phase_math\\AqidaLeanPhaseMath\\ModelCollapse\\ResolutionS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:aqida_lean_phase_math\\AqidaLeanPhaseMath\\ModelCollapse\\AuditPartitionRateS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:aqida_lean_phase_math\\AqidaLeanPhaseMath\\ModelCollapse\\PartitionRateS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:aqida_lean_phase_math\\AqidaLeanPhaseMath\\ModelCollapse\\AuditRankOneSourceS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:aqida_lean_phase_math\\AqidaLeanPhaseMath\\ModelCollapse\\RankOneSourceS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_standard_axiom_results",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_build_log_current",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_build_input_manifest",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_build_input:aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/AuditResolutionS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_build_input:aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/ResolutionS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_build_input:aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/AuditPartitionRateS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_build_input:aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/PartitionRateS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_build_input:aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/AuditRankOneSourceS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_build_input:aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/RankOneSourceS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_build_input:aqida_lean_phase_math/AqidaLeanPhaseMath.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_build_input:aqida_lean_phase_math/lakefile.toml",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_build_input:aqida_lean_phase_math/lake-manifest.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_build_input:aqida_lean_phase_math/lean-toolchain",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_committed_umbrella_current",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_owned_umbrella_lines_preserved",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "kernel_gate_source_current",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "analytic_falsifiers",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_presentation_validation.json:status",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_presentation_validation.json:current_validator",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\s53c_reports.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\s53c_validate_delivery_presentation.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "report_generator_current",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "report_temperature_checkpoint_audit_binding",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "report_final_temperature_validation_binding",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\s53c_queue_temperature.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\s53c_launch.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\temperature_precommitment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source:tools\\band1_export\\s53c\\resumption_20260905T195913Z\\execution_plan.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "resumption_snapshot_report_binding",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "resumption_snapshot_observer_source",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "resumption_snapshot_no_public_claim",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "report_hash:SPRINT53C_REPORT.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "report_hash:SOL_HANDOFF_S53C.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "report_hash:MEMORY_S53C.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "project_memory_mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "RESEARCH_NOTES/LEDGER_STATUS.md:unique_owned_block",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "aqida_core_separation/REPORT_SPINE.md:unique_owned_block",
+      "pass_": true,
+      "detail": null
+    }
+  ],
+  "requirements": [
+    {
+      "name": "temperature_180_generations_12_trajectories",
+      "pass_": true,
+      "detail": 180
+    },
+    {
+      "name": "interior_18_fits",
+      "pass_": true,
+      "detail": 18
+    },
+    {
+      "name": "broader_rank_one_kernel_in_umbrella",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "report_current_temperature_audit",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "report_measurement_suites_validated",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "report_covers_current_measurement_counts",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "RESEARCH_NOTES/LEDGER_STATUS.md:owned_block_committed",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "aqida_core_separation/REPORT_SPINE.md:owned_block_committed",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:aqida_lean_phase_math\\AqidaLeanPhaseMath\\ModelCollapse\\AuditPartitionRateS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:aqida_lean_phase_math\\AqidaLeanPhaseMath\\ModelCollapse\\AuditRankOneSourceS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:aqida_lean_phase_math\\AqidaLeanPhaseMath\\ModelCollapse\\AuditResolutionS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:aqida_lean_phase_math\\AqidaLeanPhaseMath\\ModelCollapse\\PartitionRateS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:aqida_lean_phase_math\\AqidaLeanPhaseMath\\ModelCollapse\\RankOneSourceS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:aqida_lean_phase_math\\AqidaLeanPhaseMath\\ModelCollapse\\ResolutionS53C.lean",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:RESEARCH_NOTES\\ModelCollapse\\MEMORY_S53C.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:RESEARCH_NOTES\\ModelCollapse\\SOL_HANDOFF_S53C.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:RESEARCH_NOTES\\ModelCollapse\\SPRINT53C_REPORT.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\n1n3_n2n4\\n2n4_public_loop_v2.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\n1n3_n2n4\\n2n4_transformer_measurements.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\analytic_falsifiers.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\delivery_gate_shared_worktree_difference.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\delivery_presentation_validation.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\failed_generation1_artifact_manifest.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_chart_contract.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_completion_before_replay\\interior_gpu_cache_manifest.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_completion_before_replay\\interior_gpu_linear_qa.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_completion_before_replay\\interior_gpu_measurements.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_completion_before_replay\\interior_gpu_progress.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_completion_before_replay\\replay_inputs.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_completion_before_replay\\wrapper.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_device_amendment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_figure_manifest.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_figure_visual_qa.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_cache_manifest.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_cache_precommitment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_cached_launch_20260905T051213Z\\launch.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_cached_launch_20260905T051213Z\\resources.jsonl",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_cached_launch_20260905T051213Z\\run.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_cached_launch_20260905T074601Z\\launch.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_cached_launch_20260905T074601Z\\resources.jsonl",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_cached_launch_20260905T074601Z\\run.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed1_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed1_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed1_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed2_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed2_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed2_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed3_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed3_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_multiple_seed3_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed1_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed1_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed1_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed2_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed2_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed2_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed3_g0.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed3_g1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_fit_single_seed3_g2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_linear_qa.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_measurements.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_precommitment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_progress.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_gpu_validation_final.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_precommitment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_replay_gate.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_residual_figure.png",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\interior_residual_figure.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\kernel_gate_v13.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\lean_and_umbrella_final_v13.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\lean_build_inputs_v13.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\rank_one_source_measurements.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\rank_one_source_precommitment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\rank_one_source_validation.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\report_manifest.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\resumption_20260905T195913Z\\execution_plan.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\resumption_status_snapshot.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_delivery_gate.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_falsifiers.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_interior_figure.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_interior_gpu_cache.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_interior_gpu_probe.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_interior_probe.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_kernel_gate_v13.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_launch.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_queue_temperature.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_rank_one_source.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_replay_interior.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_reports.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_resumption_snapshot.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_run_interior_gpu.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_source_figure.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_source_precision.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_source_rate.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_temperature.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_temperature_diagnostics.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_validate_delivery_presentation.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_validate_interior.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_validate_rank_one_source.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_validate_source.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\s53c_validate_temperature.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\source_chart_contract.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\source_feature_certificate.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\source_precision_audit.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\source_rate_figure.png",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\source_rate_figure.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\source_rate_figure_manifest.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\source_rate_figure_visual_qa.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\source_rate_measurements.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\source_rate_precommitment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\source_validation.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\source_validation_initial.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\temperature_chart_contract.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\temperature_figure_visual_qa.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\temperature_precommitment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\temperature_trajectory_diagnostics.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\temperature_trajectory_figure.png",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\temperature_trajectory_figure.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\temperature_validation_final.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\temperature_verdict.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\trajectory_near_cool_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\trajectory_near_cool_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\trajectory_near_cool_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\trajectory_near_warm_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\trajectory_near_warm_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\trajectory_near_warm_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\trajectory_wide_cool_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\trajectory_wide_cool_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\trajectory_wide_cool_seed3.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\trajectory_wide_warm_seed1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\trajectory_wide_warm_seed2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "committed_bytes:tools\\band1_export\\s53c\\trajectory_wide_warm_seed3.json",
+      "pass_": true,
+      "detail": null
+    }
+  ],
+  "scoped_temperature_verdict": "NEAR_THRESHOLD_USER_RULE_RESOLVED",
+  "restricted_code_source_rate_authorized": true,
+  "broader_rank_one_numerical_nonmembership_authorized": true,
+  "interior_finite_grid_authorized": true,
+  "unrestricted_QV_projection_authorized": false,
+  "public_headline_authorized": false,
+  "first_in_field_authorized": false,
+  "source_sha256": {
+    "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/AuditPartitionRateS53C.lean": "39c68109b610694c2d076735f1951b1bc1e5ddde8e54bbdc3af20aaa6a97fe86",
+    "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/AuditRankOneSourceS53C.lean": "3caf765354fa828f5f09e6688a3e62d3ff6f46fcc4d159837b92cb091a8fb19c",
+    "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/AuditResolutionS53C.lean": "a4fb008a2dedd8267ca67ecdba8b3b7fbaed86fc1f6f41b7f84f169dbf9abe42",
+    "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/PartitionRateS53C.lean": "8b64d6bb23c45d6cb94edb2de19ae8621fa8a5e6dd25bd6a0caa5d201271a332",
+    "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/RankOneSourceS53C.lean": "70d188319084906f782f7af5e87c3dd9a88aae19988651572d02907ce786d78d",
+    "aqida_lean_phase_math/AqidaLeanPhaseMath/ModelCollapse/ResolutionS53C.lean": "a2ff6dc768b61b2e2d5e5db5cb2b4fe1698faff248faa51e26e73ddaef4a58a2",
+    "aqida_lean_phase_math/lake-manifest.json": "3b1bc25ac3bb39925386abc841a91cdd8aa59a3187977d30fa186e531e3a9f42",
+    "aqida_lean_phase_math/lakefile.toml": "db41fdf1ef1859e5e84286a44001f6f65c1ba754f2158bb70bfe127280c77e2d",
+    "aqida_lean_phase_math/lean-toolchain": "ce4c4e3d87434b9663f46de25ce34b48a0cf0d392e0a320a0787b4674a2d7b61",
+    "RESEARCH_NOTES/ModelCollapse/MEMORY_S53C.md": "93adeda4c152271fe97d43a93ba669dad25ea288273e7a4c44b83d5dfd5a81c6",
+    "RESEARCH_NOTES/ModelCollapse/SOL_HANDOFF_S53C.md": "7fd5ffa97a70f8bda7db6ae1c359b43776ae07496c6a5c42a40f33ad3650a31d",
+    "RESEARCH_NOTES/ModelCollapse/SPRINT53C_REPORT.md": "6b34f13ebaa4bdb17ff19ac6d3316d962cdd87a69eb9d0f19c96757663bb645c",
+    "tools/band1_export/n1n3_n2n4/n2n4_public_loop_v2.py": "b000376a23bd5018a65c62626768e20961a5500ef2af3a18da1983272789dd03",
+    "tools/band1_export/n1n3_n2n4/n2n4_transformer_measurements.py": "d17689a0dd20857d872a59350d2e640f9efa6933c1770db0a7ddcf4cf3ce1b18",
+    "tools/band1_export/s53c/analytic_falsifiers.json": "29fe503efaecd02a37c24021b0fdd22c0e2121ca9dc9cd4937e16cc4b775d067",
+    "tools/band1_export/s53c/delivery_gate_shared_worktree_difference.json": "825c1702290b00b50bedd2e58572798b8d792ee13d007b84aaf3bd989c044e89",
+    "tools/band1_export/s53c/delivery_presentation_validation.json": "029dc0af71c5546c0d5b0f810d27f639276eda3d189a2e1841dec8a4b2c9c765",
+    "tools/band1_export/s53c/failed_generation1_artifact_manifest.json": "89550e631da61df0c72f7b6b47bd872d53890f6fab8fc97a72d02ec3983fed66",
+    "tools/band1_export/s53c/interior_chart_contract.json": "57d214aec8e8ac5c5832007ba7fdfadec7662c8221f573c479ca832c32765249",
+    "tools/band1_export/s53c/interior_completion_before_replay/interior_gpu_cache_manifest.json": "d4b71093060454e9822a3bdb33afa3ff2bbee3e317ee0ea6850ad575a439a82a",
+    "tools/band1_export/s53c/interior_completion_before_replay/interior_gpu_linear_qa.json": "c824d234b3f39feff090f778d28486e41f2aa057b4da4c1b69f193e9008adf0e",
+    "tools/band1_export/s53c/interior_completion_before_replay/interior_gpu_measurements.json": "718ce564189a2aec078359079689daf4e93b1722ea8e9a7ef5e2edac1d0b33d7",
+    "tools/band1_export/s53c/interior_completion_before_replay/interior_gpu_progress.json": "67899fa3ca63208d97e42a7830b983b9c4527968b17112334f8ab1727ac0e071",
+    "tools/band1_export/s53c/interior_completion_before_replay/replay_inputs.json": "8512ac79a30fc3b4fd648790b1764e8b13b744232b245053732b4cba77cfb1fe",
+    "tools/band1_export/s53c/interior_completion_before_replay/wrapper.log": "c49ef18753b245cfdefcf8fcdd8c239bb5dbb93380f0126a0bedf753e67d4883",
+    "tools/band1_export/s53c/interior_device_amendment.json": "0a8b44931bf0dc471cce28ea27d74e1c96fd5dd2b06b84db1a7e688ccbc044ac",
+    "tools/band1_export/s53c/interior_figure_manifest.json": "b3c4a8efb59c77edc9926f7f8ba34b584c6a76919947e92b839ba9b79e9c053a",
+    "tools/band1_export/s53c/interior_figure_visual_qa.json": "ae9d8e7d8bdf9f912057e1daef5b2b3dfd9284662456c48d92bbf40955baaa2b",
+    "tools/band1_export/s53c/interior_gpu_cache_manifest.json": "d4b71093060454e9822a3bdb33afa3ff2bbee3e317ee0ea6850ad575a439a82a",
+    "tools/band1_export/s53c/interior_gpu_cache_precommitment.json": "9693fd8bb4daa16f4e33cebc23073774b0a1cbe214f1d0ee1db0079117191a74",
+    "tools/band1_export/s53c/interior_gpu_cached_launch_20260905T051213Z/launch.json": "aae623884f318aed7d7ea818e305422d48b776dd5c4f9f10a253d643899d845e",
+    "tools/band1_export/s53c/interior_gpu_cached_launch_20260905T051213Z/resources.jsonl": "1b8e37cc9b9b1cc019e38a9470d128ce224943180fccd71e59ebb013fdee683f",
+    "tools/band1_export/s53c/interior_gpu_cached_launch_20260905T051213Z/run.log": "6aab89cbfb0a881ded1cd332a940a394c2af0b3afe6e50b22fc8fdbbd0e0739d",
+    "tools/band1_export/s53c/interior_gpu_cached_launch_20260905T074601Z/launch.json": "a788827ccd505bf60b8dee6ca4135aff3fccd7df502006df4ac869f30cc903c4",
+    "tools/band1_export/s53c/interior_gpu_cached_launch_20260905T074601Z/resources.jsonl": "d512b08154af15f371e3e824cc828cabe2b929ed7048504b1f850e8785a24800",
+    "tools/band1_export/s53c/interior_gpu_cached_launch_20260905T074601Z/run.log": "dbdc4dbd553d9fdf0e77c9ec3d8cde83e0b671ec5887ca1dfdb573cc5f0e7e5a",
+    "tools/band1_export/s53c/interior_gpu_fit_multiple_seed1_g0.json": "91d452d60012e490a44b3997fa2296efd67fbdb019929f9527d82277f2fb6ea0",
+    "tools/band1_export/s53c/interior_gpu_fit_multiple_seed1_g1.json": "7c21cee755b136a7bcfe15ae82253c8dcede5f07455033d2e328841745b2e91c",
+    "tools/band1_export/s53c/interior_gpu_fit_multiple_seed1_g2.json": "7fa28bfda647a457b00f56d931d6bc84543448ce1b93a39922d2119681390fd3",
+    "tools/band1_export/s53c/interior_gpu_fit_multiple_seed2_g0.json": "c9820997b4c9f73e2fa0eff5c7d6426b12c46b7a91f9591e7085b30c8706aa5b",
+    "tools/band1_export/s53c/interior_gpu_fit_multiple_seed2_g1.json": "5e5f103dea640c73bd922b428ed81da30a2059e05ed5c47a3e9b76a589c16390",
+    "tools/band1_export/s53c/interior_gpu_fit_multiple_seed2_g2.json": "c47784554bb0e357309fe0cdde7605fcdbb27a8473de965ac79f285ec737b7bc",
+    "tools/band1_export/s53c/interior_gpu_fit_multiple_seed3_g0.json": "5999e3fb91ea81896638db89210ae7541095659d3d62fe42e9ab267a18caaeb6",
+    "tools/band1_export/s53c/interior_gpu_fit_multiple_seed3_g1.json": "a6902dbdb1ffa630ec6a3c4fd12da9d02ab95ec6ec2fc40b9b9e35db52d1f563",
+    "tools/band1_export/s53c/interior_gpu_fit_multiple_seed3_g2.json": "91ae4d717400704ce9209d4ddd6a2f6ad5223379c26e7a6e2eed64a43782e593",
+    "tools/band1_export/s53c/interior_gpu_fit_single_seed1_g0.json": "4120281b52be83d22b493b94527c0ab147997371d58b8a292f1c4ddaaceb4795",
+    "tools/band1_export/s53c/interior_gpu_fit_single_seed1_g1.json": "ea2bc1fa22494551fa31b4c787451750a7c8ff15f093c2f90fb0eec5b145848d",
+    "tools/band1_export/s53c/interior_gpu_fit_single_seed1_g2.json": "3e9c23b8bdc2bbebff8ad8f1734588859ab191f1fcaab95fed25bb0ece5ccc1d",
+    "tools/band1_export/s53c/interior_gpu_fit_single_seed2_g0.json": "62868ee630949c97e911638d9c6c2d33f9084f83f6a42547527502c2ed2ed469",
+    "tools/band1_export/s53c/interior_gpu_fit_single_seed2_g1.json": "0fa5fc27c7adf8d9a359826b96833bc292f3788d6aa6f4f2f4f9de6b27b37119",
+    "tools/band1_export/s53c/interior_gpu_fit_single_seed2_g2.json": "f8e6073e12d9ec9d4dca62f9bd7d7af88c86f2b52f9ce68c5e9598192b1ce732",
+    "tools/band1_export/s53c/interior_gpu_fit_single_seed3_g0.json": "5a917706d6c8d2007645cdd064968e9cc9a60ed1b38e8e0f36c4cbd3e422f91c",
+    "tools/band1_export/s53c/interior_gpu_fit_single_seed3_g1.json": "f46800fb35fa3fc62c20153cabcc3f3cd2d64797fdabb155464bca7db8c9d883",
+    "tools/band1_export/s53c/interior_gpu_fit_single_seed3_g2.json": "034c1264cafbaaf28e6b41382c2dcc93bc7b93e6790e570b1841c75d4754a928",
+    "tools/band1_export/s53c/interior_gpu_linear_qa.json": "7fef5c9ea017ca7ad0f0b89effe82668b0197430e596644f721009f74324b60b",
+    "tools/band1_export/s53c/interior_gpu_measurements.json": "07956a89c81c4b36d9fe076e57512fd0db43f2b683c6b2137531c06ac82fe6ee",
+    "tools/band1_export/s53c/interior_gpu_precommitment.json": "b4b5d3d8aa1538771c90fecc81a454f172e4fa48ad0fe748b26f865f7737d92d",
+    "tools/band1_export/s53c/interior_gpu_progress.json": "67899fa3ca63208d97e42a7830b983b9c4527968b17112334f8ab1727ac0e071",
+    "tools/band1_export/s53c/interior_gpu_validation_final.json": "e693b516c0dad9cf2ec76a072fa7620cd0d68061b876ca9929ae6528b6875da8",
+    "tools/band1_export/s53c/interior_precommitment.json": "325427be0ede87f30fa0a068f7e6fa9d91cbe535b70630149e4673c14173fe21",
+    "tools/band1_export/s53c/interior_replay_gate.json": "ecc650088c9e941cf239d4dcf9d608d92b9c641611e3da56c1133ce830a5deeb",
+    "tools/band1_export/s53c/interior_residual_figure.png": "77f5a25bdd27e4c90f3c45b567ff456e3854374f5c23434ec76f442366ffdcbf",
+    "tools/band1_export/s53c/interior_residual_figure.svg": "77a2c0f3f884bcf75904c29ba1c4e1704c098187c7c78437e3b87dcb50f97edd",
+    "tools/band1_export/s53c/kernel_gate_v13.json": "0e4f9f7ac82a7771547898061a3ce83fdc43002a8f2ee4ade5dcd928692687d2",
+    "tools/band1_export/s53c/lean_and_umbrella_final_v13.log": "985f41d32aa2c2647e242f7a056b1085902235f46a36648c6b7427ce0f4b6dac",
+    "tools/band1_export/s53c/lean_build_inputs_v13.json": "7894a41fff6dce7180071c310a873a07b803d7aac80cbeed1bc6c1aa8ed2ad0a",
+    "tools/band1_export/s53c/rank_one_source_measurements.json": "696f2ee3119272915ac42e5ab7e389bc4976c8597eb09fd144b47fcc2172c724",
+    "tools/band1_export/s53c/rank_one_source_precommitment.json": "a80f010c5faf69f6ba6d5a0a920612e6662f4de49d77aebac882e17499fbe2e4",
+    "tools/band1_export/s53c/rank_one_source_validation.json": "f51268f7d90e0747c9dd7dc002a6cdcdce9447a084448244b0b4ecbdd3d9c95c",
+    "tools/band1_export/s53c/report_manifest.json": "667465ebe3e32dccb818788fd588f2672ade9d308b7e489e3b135021542250dc",
+    "tools/band1_export/s53c/resumption_20260905T195913Z/execution_plan.json": "b425f7a3612091bb357a57491d4a7efd8872112eab3cb745da85ae84f5c3a989",
+    "tools/band1_export/s53c/resumption_status_snapshot.json": "e6271a50117ed9c8e09cec9ffed24850a1978511c75264f92781ca4ecbc8eff1",
+    "tools/band1_export/s53c/runtime/interior_gpu/multiple_seed1_g0.npz": "0893c782824dc71ed9f4ff8c02eba95c671ecee8379498765040612b0aa4b5eb",
+    "tools/band1_export/s53c/runtime/interior_gpu/multiple_seed1_g1.npz": "608e8205f8752b03f576c91db1ecafcbcae09cc0bca76b48c07f06276d8ff15e",
+    "tools/band1_export/s53c/runtime/interior_gpu/multiple_seed1_g2.npz": "01791f0a15f774b08b9a674a7fa74b085980d336de13108822ee0ba4f1a9d608",
+    "tools/band1_export/s53c/runtime/interior_gpu/multiple_seed2_g0.npz": "3e0c29d9079193ae54bd673bc6df6fa2b3c3dc25cfc9ec3bf4c5499a4e8262ac",
+    "tools/band1_export/s53c/runtime/interior_gpu/multiple_seed2_g1.npz": "a1b8d4ee6581154c265eebe16adc0280e2c86ca41b540825c660df0d7be4f326",
+    "tools/band1_export/s53c/runtime/interior_gpu/multiple_seed2_g2.npz": "4469f42af0c982de3d33183eb92300f52ef60011a20d8dc162115b1a9361d82f",
+    "tools/band1_export/s53c/runtime/interior_gpu/multiple_seed3_g0.npz": "cc51ef08f449275489ab6575833d3a2767dc42950dd7086e94c0d45bb3f4b923",
+    "tools/band1_export/s53c/runtime/interior_gpu/multiple_seed3_g1.npz": "bfae5f2b1bc2c9f7c41d2af0d10deac9ed4c44f9b500fb4a3510c1abf3829b3e",
+    "tools/band1_export/s53c/runtime/interior_gpu/multiple_seed3_g2.npz": "2c63a460599df38d6a16ea37ab98eeb6b2a1cea0fd7663fcfaa8e472d44b088b",
+    "tools/band1_export/s53c/runtime/interior_gpu/single_seed1_g0.npz": "058ca49e12461a6ed5473a44ce0682ffb8b4aeb752ec8a2b31d6a5e9ba940cd8",
+    "tools/band1_export/s53c/runtime/interior_gpu/single_seed1_g1.npz": "379159fef5d633354b7c168e22ff6a0712990cdb36de44cbdcff3149cbd91080",
+    "tools/band1_export/s53c/runtime/interior_gpu/single_seed1_g2.npz": "1b3a514f0209844aade0e069d3df4c5ba1507269507accdc1d8d5e2bc0ea0180",
+    "tools/band1_export/s53c/runtime/interior_gpu/single_seed2_g0.npz": "ef8187cd01e62b4a22542e769088fbdee323da1627dcc119fc9b3846f52def5c",
+    "tools/band1_export/s53c/runtime/interior_gpu/single_seed2_g1.npz": "971eb269e76456c427bf295fdb152248e0ea28ba077da1ac3ce388b20157417f",
+    "tools/band1_export/s53c/runtime/interior_gpu/single_seed2_g2.npz": "fb4839a88b54615e9c94d70ad2ee8d3a8ca51bba0258f50e06b1421fbc0c33bf",
+    "tools/band1_export/s53c/runtime/interior_gpu/single_seed3_g0.npz": "37207247087597f3266437f4eff28a4bfe96b92e6fa2daf694d018ad64688603",
+    "tools/band1_export/s53c/runtime/interior_gpu/single_seed3_g1.npz": "a3d0617426e5800c6574b7cf5bebced7d4452222890fb998aa972a3d128723a6",
+    "tools/band1_export/s53c/runtime/interior_gpu/single_seed3_g2.npz": "0b07bb079f752b05e8345e99bac155f0e6109780564060349f94fc4cc9ed7b8b",
+    "tools/band1_export/s53c/s53c_delivery_gate.py": "984e2e89714884da5851ec1ccab04fa231083c7a301d1531c3b56eeb0b075d7b",
+    "tools/band1_export/s53c/s53c_falsifiers.py": "34b8c665dd5ee93a668d98b8741225d3d4d827371ad4d265ac5a264a0b3de390",
+    "tools/band1_export/s53c/s53c_interior_figure.py": "2ded4389b8f072a6680e3d8d553cf80b1b156dd2a68ea5cf905b48ade3d3be3b",
+    "tools/band1_export/s53c/s53c_interior_gpu_cache.py": "e699cee57132f7ee9892ec63ab44650ff78454dbdc54ebba69113b833b722f89",
+    "tools/band1_export/s53c/s53c_interior_gpu_probe.py": "60139eb2ef1b7563f435d228a33ce534046c44c9c20a26f7814d06d5371356db",
+    "tools/band1_export/s53c/s53c_interior_probe.py": "8761ca851f50d7b067e0b6f44f15fa9534d5bea45597a9072b15557b61b84646",
+    "tools/band1_export/s53c/s53c_kernel_gate_v13.py": "36190e68aa0eb62bcf5fce18cec478a298aadbf2117e6336e00e3e1ebe73d039",
+    "tools/band1_export/s53c/s53c_launch.py": "a803314d183b1761002ce9c9003c26db953c67ea0400c53d398e193100b30754",
+    "tools/band1_export/s53c/s53c_queue_temperature.py": "88c1b87b93062aa9c681bf8c4144b7a78777f7baf22bb606c59799928a8d4572",
+    "tools/band1_export/s53c/s53c_rank_one_source.py": "162635d764a6424414bab360a143cbd3b781e1c19ca0f9bc5633a335d6bcb630",
+    "tools/band1_export/s53c/s53c_replay_interior.py": "2e76d75875761ac19a5ddf08c8736b5ba5161a15bc8724c3fdc82bf1cea8bcb0",
+    "tools/band1_export/s53c/s53c_reports.py": "9a7d1fc97c56b3cfe1dd64563e0592cdec65b1ca576e2d55cb75c92db79fbe07",
+    "tools/band1_export/s53c/s53c_resumption_snapshot.py": "4950a16c954405ff0ab31b682a3609249476d2cb39edd771f761484f0cbb46ca",
+    "tools/band1_export/s53c/s53c_run_interior_gpu.py": "c0c4ba27d3bb443b2cf867a955dcd8f414f61bdbe02035462d3e87c1307afb4e",
+    "tools/band1_export/s53c/s53c_source_figure.py": "82075cdba5f189fb3da6699adffcb74383e7e45ef930c76e79df65d0cd2ad696",
+    "tools/band1_export/s53c/s53c_source_precision.py": "3448dea9c418a7cafb65d390896ad210984dda7c6bb60f4058eed54f5f707198",
+    "tools/band1_export/s53c/s53c_source_rate.py": "3b6bed00740f7350b28e61cfc4e0db459b12d00f2f4464e6dddb2c6190076b17",
+    "tools/band1_export/s53c/s53c_temperature.py": "5012e9ac656268fd8bddad3b543ca4053adf3c7b36660c241620af49acd2e390",
+    "tools/band1_export/s53c/s53c_temperature_diagnostics.py": "6b8bd7961c309c1d88630919aad7e263f8ba04f57053e37c4049e11802e4d712",
+    "tools/band1_export/s53c/s53c_validate_delivery_presentation.py": "98bfcc884237382583bf5ff3490d3c42a6f21860d0bab601493c7a66ed2019da",
+    "tools/band1_export/s53c/s53c_validate_interior.py": "3db206594e56dfd7ec5059bb94fc28260db34ee381da5e320191b864d4d8a0c6",
+    "tools/band1_export/s53c/s53c_validate_rank_one_source.py": "eb63f1cd2cd100eae217a10e3b95acfb58ca7c2a57693330ac895dea04fc22c4",
+    "tools/band1_export/s53c/s53c_validate_source.py": "737fd35c21df6449fef3cb53113c2b1a5130040acebca9d4b8d385dc7dc01f99",
+    "tools/band1_export/s53c/s53c_validate_temperature.py": "a606d9ed91ba8734f2e59de5d6e1ab1a3d45588d73c9a4fc72f5ad625ab0d5ef",
+    "tools/band1_export/s53c/source_chart_contract.json": "cf47c188c9600ba08bd2ebcbbfa7e9d7ce2ac83085c1863162f0e44ab73ca89d",
+    "tools/band1_export/s53c/source_feature_certificate.json": "13864d5eafea82b4413846f3be23d7057717cebba0c187307986426f14d09242",
+    "tools/band1_export/s53c/source_precision_audit.json": "4f05d25d10f66999c06a435bc23af8ab28c8074099ae7a33cf3f7b31d2d2da90",
+    "tools/band1_export/s53c/source_rate_figure.png": "a4d29aa99d671ac2bef781c7fd68d842a1a9d9bc8b27a28333e00e2c4282949d",
+    "tools/band1_export/s53c/source_rate_figure.svg": "344ec10b52fcedd252e4134271e34a0508821a6b4290a8ec834418a05869ee75",
+    "tools/band1_export/s53c/source_rate_figure_manifest.json": "73f42909e38a63d410d0e48b3136ca9bb049140b8180ff31626f2a65b9d781e0",
+    "tools/band1_export/s53c/source_rate_figure_visual_qa.json": "867ce45036958b1553faf91a4ba37277094b90cad6afa1b4fca31938d532f712",
+    "tools/band1_export/s53c/source_rate_measurements.json": "050e9ba17d310a98e35b08d1e69a7b92e8de46a7eaf38ea78b1d88046c75b535",
+    "tools/band1_export/s53c/source_rate_precommitment.json": "9406a59de6a0f4d69635224826f60e888de3ae67c8858914dcfc98a70744c6d9",
+    "tools/band1_export/s53c/source_validation.json": "e6d7179c46ef34cf08c200b43d8e431176debb6f87899e5e37950ff9db5f2cf6",
+    "tools/band1_export/s53c/source_validation_initial.json": "9f423ad137133d8b7244d26f29f34710002632547d14b2cb8a5db4c879c8c9bc",
+    "tools/band1_export/s53c/temperature_chart_contract.json": "5757a946613837335cfbd9a5bcc105ecef8f207467c7a5dd375a61be59c316d8",
+    "tools/band1_export/s53c/temperature_figure_visual_qa.json": "3fd357055d65ea7e4938cff5b11826c708f3028d02fd6f71a5aaa4366301ac5c",
+    "tools/band1_export/s53c/temperature_precommitment.json": "5e6d53c9cb34dfca1a3fb5cb4e3753be5058598d34141f0703aa192fc445c515",
+    "tools/band1_export/s53c/temperature_trajectory_diagnostics.json": "c34dd9752bca56920f4d98afb0a42de0538026f633c008860d4c7459f1896292",
+    "tools/band1_export/s53c/temperature_trajectory_figure.png": "d8fb731e253ff5443081769d6ddcae0aca3754b9caf369a81f5d93b347dbd3d8",
+    "tools/band1_export/s53c/temperature_trajectory_figure.svg": "2363da49920b699a48cb50376321eaa4182d8e0ef32174a342fb38354da75dc6",
+    "tools/band1_export/s53c/temperature_validation_final.json": "873a29fda13dcbaf683422aa58ec9338619e357d206a203e30b0d4127eca1222",
+    "tools/band1_export/s53c/temperature_verdict.json": "d09c7b8565efa510fe5736a0c22f91e265a0992c5022e7fad0459de925f9f626",
+    "tools/band1_export/s53c/trajectory_near_cool_seed1.json": "37cb739c01d7e1987d0e416ed43c098497386d5c31e8ac59f3bb568512295602",
+    "tools/band1_export/s53c/trajectory_near_cool_seed2.json": "6df4e10a51e2152da7a5c5f2244f036fd80f80db8e8961e5845f6643362c649c",
+    "tools/band1_export/s53c/trajectory_near_cool_seed3.json": "43148739a94f0ed453fcb14ca713cd37416951c8e17dce9c44779c53dd48daf6",
+    "tools/band1_export/s53c/trajectory_near_warm_seed1.json": "ba92cbe3682aae8cd6661c12df13ed107acfea04485f7de49146f160a2d96ad3",
+    "tools/band1_export/s53c/trajectory_near_warm_seed2.json": "2fcb44bdf15845c5b32f5eff961243c5a29a3f8f9cab96212bac64ed1d536e1d",
+    "tools/band1_export/s53c/trajectory_near_warm_seed3.json": "31e6193a1ccb2edc9a14a62790b33bc020e1d9bb3c607d60df47e88c1bf56304",
+    "tools/band1_export/s53c/trajectory_wide_cool_seed1.json": "281a88025bbfdece9ab34f9ab14a5195c69b08ed6f930721e342091fb70045c7",
+    "tools/band1_export/s53c/trajectory_wide_cool_seed2.json": "c93e8d9fb3f0ed7d36a7e1f0300eedad1c4dd5995d3f666973ed1c24fbf16526",
+    "tools/band1_export/s53c/trajectory_wide_cool_seed3.json": "0929c18cc589c80dbe6f233f185bee9f9e36077c8de4ada4f606df8a5afefc72",
+    "tools/band1_export/s53c/trajectory_wide_warm_seed1.json": "b88f58eea632e56b6c40c5631b8aff2e49b4a44c7d6b703a50199b944ad3cdac",
+    "tools/band1_export/s53c/trajectory_wide_warm_seed2.json": "d0c50dca78e436a6a2906693c1c7ac6732f8300e7b41392ab6e989490761d37a",
+    "tools/band1_export/s53c/trajectory_wide_warm_seed3.json": "9bcf2d8512480c0ddc1fed7a2be3d2a2ab576f582dd4a236f374b7c8fc8c1ee3"
+  },
+  "committed_source_sha256": {
+    "aqida_lean_phase_math/AqidaLeanPhaseMath.lean": "fbfb0471ded7c14032c08395977e23514d5f428c07ae0a6c5fa0ca6364ee5847"
+  },
+  "shared_umbrella_scope": {
+    "path": "aqida_lean_phase_math/AqidaLeanPhaseMath.lean",
+    "audited_committed_sha256": "fbfb0471ded7c14032c08395977e23514d5f428c07ae0a6c5fa0ca6364ee5847",
+    "HEAD_sha256": "fbfb0471ded7c14032c08395977e23514d5f428c07ae0a6c5fa0ca6364ee5847",
+    "observed_worktree_sha256": "fbfb0471ded7c14032c08395977e23514d5f428c07ae0a6c5fa0ca6364ee5847",
+    "worktree_matches_HEAD": true,
+    "boundary": "The full build claim covers the audited committed umbrella. Uncommitted shared-file changes have no build authorization from this gate."
+  },
+  "script_sha256": "984e2e89714884da5851ec1ccab04fa231083c7a301d1531c3b56eeb0b075d7b",
+  "HEAD": "222735e876f21096ed0fa2f7154be236991d4806",
+  "finished_utc": "2026-09-07T05:40:34Z"
+}

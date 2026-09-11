@@ -1,0 +1,96 @@
+{
+  "status": "PASS_NUMERICAL_KERNEL",
+  "fixture_only": false,
+  "started_utc": "2026-09-09T05:57:00Z",
+  "finished_utc": "2026-09-09T05:59:40Z",
+  "numerical_design_sha256": "a89c4690a16060d349ee6ad5d6172471e9c8b21879ca5853399b95031e3d0362",
+  "namespace": "AqidaLeanPhaseMath.ModelCollapse.S55",
+  "source_sha256": "a9934fc239478b2422f6b1665090c7f5a4d83bf5a93218665706d70844c5b14f",
+  "audit_sha256": "1e7d4722d2c932abf7f8200c3b9f33b5117af39da85be435902a90b59e6c44d0",
+  "log_sha256": "728608e4d0d770eb0b62a27c747ca8aca09437423bafb62c6d2ffa88136258c3",
+  "producer_sha256": "2c191fd886293ba0c3e42fe22adaa9c8b276b7016fc0234513dc8ffe8afb48cf",
+  "command": [
+    "C:\\Users\\wolve\\.elan\\bin\\lake.exe",
+    "env",
+    "lean",
+    "C:\\AQiDA\\Easy_Problems\\tools\\band1_export\\s55\\kernel\\AuditS55.lean"
+  ],
+  "returncode": 0,
+  "paths": 9,
+  "entropy_values": 54,
+  "declared_drift_values": 45,
+  "lean_version": "Lean (version 4.30.0-rc2, x86_64-w64-windows-gnu, commit 3dc1a088b6d2d8eafe25a7cd7ec7b58d731bd7cc, Release)",
+  "library_source_sha256": {
+    "lean-toolchain": "ce4c4e3d87434b9663f46de25ce34b48a0cf0d392e0a320a0787b4674a2d7b61",
+    "lakefile.toml": "db41fdf1ef1859e5e84286a44001f6f65c1ba754f2158bb70bfe127280c77e2d",
+    "lake-manifest.json": "3b1bc25ac3bb39925386abc841a91cdd8aa59a3187977d30fa186e531e3a9f42",
+    ".lake/packages/mathlib/Mathlib/Analysis/Complex/ExponentialBounds.lean": "1a688c05423758fa54cf8bbd6781e4792d04cfdbe6d3f096226125496634eead"
+  },
+  "public_claim_authorized": false,
+  "forecast_accuracy_authorized": false,
+  "axiom_rows": [
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.certificate_ceiling_lt_log_vocabulary",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.frozen_forecast_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.frozen_entropies_below_vocabulary",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.declared_drifts_are_exactly_adjacent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.frozen_envelopes_ordered",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.finite_entropy_telescoping",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.finite_prefix_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "AqidaLeanPhaseMath.ModelCollapse.S55.declared_sample_budget",
+      "axioms": [
+        "propext"
+      ]
+    }
+  ],
+  "declarations": 8
+}
