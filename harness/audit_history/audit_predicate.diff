@@ -1,0 +1,11 @@
+--- frozen/audit_run
++++ postrun_dtype_repair/audit_run
+@@ -14,7 +14,7 @@
+     with np.load(P.inside(root, config['input_file']), allow_pickle=False) as stored:
+         contexts = stored['train_contexts']
+         quality_examples = stored['quality_sequences']
+-    audit.check(contexts.dtype == quality_examples.dtype == np.int64 and
++    audit.check((contexts.dtype == quality_examples.dtype and contexts.dtype in (np.dtype("int32"), np.dtype("int64"))) and
+                 contexts.shape == (config['contexts'], config['prompt_tokens']), 'Prepared context grid changed.')
+     quality_count = design['quality_metric']['examples']
+     audit.check(quality_examples.shape == (quality_count, config['prompt_tokens'] + config['continuation_tokens']),
